@@ -1,0 +1,26 @@
+.footer {
+  font-family: Poppins;
+  margin-top: 72px;
+  background-color: #101931;
+  padding: 80px 40px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.footer .divider {
+  border-top: 1px solid hsla(240, 5%, 84%, 0.2);
+  color: #fff;
+  display: flex;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  justify-content: space-between;
+  line-height: 26px;
+  padding-top: 33px;
+  width: 100%;
+}
+
+.footer .bottom {
+  font-size: 16px;
+}

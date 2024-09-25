@@ -1,0 +1,128 @@
+.qrCode-area {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 10px;
+  width: 162px;
+  height: 40px;
+  background: linear-gradient(180deg, #000000 0%, #3e3e3e 100%);
+  box-shadow: 0px 5px 14px rgba(255, 255, 255, 0.2);
+  border-radius: 100px;
+}
+
+.qrCode-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.qrCode-dropdown {
+  position: absolute;
+  top: calc(100% + 12px);
+  left: 50%;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  transform: translateX(-50%) translateY(-10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 6px 12px;
+  width: 140px;
+  height: 161px;
+  background: #ffffff;
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.qrCode-dropdown span {
+  width: 112px;
+  height: 15px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #2e2e2e;
+}
+
+.qrCode-area:hover .qrCode-dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+@media (max-width: 640px) {
+  .header .qrCode-area {
+    display: none;
+  }
+  .qrCode {
+    padding-bottom: 0 !important;
+  }
+
+  .qrCode-item img {
+    width: 150px !important;
+    height: 150px !important;
+  }
+}
+
+.qrCode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.qrCode-top {
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 372px;
+  height: 33px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: -0.025em;
+  color: #000000;
+}
+
+.qrCode-title {
+  margin-bottom: 40px;
+}
+
+.qrCode-item-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.qrCode-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.qrCode-item img {
+  width: 184px;
+  height: 184px;
+  padding: 12px;
+}

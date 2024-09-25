@@ -1,0 +1,19 @@
+.dialog {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.5);
+  display: block;
+}
+
+.dialog__content {
+  padding: 16px;
+  column-gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 320px);
+  justify-content: space-evenly;
+  row-gap: 20px;
+}

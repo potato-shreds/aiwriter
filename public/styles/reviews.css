@@ -1,0 +1,102 @@
+.review {
+  font-family: Poppins;
+  background-color: #f9fafb;
+}
+
+.review .review-top {
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 207px;
+  height: 33px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: -0.025em;
+  color: #000000;
+}
+
+.review .review__list {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+@media (min-width: 640px) {
+  .review .review__list {
+    grid-template-columns: repeat(auto-fill, 300px);
+    row-gap: 40px;
+  }
+}
+
+.review__list .review-list__item {
+  height: 100%;
+  background-color: #f8f8f8;
+  align-self: start;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(30px);
+  border-radius: 12px;
+}
+
+.stars {
+  display: inline-flex;
+}
+
+.stars .stars__star {
+  width: 25px;
+  height: 25px;
+
+  background-image: url(https://storage.googleapis.com/aistore/writer/upload/1695264072452_15.svg);
+}
+
+.review .user {
+  margin-top: 3px;
+  margin-bottom: 15px;
+  letter-spacing: 0;
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Apple WebExp Icons Custom',
+    'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6b6b78;
+  opacity: 0.6;
+}
+
+.review .user-review .user-review__title,
+.review .response .response__title {
+  letter-spacing: -0.005em;
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Apple WebExp Icons Custom',
+    'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2e2e2e;
+}
+
+.review .user-review .user-review__text,
+.review .response .response__text {
+  margin-top: 2px;
+  font-weight: 400;
+  letter-spacing: -0.005em;
+  font-family: 'SF Pro Text', 'SF Pro Icons', 'Apple WebExp Icons Custom',
+    'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6b6b78;
+}
+
+.review .response {
+  margin-top: 18px;
+}

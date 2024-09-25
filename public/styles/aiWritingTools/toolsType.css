@@ -1,0 +1,25 @@
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(58 126 255 / 1);
+}
+.text-display {
+  --tw-text-opacity: 1;
+  color: rgb(55 83 117 /1);
+}
+.text-display:hover {
+  color: rgb(58 126 255 / 1);
+}
+@supports not (-moz-appearance: none) {
+  .TabBar_toolIcon__H2HT8 .TabBar_iconWrap__gqqBE {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0);
+  }
+}
+
+.TabBar_toolIcon__H2HT8 .TabBar_menuIcon__Tb961 {
+  filter: drop-shadow(#375375 -18px 0);
+}
+.TabBar_toolIconActive__b3QJJ .TabBar_menuIcon__Tb961,
+.TabBar_toolIcon__H2HT8:hover .TabBar_menuIcon__Tb961 {
+  filter: drop-shadow(#2361f9 -18px 0);
+}

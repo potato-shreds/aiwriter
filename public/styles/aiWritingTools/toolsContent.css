@@ -1,0 +1,10 @@
+.aiWritingTool:hover {
+  border-color: rgb(58 126 255 / 1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+.aiWritingTool:hover .main-color {
+  --tw-text-opacity: 1;
+  color: rgb(58 126 255 / 1);
+}

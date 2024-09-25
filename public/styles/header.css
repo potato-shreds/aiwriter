@@ -1,0 +1,149 @@
+.header {
+  padding: 12px 120px;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  z-index: 10;
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 32px;
+}
+.header-logo-text {
+  height: 29px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: -0.05em;
+  color: #33312c;
+}
+.header-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.header-center-item {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #33312c;
+  cursor: pointer;
+  position: relative;
+}
+.header-center-product-dropdown {
+  position: absolute;
+  top: calc(100% + 12px);
+  left: 50%;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  transform: translateX(-50%) translateY(-10px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px 0;
+  width: 271px;
+  background: #ffffff;
+  border: 1px solid rgba(145, 163, 187, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05), 0 0 24px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+}
+.header-center-product:hover .header-center-product-dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+.header-center-product-dropdown-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px 24px;
+  gap: 10px;
+  width: 271px;
+  height: 57px;
+  transition: all 0.2s ease-in-out;
+}
+.header-center-product-dropdown-item:hover {
+  background-color: #eff0f2;
+}
+.qrCode-area {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 10px;
+  width: 162px;
+  height: 40px;
+  background: linear-gradient(180deg, #000000 0%, #3e3e3e 100%);
+  box-shadow: 0px 5px 14px rgba(255, 255, 255, 0.2);
+  border-radius: 100px;
+}
+.qrCode-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+.qrCode-dropdown {
+  position: absolute;
+  top: calc(100% + 12px);
+  left: 50%;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  transform: translateX(-50%) translateY(-10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 6px 12px;
+  width: 140px;
+  height: 161px;
+  background: #ffffff;
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+.qrCode-dropdown span {
+  width: 112px;
+  height: 15px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #2e2e2e;
+}
+.qrCode-area:hover .qrCode-dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+@media (max-width: 1024px) {
+  .header-center {
+    display: none;
+  }
+}
+@media (max-width: 640px) {
+  .header .qrCode-area {
+    display: none;
+  }
+
+  .header {
+    justify-content: center;
+  }
+}

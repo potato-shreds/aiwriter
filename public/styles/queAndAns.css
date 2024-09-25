@@ -1,0 +1,104 @@
+@media (max-width: 640px) {
+  .question-content-item-title-text {
+    font-size: 18px !important;
+  }
+
+  .question-content {
+    padding: 0 32px;
+  }
+
+  .questions {
+    padding-bottom: 0 !important;
+  }
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.question-top {
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 33px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 100%;
+  letter-spacing: -0.025em;
+  color: #000000;
+}
+
+.question-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 32px 16px 0 !important;
+}
+
+.question-content-item {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(30px);
+  border-radius: 12px;
+  padding: 0 32px;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+  max-height: 77px;
+}
+
+.question-content-item.expanded {
+  max-height: 500px !important;
+}
+
+.question-content-item-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 24px 0;
+  cursor: pointer;
+}
+
+.question-content-item-title-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: -0.41px;
+  color: #2e2e2e;
+}
+
+.question-content-item-title-icon {
+  transition: all 0.3s ease-in-out;
+}
+
+.question-content-item-title-icon-reverse {
+  transform: rotate(180deg);
+}
+
+.question-content-item-content {
+  margin-bottom: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  color: #6b6b78;
+}
