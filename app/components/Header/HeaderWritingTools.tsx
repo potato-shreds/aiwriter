@@ -91,6 +91,13 @@ const HeaderWritingTools: React.FC<HeaderWritingToolsProps> = ({
           </div>
         )
       )}
+      <a
+        href="/ai-writing-tools"
+        className="w-fit mx-auto text-primary mt-3 font-semibold flex items-center gap-1 group"
+      >
+        See All 120+ AI Writing Tools
+        <span className="w-6 i-com--right-arrow transition-all group-hover:translate-x-2"></span>
+      </a>
     </div>
   ) : null;
 };

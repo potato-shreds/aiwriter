@@ -19,7 +19,7 @@ const HeaderNavHid: React.FC = () => {
         ></span>
       </div>
       {showNav && (
-        <div className="bg-[#F8FAFE] w-full absolute z-10 top-16 md:top-16 left-0 h-[calc(100vh-64px)] overflow-y-auto text-display text-[#33312C]">
+        <div className="bg-[#F8FAFE] w-full absolute z-10 top-16 left-0 h-[calc(100vh-56px)] overflow-y-auto text-display text-[#33312C]">
           <div className="overflow-hidden bg-white">
             <a
               className="font-semibold py-3 px-4 flex justify-between items-center text-sm sm:text-lg hover:cursor-pointer hover:text-[#00D3B6]"
