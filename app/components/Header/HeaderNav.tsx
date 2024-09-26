@@ -6,7 +6,7 @@ import HeaderNavHid from './HeaderNavHid';
 
 const HeaderNav: React.FC = () => {
   return (
-    <div>
+    <div className="flex items-center">
       <nav className="header-center xl:hidden">
         <a
           href="/#Overview"
@@ -42,7 +42,7 @@ const HeaderNav: React.FC = () => {
               strokeLinejoin="round"
             />
           </svg>
-          <HeaderWritingTools />
+          <HeaderWritingTools show={true} type="block" />
         </div>
         <div className="header-center-item hover:text-[#00D3B6] group header-center-product flex items-center gap-[2px]">
           <span className="hover:text-[#00D3B6]">AI APPs</span>
@@ -62,15 +62,14 @@ const HeaderNav: React.FC = () => {
               strokeLinejoin="round"
             />
           </svg>
-          <AIApps />
+          <AIApps show={true} type="block" />
         </div>
         <a
           href="/#Q&A"
           className="header-center-item hover:text-[#00D3B6]"
           title="Q&A"
         >
-          {' '}
-          Q&A{' '}
+          Q&A
         </a>
       </nav>
       <HeaderNavHid />

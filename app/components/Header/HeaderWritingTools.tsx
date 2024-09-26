@@ -2,8 +2,16 @@ import React from 'react';
 
 import { writingToolsHeaderData } from '@/data/headerData';
 
-const HeaderWritingTools: React.FC = () => {
-  return (
+interface HeaderWritingToolsProps {
+  show: boolean;
+  type: 'hid' | 'block';
+}
+
+const HeaderWritingTools: React.FC<HeaderWritingToolsProps> = ({
+  show,
+  type,
+}) => {
+  return show && type === 'block' ? (
     <div className="bg-white shadow-[0px_12px_24px_rgba(0,80,125,0.08)] absolute top-[62px] left-1/2 -translate-x-1/2 max-w-[1300px] w-full min-w-fit rounded-xl transition-all overflow-hidden origin-top-left opacity-0 scale-y-0 -translate-y-5 -z-10 flex group-hover/item:opacity-100 group-hover/item:scale-y-100 group-hover/item:translate-y-0 group-hover/item:z-10">
       <div className="px-[30px] py-5 space-y-4 flex-1">
         {writingToolsHeaderData.map(
@@ -20,9 +28,9 @@ const HeaderWritingTools: React.FC = () => {
                   >
                     <div className="w-[34px] h-[34px] bg-white p-1 flex items-center justify-center rounded-lg border border-[#F1F6FE] shadow-icon">
                       <span
-                        className="w-[26px] h-[26px]"
+                        className="w-[26px] h-[26px] bg-cover bg-center bg-no-repeat"
                         style={{
-                          background: `url(https://hix.ai${item.icon_address})`,
+                          backgroundImage: `url(https://hix.ai${item.icon_address})`,
                         }}
                       ></span>
                     </div>
@@ -48,7 +56,42 @@ const HeaderWritingTools: React.FC = () => {
         </a>
       </div>
     </div>
-  );
+  ) : show && type === 'hid' ? (
+    <div className="mx-4 text-display-secondary border-b block">
+      {writingToolsHeaderData.map(
+        (writingToolsHeaderItem, writingToolsHeaderIndex) => (
+          <div key={writingToolsHeaderIndex} className="px-1 py-[10px]">
+            <p className="text-md">{writingToolsHeaderItem.tool_type_label}</p>
+            <ul>
+              {writingToolsHeaderItem.tool_list?.map((item, index) => (
+                <li
+                  className="writing-tools-item hover:cursor-pointer"
+                  key={index}
+                >
+                  <a
+                    className="flex gap-x-3 items-center px-3 py-2 rounded-lg"
+                    href={item.icon_address}
+                  >
+                    <div className="w-[34px] h-[34px] bg-white p-1 flex items-center justify-center rounded-lg border border-[#F1F6FE] shadow-icon">
+                      <span
+                        className="w-[26px] h-[26px] bg-cover bg-center bg-no-repeat"
+                        style={{
+                          backgroundImage: `url(https://hix.ai${item.icon_address})`,
+                        }}
+                      ></span>
+                    </div>
+                    <span className="text-display font-semibold">
+                      {item.tool_name}
+                    </span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )
+      )}
+    </div>
+  ) : null;
 };
 
 export default HeaderWritingTools;

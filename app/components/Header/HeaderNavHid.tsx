@@ -1,23 +1,82 @@
 import React, { useState } from 'react';
 
+import AIApps from './AIApps';
+import HeaderWritingTools from './HeaderWritingTools';
+
 const HeaderNavHid: React.FC = () => {
   const [showNav, setShowNav] = useState(false);
+  const [showAIApps, setShowAIApps] = useState(false);
+  const [showWritingTools, setShowWritingTools] = useState(false);
 
   return (
     <div className="header-nav-hid">
       <div className="flex gap-x-2">
         <span
-          className="w-6 h-6 hover:cursor-pointer"
-          style={{
-            backgroundImage:
-              'url(data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2048%2048%27%20width%3D%2748%27%20height%3D%2748%27%3E%3Cpath%20fill%3D%27black%27%20d%3D%27M8%2012h32v4H8v-4Zm0%2010h32v4H8v-4Zm0%2010h32v4H8v-4Z%27%2F%3E%3C%2Fsvg%3E)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
-          }}
+          className={`w-6 h-6 hover:cursor-pointer bcg ${
+            showNav ? 'i-close' : 'i-menu'
+          }`}
           onClick={() => setShowNav(!showNav)}
         ></span>
       </div>
+      {showNav && (
+        <div className="bg-[#F8FAFE] w-full absolute z-10 top-16 md:top-16 left-0 h-[calc(100vh-64px)] overflow-y-auto text-display text-[#33312C]">
+          <div className="overflow-hidden bg-white">
+            <a
+              className="font-semibold py-3 px-4 flex justify-between items-center text-sm sm:text-lg hover:cursor-pointer hover:text-[#00D3B6]"
+              href="/#Overview"
+              onClick={() => setShowNav(false)}
+            >
+              Overview
+            </a>
+          </div>
+          <div className="overflow-hidden bg-white">
+            <a
+              className="font-semibold py-3 px-4 flex justify-between items-center text-sm sm:text-lg hover:cursor-pointer hover:text-[#00D3B6]"
+              href="/#Templates"
+              onClick={() => setShowNav(false)}
+            >
+              Templates
+            </a>
+          </div>
+          <div className="overflow-hidden bg-white">
+            <p
+              className="font-semibold px-4 flex items-center justify-between text-sm sm:text-lg bg-white py-3 hover:cursor-pointer hover:text-[#00D3B6]"
+              onClick={() => setShowWritingTools(!showWritingTools)}
+            >
+              <span>Writing Tools</span>
+              <span
+                className={`bcg i-down ${
+                  showWritingTools ? '' : '-rotate-90'
+                } w-6 transition-all block h-4 `}
+              ></span>
+            </p>
+            <HeaderWritingTools show={showWritingTools} type="hid" />
+          </div>
+          <div className="overflow-hidden bg-white">
+            <p
+              className="font-semibold px-4 flex items-center justify-between text-sm sm:text-lg bg-white py-3 hover:cursor-pointer hover:text-[#00D3B6]"
+              onClick={() => setShowAIApps(!showAIApps)}
+            >
+              <span>AI APPs</span>
+              <span
+                className={`bcg i-down ${
+                  showAIApps ? '' : '-rotate-90'
+                } w-6 transition-all block h-4`}
+              ></span>
+            </p>
+            <AIApps show={showAIApps} type="hid" />
+          </div>
+          <div className="overflow-hidden bg-white">
+            <a
+              className="font-semibold py-3 px-4 flex justify-between items-center text-sm sm:text-lg hover:cursor-pointer hover:text-[#00D3B6]"
+              href="/#Q&A"
+              onClick={() => setShowNav(false)}
+            >
+              Q&A
+            </a>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
