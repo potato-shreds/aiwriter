@@ -70,7 +70,8 @@ const HeaderWritingTools: React.FC<HeaderWritingToolsProps> = ({
                 >
                   <a
                     className="flex gap-x-3 items-center px-3 py-2 rounded-lg"
-                    href={item.icon_address}
+                    href={item.tool_url}
+                    target="_blank"
                   >
                     <div className="w-[34px] h-[34px] bg-white p-1 flex items-center justify-center rounded-lg border border-[#F1F6FE] shadow-icon">
                       <span

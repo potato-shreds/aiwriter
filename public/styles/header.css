@@ -153,7 +153,15 @@
   }
 
   .header {
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 48px;
+  }
+
+  .header-logo-text {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
   }
 }
 .writing-tools-item:hover,
