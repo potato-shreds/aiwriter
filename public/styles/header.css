@@ -3,6 +3,8 @@
   background: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(10px);
   z-index: 10;
+  justify-content: space-between;
+  align-items: center;
 }
 .header-logo {
   display: flex;
@@ -133,9 +135,16 @@
   transform: translateX(-50%) translateY(0);
 }
 
-@media (max-width: 1024px) {
+.header-nav-hid {
+  display: none;
+}
+
+@media (max-width: 1200px) {
   .header-center {
     display: none;
+  }
+  .header-nav-hid {
+    display: inline-block;
   }
 }
 @media (max-width: 640px) {
@@ -146,4 +155,10 @@
   .header {
     justify-content: center;
   }
+}
+.writing-tools-item:hover,
+.ai-app-item:hover,
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(58 126 255 / 1);
 }

@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 
-import Header from '@/app/components/Header';
+import Header from '@/app/components/Header/Header';
 import BriefIntroduction from './components/BriefIntroduction';
 import ToolsMain from './components/ToolsMain';
 import Footer from '@/app/components/Footer';

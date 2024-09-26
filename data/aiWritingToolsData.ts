@@ -1908,7 +1908,7 @@ const aiWritingToolsData = [
         tool_host: 'writer.hix.ai',
       },
       {
-        icon_address: '',
+        icon_address: '/tool-icon/cus-paragraph-scrambler.svg',
         is_popular: false,
         recommend_sort: 999,
         toolType: {
@@ -1927,7 +1927,7 @@ const aiWritingToolsData = [
         tool_host: 'writer.hix.ai',
       },
       {
-        icon_address: '',
+        icon_address: '/tool-icon/cus-paragraph-scrambler.svg',
         is_popular: false,
         recommend_sort: 999,
         toolType: {
@@ -1946,7 +1946,7 @@ const aiWritingToolsData = [
         tool_host: 'writer.hix.ai',
       },
       {
-        icon_address: '',
+        icon_address: '/tool-icon/cus-paragraph-scrambler.svg',
         is_popular: false,
         recommend_sort: 999,
         toolType: {
@@ -1965,7 +1965,7 @@ const aiWritingToolsData = [
         tool_host: 'writer.hix.ai',
       },
       {
-        icon_address: '',
+        icon_address: '/tool-icon/cus-paragraph-scrambler.svg',
         is_popular: false,
         recommend_sort: 999,
         toolType: {
@@ -1984,7 +1984,7 @@ const aiWritingToolsData = [
         tool_host: null,
       },
       {
-        icon_address: '',
+        icon_address: '/tool-icon/cus-paragraph-scrambler.svg',
         is_popular: false,
         recommend_sort: 999,
         toolType: {
@@ -3239,7 +3239,7 @@ const aiWritingToolsData = [
         tool_host: 'writer.hix.ai',
       },
       {
-        icon_address: 'cus-product-name-generator.svg',
+        icon_address: '/tool-icon/productfeaturesgenerator.svg',
         is_popular: false,
         recommend_sort: 999,
         toolType: {
@@ -6046,7 +6046,7 @@ const aiWritingToolsData = [
         tool_host: 'writer.hix.ai',
       },
       {
-        icon_address: '',
+        icon_address: '/tool-icon/cus-tools-happy-birthday.svg',
         is_popular: false,
         recommend_sort: 999,
         toolType: {
@@ -6065,7 +6065,7 @@ const aiWritingToolsData = [
         tool_host: 'writer.hix.ai',
       },
       {
-        icon_address: '',
+        icon_address: '/tool-icon/cus-tools-happy-birthday.svg',
         is_popular: false,
         recommend_sort: 999,
         toolType: {

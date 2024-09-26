@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 
-import Header from '@/app//components/Header';
+import Header from '@/app/components/Header/Header';
 import Overview from '@/app/components/Overview';
 import Companies from '@/app/components/Companies';
 import Templates from '@/app/components/Templates/Templates';
