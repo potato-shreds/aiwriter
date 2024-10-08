@@ -182,37 +182,37 @@ const writingToolsHeaderData = [
 const aiAppsData = [
   {
     app_url: 'https://ainotebook.app/',
-    app_name: 'AI Notebook',
+    app_name: 'AI Note Taker: Voice,Image,Web',
     title: 'AI Notebook',
   },
   {
     app_url:
       'https://apps.apple.com/us/app/ai-keyboard-write-auto-reply/id6472762486',
-    app_name: 'AI Keyboard',
+    app_name: 'AI Keyboard: Auto Type & Reply',
     title: 'AI Keyboard',
   },
   {
     app_url:
       'https://apps.apple.com/us/app/ai-photo-enhancer-photo-maker/id1563607678',
-    app_name: 'Photo AI',
+    app_name: 'Photo AI: Enhancer & Generator',
     title: 'Photo AI',
   },
   {
     app_url:
       'https://apps.apple.com/us/app/voice-ai-clone-generation/id6450326506',
-    app_name: 'Voice AI',
+    app_name: 'Voice AI - Clone & Generator',
     title: 'Voice AI',
   },
   {
     app_url:
       'https://apps.apple.com/us/app/ai-video-generator-video-ai/id1672524118',
-    app_name: 'Video AI',
+    app_name: 'Video AI - AI Video Generator',
     title: 'Video AI',
   },
   {
     app_url:
       'https://apps.apple.com/us/app/ai-foreign-language-tutor/id6450801007',
-    app_name: 'Tutor AI',
+    app_name: 'Tutor AI - Foreign Language Tutor',
     title: 'Tutor AI',
   },
 ];

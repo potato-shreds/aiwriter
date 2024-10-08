@@ -34,7 +34,7 @@ const aiWritingToolsData = [
         tool_desc:
           'Verify the organization, clarity, and overall quality of an essay to ensure proper structure.',
         tool_name_label: 'Essay Checker',
-        tool_url: 'tools/essay-checker',
+        tool_url: '/tools/essay-checker',
         id: 1379,
         icon_class_name: '',
         show_in_extension: false,

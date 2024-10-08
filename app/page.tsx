@@ -10,6 +10,7 @@ import Reviews from '@/app/components/Reviews/Reviews';
 import QueAndAns from '@/app/components/QueAndAns';
 import QrCode from './components/QrCode';
 import Footer from '@/app//components/Footer';
+import Recommendation from '@/app/components/Recommendation';
 import Dialog from '@/app/components/Dialog';
 
 const Home: React.FC = () => {
@@ -32,6 +33,7 @@ const Home: React.FC = () => {
       <Reviews />
       <QueAndAns />
       <QrCode />
+      <Recommendation />
       <Footer />
       {isShowDialog && <Dialog closeDialog={closeDialog} />}
     </div>

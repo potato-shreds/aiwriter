@@ -5,6 +5,7 @@ import React, { useState, useEffect } from 'react';
 import Header from '@/app/components/Header/Header';
 import BriefIntroduction from './components/BriefIntroduction';
 import ToolsMain from './components/ToolsMain';
+import Recommendation from '@/app/components/Recommendation';
 import Footer from '@/app/components/Footer';
 
 import '@/public/styles/aiWritingTools/aiWritingTools.css';
@@ -62,6 +63,7 @@ const AiWritingTools: React.FC = () => {
         setActiveTab={changeTab}
         searchValue={search}
       />
+      <Recommendation />
       <Footer />
     </div>
   );

@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import type { Metadata } from 'next';
 import '@/public/styles/globals.css';
+import '@/public/styles/icon.css';
 
 interface CustomMetadata extends Metadata {
   appleItunesApp?: string;
