@@ -18,16 +18,19 @@ const MainContent: React.FC<MainContentProps> = ({
   setResponseDate,
   activeTool,
 }) => {
-  const [content, setContent] = useState('');
-  const [number, setNumber] = useState('300');
+  const [EssayTopic, setEssayTopic] = useState('');
+  const [TargetKeyWords, setTargetKeyWords] = useState('');
+  const [ReferencingStyle, setReferencingStyle] = useState('');
+  const [outlineSuggestions, setOutlineSuggestions] = useState('');
+  const [essayTitle, setEssayTitle] = useState('');
 
   const [targetAudience, setTargetAudience] = useState(TargetAudience[0].name);
   const [toneOfVoice, setToneOfVoice] = useState(ToneOfVoice[0].name);
   const [language, setLanguage] = useState(Language[0].name);
 
   const isSatisfy = useMemo(() => {
-    return content.length > 0;
-  }, [content]);
+    return EssayTopic && TargetKeyWords && ReferencingStyle;
+  }, [EssayTopic, TargetKeyWords, ReferencingStyle]);
 
   return (
     <div className="p-4 pl-0 pr-6 h-full ">
@@ -38,22 +41,53 @@ const MainContent: React.FC<MainContentProps> = ({
           </div>
 
           <div className="flex flex-col p-2 mt-2">
-            <h1>Content to shorten</h1>
+            <h1>Essay Topic</h1>
             <textarea
               className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
-              placeholder="Paste your essay here"
-              value={content}
-              onChange={(e) => setContent(e.target.value)}
+              placeholder="If you have a specific title, please provide it here"
+              value={EssayTopic}
+              onChange={(e) => setEssayTopic(e.target.value)}
               rows={5}
             />
           </div>
           <div className="flex flex-col p-2 mt-2">
-            <h1>Number of output words</h1>
+            <h1>Target keywords</h1>
             <input
               className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
               type="text"
-              placeholder={number}
-              onChange={(e) => setNumber(e.target.value)}
+              value={TargetKeyWords}
+              placeholder="Add your target keywords"
+              onChange={(e) => setTargetKeyWords(e.target.value)}
+            />
+          </div>
+          <div className="flex flex-col p-2 mt-2">
+            <h1>Referencing Style</h1>
+            <textarea
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              placeholder="Indicate the preferred referencing style or citation format, e.g., APA, MLA, Harvard"
+              value={ReferencingStyle}
+              onChange={(e) => setReferencingStyle(e.target.value)}
+              rows={5}
+            />
+          </div>
+          <div className="flex flex-col p-2 mt-2">
+            <h1>Outline suggestions (optional)</h1>
+            <textarea
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              placeholder="If you have a specific outline or structure in mind, please provide it here"
+              value={outlineSuggestions}
+              onChange={(e) => setOutlineSuggestions(e.target.value)}
+              rows={5}
+            />
+          </div>
+          <div className="flex flex-col p-2 mt-2">
+            <h1>Essay title (optional)</h1>
+            <input
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              type="text"
+              value={essayTitle}
+              placeholder="If you have a specific title, please provide it here"
+              onChange={(e) => setEssayTitle(e.target.value)}
             />
           </div>
           <div className="flex flex-wrap">
