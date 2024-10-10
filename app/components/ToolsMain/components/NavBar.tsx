@@ -44,7 +44,7 @@ const NavBar: React.FC<NavBarProps> = ({
                 <div className="w-[18px] h-[18px] relative TabBar_toolIconActive__b3QJJ">
                   <figure className="w-[18px] h-[18px] absolute  top-0 ">
                     <Image
-                      src={`https://hix.ai${item.icon_address}`}
+                      src={`http://hix.ai${item.icon_address}`}
                       alt={item.tool_type_label}
                       width={22}
                       height={22}

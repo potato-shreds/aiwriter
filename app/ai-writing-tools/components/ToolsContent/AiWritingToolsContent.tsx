@@ -66,13 +66,13 @@ const AiWritingToolsContent: React.FC<AiWritingToolsContentProps> = ({
                     <span
                       className="inline-flex justify-center items-center w-6 h-6"
                       style={{
-                        background: `url(https://hix.ai${item.icon_address})`,
+                        background: `url(http://hix.ai${item.icon_address})`,
                       }}
                     ></span>
                   </div>
                   <a
                     className="block after:absolute after:w-full after:h-full after:left-0 after:top-0"
-                    href={`https://${item.tool_host}/${item.tool_url}`}
+                    href={`http://${item.tool_host}/${item.tool_url}`}
                     target="_blank"
                   >
                     {item.tool_name_label}
