@@ -1,13 +1,14 @@
-import './styles.css'; // 引入 CSS 文件
+import './styles.css';
+
 const page = () => {
   return (
     <div className="mx-10 box-border">
-      <div className="max-w-5xl mx-auto m-16 bg overflow-hidden">
+      <div className="max-w-7xl mx-auto m-10 bg p-20">
         <h1 className="text-6xl text-center font-bold">
           Thank You Email After Interview Templates: How to Write & Examples
         </h1>
-        <div className="flex justify-center my-10">
-          <button className="bg-black text-white px-4 py-3 rounded-md">
+        <div className="flex justify-center mt-10">
+          <button className="bg-black text-white px-6 py-5 rounded-md">
             <a href="#">Write Thank You Email After Interview</a>
           </button>
         </div>
