@@ -3,6 +3,7 @@ import React, { useState, useMemo } from 'react';
 import { Language } from '@/data/essay-hook-generator';
 
 import { EssayType, Words } from '@/data/essay-writer';
+import api from '@/app/utils/gemini';
 
 interface responseDateObject {
   content: string;
@@ -25,6 +26,19 @@ const MainContent: React.FC<MainContentProps> = ({
   const isSatisfy = useMemo(() => {
     return thesisTopic;
   }, [thesisTopic]);
+
+  const setData = () => {
+    api
+      .essayWriter({
+        content1: thesisTopic,
+        essayType: essayType,
+        words: words,
+        language: language,
+      })
+      .then((res) => {
+        setResponseDate(res);
+      });
+  };
 
   return (
     <div className="p-4 pl-0 pr-6 h-full ">
@@ -98,7 +112,7 @@ const MainContent: React.FC<MainContentProps> = ({
             } `}
             onClick={() => {
               if (isSatisfy) {
-                setResponseDate([{ content: 'sad' }]);
+                setData();
               } else {
               }
             }}

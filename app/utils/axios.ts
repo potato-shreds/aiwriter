@@ -1,43 +1,37 @@
-// src/utils/axios.ts
-import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios';
+// axiosInstance.ts
+import axios, { AxiosInstance, AxiosResponse } from 'axios';
 
-// 创建 Axios 实例
 const axiosInstance: AxiosInstance = axios.create({
-  baseURL: 'https://api.example.com', // 替换为你的 API 基础 URL
-  timeout: 10000, // 请求超时设置
+  baseURL: 'https://your-api-base-url.com', // 替换为你的基础 URL
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  timeout: 10000, // 可选：设置超时时间
 });
 
-// 响应拦截器
-axiosInstance.interceptors.response.use(
-  (response: AxiosResponse) => {
-    // 可以在这里处理响应数据
-    return response.data; // 只返回数据部分
+// 请求拦截器
+axiosInstance.interceptors.request.use(
+  (config) => {
+    // 在发送请求之前可以进行一些操作，比如添加token
+    // config.headers.Authorization = `Bearer ${yourToken}`;
+    return config;
   },
   (error) => {
-    // 处理错误
-    const { response } = error;
-    if (response) {
-      // 服务器返回的错误
-      console.error('Error:', response.data);
-    } else {
-      // 网络错误
-      console.error('Network Error:', error.message);
-    }
+    // 处理请求错误
     return Promise.reject(error);
   }
 );
 
-// 封装常见请求方法
-const api = {
-  get: <T>(url: string, params?: Record<string, any>): Promise<T> =>
-    axiosInstance.get(url, { params }),
+// 响应拦截器
+axiosInstance.interceptors.response.use(
+  (response: AxiosResponse) => {
+    // 处理响应数据
+    return response;
+  },
+  (error) => {
+    // 处理响应错误
+    return Promise.reject(error);
+  }
+);
 
-  post: <T>(url: string, data: any): Promise<T> =>
-    axiosInstance.post(url, data),
-
-  put: <T>(url: string, data: any): Promise<T> => axiosInstance.put(url, data),
-
-  delete: <T>(url: string): Promise<T> => axiosInstance.delete(url),
-};
-
-export { api };
+export default axiosInstance;
