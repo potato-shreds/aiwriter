@@ -1,0 +1,19 @@
+/* styles.css */
+
+.margin-p p {
+  margin-top: 1rem; /* p 元素的上边距 */
+  margin-bottom: 1rem; /* p 元素的下边距 */
+}
+
+.margin-p h3 {
+  margin-top: 2rem; /* p 元素的上边距 */
+  margin-bottom: 2rem; /* p 元素的下边距 */
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.bg {
+  background: url(./65761cbdb9d7afd78bb7a288_Hero-pattern-dots.svg);
+  background-size: 90px;
+  background-repeat: repeat;
+  position: relative;
+}
