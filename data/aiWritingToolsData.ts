@@ -20,7 +20,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/essaychecker.svg',
@@ -39,7 +39,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/essayrewriter-icon-01.svg',
@@ -58,7 +58,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/smarteditor.svg',
@@ -77,7 +77,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-smart-editor',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/sentence-expander.svg',
@@ -96,7 +96,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-sentence-expander',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/blogtitles.svg',
@@ -115,7 +115,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-blog-titles',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/blogsection.svg',
@@ -134,7 +134,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-blog-section',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/researchpaper-icon-01.svg',
@@ -153,7 +153,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-research-paper',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/casestudy-icon-01.svg',
@@ -172,7 +172,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/conclusiongenerator.svg',
@@ -191,7 +191,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/thesisstatement-icon-01.svg',
@@ -210,7 +210,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/researchpaper-icon-01.svg',
@@ -229,7 +229,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-research-paper',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/essayshortener-icon-01.svg',
@@ -248,7 +248,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-chatgpt-essay-writer.svg',
@@ -267,7 +267,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address:
@@ -287,7 +287,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-essay-paraphraser.svg',
@@ -306,7 +306,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-hypothesis-generator.svg',
@@ -325,7 +325,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-attention-grabber-generator.svg',
@@ -344,7 +344,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-essay-topic-generator.svg',
@@ -363,7 +363,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-problem-statement-generator.svg',
@@ -382,7 +382,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-abstract-generator.svg',
@@ -401,7 +401,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-rhetorical-analysis-generator.svg',
@@ -420,7 +420,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-ai-paper-generator.svg',
@@ -439,7 +439,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-tools-essay-rewriter.svg',
@@ -458,7 +458,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-bypass-ai-detection.svg',
@@ -1204,7 +1204,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'http://34.145.121.90:8040',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/authorbio-icon-01.svg',
