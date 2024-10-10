@@ -2,7 +2,7 @@
 import axios, { AxiosInstance, AxiosResponse } from 'axios';
 
 const axiosInstance: AxiosInstance = axios.create({
-  baseURL: 'https://your-api-base-url.com', // 替换为你的基础 URL
+  baseURL: 'http://34.145.121.90:8040/',
   headers: {
     'Content-Type': 'application/json',
   },
