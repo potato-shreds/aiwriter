@@ -15,12 +15,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Write a professional essay with an in-depth vision, covering everything and using any reference style you need.',
         tool_name_label: 'AI Essay Writer',
-        tool_url: 'essay-writer',
+        tool_url: 'ai-writing-tools/essay-writer',
         id: 856,
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/essaychecker.svg',
@@ -34,12 +34,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Verify the organization, clarity, and overall quality of an essay to ensure proper structure.',
         tool_name_label: 'Essay Checker',
-        tool_url: '/tools/essay-checker',
+        tool_url: 'ai-writing-tools/essay-checker',
         id: 1379,
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/essayrewriter-icon-01.svg',
@@ -53,12 +53,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Rewrite your essay to make it plagiarism-free and convey a stronger sense of professionalism.',
         tool_name_label: 'Essay Rewriter',
-        tool_url: 'tools/essay-rewriter',
+        tool_url: 'ai-writing-tools/essay-rewriter',
         id: 1398,
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/smarteditor.svg',
@@ -72,12 +72,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Hook your readers from the start with our AI-powered essay hook generator.',
         tool_name_label: 'Essay Hook Generator',
-        tool_url: 'tools/essay-hook-generator',
+        tool_url: 'ai-writing-tools/essay-hook-generator',
         id: 1041,
         icon_class_name: 'i-cus--tools-smart-editor',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/sentence-expander.svg',
@@ -91,12 +91,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Expand your essay content to deepen your arguments and broaden your discussions.',
         tool_name_label: 'Essay Extender',
-        tool_url: 'tools/essay-expander',
+        tool_url: 'ai-writing-tools/essay-expander',
         id: 1042,
         icon_class_name: 'i-cus--tools-sentence-expander',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/blogtitles.svg',
@@ -110,12 +110,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Make a lasting first impression with our AI-powered essay introduction generator.',
         tool_name_label: 'Essay Introduction Generator',
-        tool_url: 'tools/essay-introduction-generator',
+        tool_url: 'ai-writing-tools/essay-introduction-generator',
         id: 1043,
         icon_class_name: 'i-cus--tools-blog-titles',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/blogsection.svg',
@@ -129,12 +129,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Streamline your writing process with our AI-powered essay outline generator.',
         tool_name_label: 'Essay Outline Generator',
-        tool_url: 'tools/essay-outline-generator',
+        tool_url: 'ai-writing-tools/essay-outline-generator',
         id: 1044,
         icon_class_name: 'i-cus--tools-blog-section',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/researchpaper-icon-01.svg',
@@ -148,12 +148,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Simplify complex research with AI-driven summaries, enhancing productivity and comprehension alike.',
         tool_name_label: 'Research Paper Summarizer',
-        tool_url: 'tools/research-paper-summarizer',
+        tool_url: 'ai-writing-tools/research-paper-summarizer',
         id: 1083,
         icon_class_name: 'i-cus--tools-research-paper',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/casestudy-icon-01.svg',
@@ -167,12 +167,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Condense case studies into concise insights, empowering data-driven decision learning.',
         tool_name_label: 'Case Study Summarizer',
-        tool_url: 'tools/case-study-summarizer',
+        tool_url: 'ai-writing-tools/case-study-summarizer',
         id: 1084,
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/conclusiongenerator.svg',
@@ -186,12 +186,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Wrap up your writing with impactful, resonant conclusions generated by AI.',
         tool_name_label: 'Essay Conclusion Generator',
-        tool_url: 'tools/essay-conclusion-generator',
+        tool_url: 'ai-writing-tools/essay-conclusion-generator',
         id: 1085,
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/thesisstatement-icon-01.svg',
@@ -205,12 +205,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Level up your academic writing with excellent thesis statements.',
         tool_name_label: 'Thesis Statement Generator',
-        tool_url: 'tools/thesis-statement-generator',
+        tool_url: 'ai-writing-tools/thesis-statement-generator',
         id: 1086,
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/researchpaper-icon-01.svg',
@@ -224,12 +224,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Unlock your research potential with our cutting-edge Research Title Generator.',
         tool_name_label: 'Research Title Generator',
-        tool_url: 'tools/research-title-generator',
+        tool_url: 'ai-writing-tools/research-title-generator',
         id: 1087,
         icon_class_name: 'i-cus--tools-research-paper',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/essayshortener-icon-01.svg',
@@ -243,12 +243,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Transform lengthy essays into concise, impactful pieces with AI-driven content reduction.',
         tool_name_label: 'Essay Shortener',
-        tool_url: 'tools/essay-shortener',
+        tool_url: 'ai-writing-tools/essay-shortener',
         id: 1088,
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-chatgpt-essay-writer.svg',
@@ -262,12 +262,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Leverage the power of AI to generate insightful arguments, offer research suggestions, and improve the overall flow of your writing.',
         tool_name_label: 'ChatGPT Essay Writer',
-        tool_url: 'tools/chatgpt-essay-writer',
+        tool_url: 'ai-writing-tools/chatgpt-essay-writer',
         id: 1464,
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address:
@@ -282,12 +282,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Streamline the process, enabling users to communicate their main ideas effectively and engage readers with well-defined and informative essays.',
         tool_name_label: 'Informative Thesis Statement Generator',
-        tool_url: 'tools/informative-thesis-statement-generator',
+        tool_url: 'ai-writing-tools/informative-thesis-statement-generator',
         id: 1465,
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-essay-paraphraser.svg',
@@ -301,12 +301,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Paraphrase and improve your essays, and ensure your work is both authentic and engaging.',
         tool_name_label: 'Essay Paraphraser',
-        tool_url: 'tools/essay-paraphraser',
+        tool_url: 'ai-writing-tools/essay-paraphraser',
         id: 1466,
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-hypothesis-generator.svg',
@@ -320,12 +320,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Develop well-formed hypotheses and contribute to the advancement of knowledge in their respective fields.',
         tool_name_label: 'Online Hypothesis Generator',
-        tool_url: 'tools/hypothesis-generator',
+        tool_url: 'ai-writing-tools/hypothesis-generator',
         id: 1467,
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-attention-grabber-generator.svg',
@@ -339,12 +339,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Capture the attention of readers or listeners from the very beginning, ensuring their content stands out and leaves a lasting impression.',
         tool_name_label: 'Attention Grabber Generator',
-        tool_url: 'tools/attention-grabber-generator',
+        tool_url: 'ai-writing-tools/attention-grabber-generator',
         id: 1469,
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-essay-topic-generator.svg',
@@ -358,12 +358,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Streamline the topic selection process, allowing students to choose a captivating and relevant topic for their essays.',
         tool_name_label: 'Essay Topic Generator',
-        tool_url: 'tools/essay-topic-generator',
+        tool_url: 'ai-writing-tools/essay-topic-generator',
         id: 1470,
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-problem-statement-generator.svg',
@@ -377,12 +377,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Streamline the problem formulation process, helping researchers articulate the problem statement effectively.',
         tool_name_label: 'Statement of the Problem Generator',
-        tool_url: 'tools/problem-statement-generator',
+        tool_url: 'ai-writing-tools/problem-statement-generator',
         id: 1471,
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-abstract-generator.svg',
@@ -396,12 +396,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Help researchers and academics craft concise and informative summaries of their papers or articles.',
         tool_name_label: 'Abstract Generator',
-        tool_url: 'tools/abstract-generator',
+        tool_url: 'ai-writing-tools/abstract-generator',
         id: 1473,
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-rhetorical-analysis-generator.svg',
@@ -415,12 +415,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Decode persuasive techniques, understand the power of communication effortlessly.',
         tool_name_label: 'Rhetorical Analysis Generator',
-        tool_url: 'tools/rhetorical-analysis-generator',
+        tool_url: 'ai-writing-tools/rhetorical-analysis-generator',
         id: 1475,
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-ai-paper-generator.svg',
@@ -434,12 +434,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Compose professional research with an in-depth vision, covering everything and using any reference style you need.',
         tool_name_label: 'AI Research Paper Generator',
-        tool_url: 'tools/ai-research-paper-generator',
+        tool_url: 'ai-writing-tools/ai-research-paper-generator',
         id: 1490,
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-tools-essay-rewriter.svg',
@@ -453,12 +453,12 @@ const aiWritingToolsData = [
         tool_desc:
           'Restructure the paragraphs within an essay, enhancing coherence and logical flow.',
         tool_name_label: 'Essay Scrambler',
-        tool_url: 'tools/essay-scrambler',
+        tool_url: 'ai-writing-tools/essay-scrambler',
         id: 1507,
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-bypass-ai-detection.svg',
@@ -1199,12 +1199,12 @@ const aiWritingToolsData = [
         tool_desc:
           "Utilizing Title Case Correctly to Enhance Your Content's Readability, Vibrancy, and Appeal.",
         tool_name_label: 'Titlecase Converter',
-        tool_url: 'tools/case-converter',
+        tool_url: 'ai-writing-tools/case-converter',
         id: 1108,
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'essaygpt.hix.ai',
+        tool_host: 'http://34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/authorbio-icon-01.svg',
