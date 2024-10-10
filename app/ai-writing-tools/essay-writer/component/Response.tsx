@@ -25,6 +25,7 @@ const Response: React.FC<ResponseProps> = ({ responseDate, activeTool }) => {
                 <textarea
                   value={item.content}
                   className="w-full resize-none  border  rounded-md p-2"
+                  rows={8}
                   disabled
                 />
               </div>
