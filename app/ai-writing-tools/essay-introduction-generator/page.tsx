@@ -30,10 +30,7 @@ const EssayExtender: React.FC = () => {
         <ToolsMain
           main={<MainContent setResponseDate={setResponseDate} />}
           response={
-            <Response
-              responseDate={responseDate}
-              setResponseDate={setResponseDate}
-            />
+            <Response responseDate={responseDate} activeTool={activeTool} />
           }
           ToolType={ToolType}
           activeTool={activeTool}

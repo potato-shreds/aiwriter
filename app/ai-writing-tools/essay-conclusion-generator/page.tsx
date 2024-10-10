@@ -34,7 +34,9 @@ const EssayHookGenerator: React.FC = () => {
               activeTool={activeTool}
             />
           }
-          response={<Response responseDate={responseDate} />}
+          response={
+            <Response responseDate={responseDate} activeTool={activeTool} />
+          }
           ToolType={ToolType}
           activeTool={activeTool}
         />
