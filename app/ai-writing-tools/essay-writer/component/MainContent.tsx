@@ -11,11 +11,13 @@ interface responseDateObject {
 interface MainContentProps {
   setResponseDate: React.Dispatch<React.SetStateAction<responseDateObject[]>>;
   activeTool: string;
+  responseDate: responseDateObject[];
 }
 
 const MainContent: React.FC<MainContentProps> = ({
   setResponseDate,
   activeTool,
+  responseDate,
 }) => {
   const [thesisTopic, setThesisTopic] = useState('');
 
@@ -36,7 +38,7 @@ const MainContent: React.FC<MainContentProps> = ({
         language: language,
       })
       .then((res) => {
-        setResponseDate(res);
+        setResponseDate([...responseDate, { content: res.content }]);
       });
   };
 
