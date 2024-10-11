@@ -22,20 +22,21 @@ const page = () => {
         </header>
         <div className="flex justify-center mt-10">
           <button className="bg-black text-white px-6 py-5 rounded-md">
-            <a href="#">Write Acceptance Interview Email</a>
+            <a href="#" title="Write Acceptance Interview Email">
+              Write Acceptance Interview Email
+            </a>
           </button>
         </div>
       </div>
       <main>
-        <section className="mt-10 bg-teal-50 p-10 rounded-lg mb-10">
+        <div className="mt-10 bg-teal-50 p-10 rounded-lg mb-10">
           <div className="bg-white p-10 max-w-6xl mx-auto">
             <hr className="border-t-2 border-gray-300 mb-4 mt-10"></hr>
             <article className="max-w-4xl mx-auto mt-10 margin-p">
               <h2 className="text-3xl font-bold">
                 Crafting a Job Acceptance Email: Templates and Tips
               </h2>
-
-              <div>
+              <section>
                 <h3> Template 1: Formal and Concise</h3>
                 <p>
                   <strong>Subject:</strong>Job Acceptance - [Job Title]
@@ -53,7 +54,8 @@ const page = () => {
                 </p>
                 <p>Thank you again for this opportunity.</p>
                 <p>Sincerely, [Your Name] [Your Contact Information]</p>
-                <p></p>
+              </section>
+              <section>
                 <h3>Template 2: Enthusiastic and Personalized</h3>
                 <p>
                   <strong>Subject:</strong> Job Acceptance - [Job Title]
@@ -76,7 +78,8 @@ const page = () => {
                   company&apos;s success.
                 </p>
                 <p>Best regards, [Your Name]</p>
-                <p></p>
+              </section>
+              <section>
                 <h3>Template 3: Follow-up and Clarification</h3>
                 <p>
                   <strong>Subject:</strong> Job Acceptance - [Job Title] -
@@ -99,9 +102,11 @@ const page = () => {
                 </p>
                 <p>Thank you again for this opportunity.</p>
                 <p>Sincerely, [Your Name]</p>
-                <p>
-                  <br />
-                </p>
+              </section>
+              <p>
+                <br />
+              </p>
+              <section>
                 <p>
                   <strong>Additional Tips:</strong>
                 </p>
@@ -125,10 +130,10 @@ const page = () => {
                   acceptance and set the stage for a positive start to your new
                   role.
                 </p>
-              </div>
+              </section>
             </article>
           </div>
-        </section>
+        </div>
       </main>
     </div>
   );

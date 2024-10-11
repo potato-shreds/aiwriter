@@ -34,69 +34,77 @@ const page = () => {
               <h2 className="text-3xl font-bold">
                 3 Email Templates for Thanking Your Interviewer
               </h2>
-              <h3>Template 1: General Thank You</h3>
-              <p>
-                <strong>Subject:</strong> Thank you for your time - [Your Name]
-              </p>
-              <p>Dear [Interviewer&apos;s Name],</p>
-              <p>
-                Thank you so much for taking the time to interview me for the
-                [Position] role at [Company Name]. I was very impressed with
-                [specific detail about the company or interview].
-              </p>
-              <p>
-                I am particularly interested in [mention specific aspect of the
-                role that appeals to you]. I believe my skills in [list relevant
-                skills] would be a valuable asset to your team.
-              </p>
-              <p>
-                Thank you again for your time and consideration. I look forward
-                to hearing from you soon.
-              </p>
-              <p>Sincerely, [Your Name] [Your Email] [Your Phone Number]</p>
-              <h3>Template 2: Emphasizing a Specific Skill or Experience</h3>
-              <p>
-                <strong>Subject:</strong> Following up on our interview - [Your
-                Name]
-              </p>
-              <p>Dear [Interviewer&apos;s Name],</p>
-              <p>
-                I wanted to thank you once again for meeting with me last [day].
-                I was very excited to learn more about the [Position] role at
-                [Company Name].
-              </p>
-              <p>
-                During our conversation, I was particularly eager to discuss my
-                experience with [specific skill or experience]. I believe my
-                [mention specific achievement or accomplishment] aligns well
-                with the requirements of this position.
-              </p>
-              <p>
-                Thank you for your time and consideration. I look forward to
-                hearing from you soon.
-              </p>
-              <p>Sincerely, [Your Name] [Your Email] [Your Phone Number]</p>
-              <h3>Template 3: Expressing Enthusiasm and Follow-up</h3>
-              <p>
-                <strong>Subject:</strong> Re: [Position] Interview - [Your Name]
-              </p>
-              <p>Dear [Interviewer&apos;s Name],</p>
-              <p>
-                Thank you again for taking the time to interview me for the
-                [Position] role. I was very impressed with [mention something
-                specific about the company or interview].
-              </p>
-              <p>
-                I am truly excited about the opportunity to contribute to the
-                team at [Company Name]. I believe my skills and experience in
-                [list relevant skills] would be a great fit for this role.{' '}
-              </p>
-              <p>
-                I have attached my resume for your reference. Please do not
-                hesitate to contact me if you require any further information.
-              </p>
-              <p>Thank you for your time and consideration. </p>
-              <p>Sincerely, [Your Name] [Your Email] [Your Phone Number]</p>
+              <section>
+                <h3>Template 1: General Thank You</h3>
+                <p>
+                  <strong>Subject:</strong> Thank you for your time - [Your
+                  Name]
+                </p>
+                <p>Dear [Interviewer&apos;s Name],</p>
+                <p>
+                  Thank you so much for taking the time to interview me for the
+                  [Position] role at [Company Name]. I was very impressed with
+                  [specific detail about the company or interview].
+                </p>
+                <p>
+                  I am particularly interested in [mention specific aspect of
+                  the role that appeals to you]. I believe my skills in [list
+                  relevant skills] would be a valuable asset to your team.
+                </p>
+                <p>
+                  Thank you again for your time and consideration. I look
+                  forward to hearing from you soon.
+                </p>
+                <p>Sincerely, [Your Name] [Your Email] [Your Phone Number]</p>
+              </section>
+              <section>
+                <h3>Template 2: Emphasizing a Specific Skill or Experience</h3>
+                <p>
+                  <strong>Subject:</strong> Following up on our interview -
+                  [Your Name]
+                </p>
+                <p>Dear [Interviewer&apos;s Name],</p>
+                <p>
+                  I wanted to thank you once again for meeting with me last
+                  [day]. I was very excited to learn more about the [Position]
+                  role at [Company Name].
+                </p>
+                <p>
+                  During our conversation, I was particularly eager to discuss
+                  my experience with [specific skill or experience]. I believe
+                  my [mention specific achievement or accomplishment] aligns
+                  well with the requirements of this position.
+                </p>
+                <p>
+                  Thank you for your time and consideration. I look forward to
+                  hearing from you soon.
+                </p>
+                <p>Sincerely, [Your Name] [Your Email] [Your Phone Number]</p>
+              </section>
+              <section>
+                <h3>Template 3: Expressing Enthusiasm and Follow-up</h3>
+                <p>
+                  <strong>Subject:</strong> Re: [Position] Interview - [Your
+                  Name]
+                </p>
+                <p>Dear [Interviewer&apos;s Name],</p>
+                <p>
+                  Thank you again for taking the time to interview me for the
+                  [Position] role. I was very impressed with [mention something
+                  specific about the company or interview].
+                </p>
+                <p>
+                  I am truly excited about the opportunity to contribute to the
+                  team at [Company Name]. I believe my skills and experience in
+                  [list relevant skills] would be a great fit for this role.{' '}
+                </p>
+                <p>
+                  I have attached my resume for your reference. Please do not
+                  hesitate to contact me if you require any further information.
+                </p>
+                <p>Thank you for your time and consideration. </p>
+                <p>Sincerely, [Your Name] [Your Email] [Your Phone Number]</p>
+              </section>
             </article>
           </div>
         </section>

@@ -33,7 +33,7 @@ const page = () => {
               <h2 className="text-3xl font-bold">
                 2-Week Notice Template Examples
               </h2>
-              <div>
+              <section>
                 <h3> Example 1: Formal Notice</h3>
                 <p>Dear [Manager&apos;s Name],</p>
                 <p>
@@ -49,8 +49,8 @@ const page = () => {
                 </p>
                 <p>Thank you for your understanding.</p>
                 <p>Sincerely, [Your Name] [Your Contact Information]</p>
-                <p></p>
-                <p></p>
+              </section>
+              <section>
                 <h3>
                   Example 2: Casual Notice (for a more informal work
                   environment)
@@ -64,8 +64,8 @@ const page = () => {
                 </p>
                 <p>Thanks again for everything.</p>
                 <p>Best, [Your Name]</p>
-                <p></p>
-                <p></p>
+              </section>
+              <section>
                 <h3>
                   Example 3: Notice with a Reason (if comfortable sharing)
                 </h3>
@@ -91,7 +91,7 @@ const page = () => {
                   to tailor your notice to your specific situation and company
                   policies.
                 </p>
-              </div>
+              </section>
             </article>
           </div>
         </section>

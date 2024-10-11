@@ -33,7 +33,7 @@ const page = () => {
               <h2 className="text-3xl font-bold">
                 100 Wedding Message Examples
               </h2>
-              <div>
+              <section>
                 <h3>Short and Sweet (1-2 sentences)</h3>
                 <p>Wishing you a lifetime of love and happiness.</p>
                 <p>Congratulations on your special day!</p>
@@ -45,8 +45,8 @@ const page = () => {
                 <p>Sending you love and light on your wedding day.</p>
                 <p>Happy forever!</p>
                 <p>May your love be as beautiful as you two are.</p>
-                <p></p>
-                <p></p>
+              </section>
+              <section>
                 <h3>Sentimental (2-3 sentences)</h3>
                 <p>
                   It&apos;s a joy to witness your love blossom. Wishing you a
@@ -85,8 +85,8 @@ const page = () => {
                 <p>
                   I&apos;m so excited to see what the future holds for you both.
                 </p>
-                <p></p>
-                <p></p>
+              </section>
+              <section>
                 <h3>Humorous (2-3 sentences)</h3>
                 <p>
                   Love is like a good wine: it gets better with age. Happy
@@ -127,8 +127,9 @@ const page = () => {
                   Love is like a good book: it&apos;s always better when you
                   read it together.
                 </p>
-                <p></p>
-                <p></p>
+              </section>
+
+              <section>
                 <h3>Inspirational (3-4 sentences)</h3>
                 <p>
                   May your love be a beacon of hope in this world.
@@ -170,8 +171,9 @@ const page = () => {
                   May your love story be a testament to the power of love to
                   overcome any obstacle.
                 </p>
-                <p></p>
-                <p></p>
+              </section>
+
+              <section>
                 <h3>Personalized (4-5 sentences)</h3>
                 <p>
                   [Couple&apos;s names], I&apos;ve watched your love grow
@@ -215,8 +217,9 @@ const page = () => {
                   [Couple&apos;s names], I&apos;ve always admired your love for
                   each other. Congratulations on your special day!
                 </p>
-                <p></p>
-                <p></p>
+              </section>
+
+              <section>
                 <h3>Longer Messages (6-8 sentences)</h3>
                 <p>
                   [Couple&apos;s names], I&apos;ve had the privilege of watching
@@ -253,8 +256,9 @@ const page = () => {
                   your marriage be filled with love, laughter, and endless
                   adventures.
                 </p>
-                <p></p>
-                <p></p>
+              </section>
+
+              <section>
                 <h3>Quote a famous love poem or song.</h3>
                 <p>Share a personal anecdote about the couple.</p>
                 <p>Offer words of wisdom or advice for the couple.</p>
@@ -275,7 +279,7 @@ const page = () => {
                   or sentimental, the most meaningful messages are the ones that
                   are personal and heartfelt.
                 </p>
-              </div>
+              </section>
             </article>
           </div>
         </section>

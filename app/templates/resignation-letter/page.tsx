@@ -30,15 +30,18 @@ const page = () => {
           <div className="bg-white p-10 max-w-6xl mx-auto">
             <hr className="border-t-2 border-gray-300 mb-4 mt-10"></hr>
             <article className="max-w-4xl mx-auto mt-10 margin-p">
-              <h2 className="text-3xl font-bold">
-                5 Resignation Letter Templates
-              </h2>
-              <p>
-                Here are 5 templates for a resignation letter, tailored to
-                different situations:
-              </p>
+              <section>
+                {' '}
+                <h2 className="text-3xl font-bold">
+                  5 Resignation Letter Templates
+                </h2>
+                <p>
+                  Here are 5 templates for a resignation letter, tailored to
+                  different situations:
+                </p>
+              </section>
 
-              <div>
+              <section>
                 <h3> 1. General Resignation Letter</h3>
                 <p>
                   <strong>Subject:</strong> Resignation from [Your Position]
@@ -57,8 +60,8 @@ const page = () => {
                 </p>
                 <p>Thank you for your understanding.</p>
                 <p>Sincerely, [Your Name] [Your Contact Information]</p>
-                <p></p>
-                <p></p>
+              </section>
+              <section>
                 <h3>2. Resignation Letter with Appreciation</h3>
                 <p>
                   <strong>Subject:</strong> Resignation from [Your Position]
@@ -79,8 +82,8 @@ const page = () => {
                 <p>I wish [Company Name] continued success.</p>
                 <p>Thank you again for everything.</p>
                 <p>Sincerely, [Your Name] [Your Contact Information]</p>
-                <p></p>
-                <p></p>
+              </section>
+              <section>
                 <h3>3. Resignation Letter with Reasons</h3>
                 <p>
                   <strong>Subject:</strong> Resignation from [Your Position]
@@ -103,8 +106,8 @@ const page = () => {
                 </p>
                 <p>Thank you for your understanding.</p>
                 <p>Sincerely, [Your Name] [Your Contact Information]</p>
-                <p></p>
-                <p></p>
+              </section>
+              <section>
                 <h3>4. Resignation Letter Due to Moving</h3>
                 <p>
                   <strong>Subject:</strong> Resignation from [Your Position]
@@ -125,8 +128,8 @@ const page = () => {
                 </p>
                 <p>I wish the company continued success.</p>
                 <p>Sincerely, [Your Name] [Your Contact Information]</p>
-                <p></p>
-                <p></p>
+              </section>
+              <section>
                 <h3>5. Resignation Letter Due to Health Reasons</h3>
                 <p>
                   <strong>Subject:</strong> Resignation from [Your Position]
@@ -151,7 +154,7 @@ const page = () => {
                   Remember to tailor these templates to your specific situation
                   and include any relevant details.
                 </p>
-              </div>
+              </section>
             </article>
           </div>
         </section>

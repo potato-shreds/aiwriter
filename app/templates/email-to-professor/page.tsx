@@ -21,7 +21,9 @@ const page = () => {
 
         <div className="flex justify-center mt-10">
           <button className="bg-black text-white px-6 py-5 rounded-md">
-            <a href="#">Write Email To Professor</a>
+            <a href="#" title="Write Email To Professor">
+              Write Email To Professor
+            </a>
           </button>
         </div>
       </div>
@@ -33,7 +35,7 @@ const page = () => {
               <h2 className="text-3xl font-bold">
                 10 Email Templates to Professors
               </h2>
-              <div>
+              <section>
                 <h3> 1. Requesting an Appointment</h3>
                 <p>
                   <strong>Subject:</strong> Meeting Request - [Your Name]
@@ -55,6 +57,8 @@ const page = () => {
                 <p>Sincerely, [Your Name] [Your Student ID]</p>
                 <p></p>
                 <p></p>
+              </section>
+              <section>
                 <h3>2. Seeking Clarification on Course Material</h3>
                 <p>
                   <strong>Subject:</strong> Clarification on [Topic]
@@ -76,6 +80,8 @@ const page = () => {
                 <p>Sincerely, [Your Name] [Your Student ID]</p>
                 <p></p>
                 <p></p>
+              </section>
+              <section>
                 <h3>3. Requesting an Extension for an Assignment</h3>
                 <p>
                   <strong>Subject:</strong> Request for Extension on [Assignment
@@ -100,6 +106,9 @@ const page = () => {
                 <p>Sincerely, [Your Name] [Your Student ID]</p>
                 <p></p>
                 <p></p>
+              </section>
+
+              <section>
                 <h3>4. Inquiring About Research Opportunities</h3>
                 <p>
                   <strong>Subject:</strong> Inquiry about Research Opportunities
@@ -126,6 +135,9 @@ const page = () => {
                 <p>Sincerely, [Your Name] [Your Student ID]</p>
                 <p></p>
                 <p></p>
+              </section>
+
+              <section>
                 <h3>5. Providing Feedback on Course</h3>
                 <p>
                   <strong>Subject:</strong> Feedback on [Course Name]
@@ -146,6 +158,9 @@ const page = () => {
                 <p>Sincerely, [Your Name] [Your Student ID]</p>
                 <p></p>
                 <p></p>
+              </section>
+
+              <section>
                 <h3>6. Seeking Recommendation Letter</h3>
                 <p>
                   <strong>Subject:</strong> Request for Recommendation Letter
@@ -172,6 +187,10 @@ const page = () => {
                 <p>Sincerely, [Your Name] [Your Student ID] </p>
                 <p></p>
                 <p></p>
+              </section>
+
+              <section>
+                {' '}
                 <h3>7. Requesting a Meeting to Discuss Career Goals</h3>
                 <p>
                   <strong>Subject:</strong> Meeting Request - Career Counseling
@@ -196,6 +215,9 @@ const page = () => {
                 <p>Sincerely, [Your Name] [Your Student ID]</p>
                 <p></p>
                 <p></p>
+              </section>
+
+              <section>
                 <h3>8. Inquiring About Graduate School Applications</h3>
                 <p>
                   <strong>Subject:</strong> Inquiry about Graduate School
@@ -221,6 +243,9 @@ const page = () => {
                 <p>Sincerely, [Your Name] [Your Student ID]</p>
                 <p></p>
                 <p></p>
+              </section>
+
+              <section>
                 <h3>9. Notifying Professor of Absence</h3>
                 <p>
                   <strong>Subject:</strong> Notification of Absence
@@ -235,6 +260,9 @@ const page = () => {
                 <p>Sincerely, [Your Name] [Your Student ID]</p>
                 <p></p>
                 <p></p>
+              </section>
+
+              <section>
                 <h3>10. Thanking Professor for Support</h3>
                 <p>
                   <strong>Subject:</strong> Thank You
@@ -252,7 +280,7 @@ const page = () => {
                 </p>
                 <p>Thank you again for everything.</p>
                 <p>Sincerely, [Your Name] [Your Student ID]</p>
-              </div>
+              </section>
             </article>
           </div>
         </section>
