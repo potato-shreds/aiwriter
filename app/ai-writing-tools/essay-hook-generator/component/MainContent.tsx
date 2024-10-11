@@ -1,5 +1,7 @@
 'use client';
 import React, { useState } from 'react';
+import api from '@/app/utils/gemini';
+
 import {
   Language,
   TargetAudience,
@@ -11,13 +13,30 @@ interface responseDateObject {
 }
 interface MainContentProps {
   setResponseDate: React.Dispatch<React.SetStateAction<responseDateObject[]>>;
+  responseDate: responseDateObject[];
 }
 
-const MainContent: React.FC<MainContentProps> = ({ setResponseDate }) => {
+const MainContent: React.FC<MainContentProps> = ({
+  setResponseDate,
+  responseDate,
+}) => {
+  const [content1, setContent1] = useState('');
   const [language, setLanguage] = useState(Language[0].name);
   const [targetAudience, setTargetAudience] = useState(TargetAudience[0].name);
   const [toneOfVoice, setToneOfVoice] = useState(ToneOfVoice[0].name);
-
+  const setData = () => {
+    api
+      .essayHookGenerator({
+        content1: content1,
+        language: language,
+        targetAudience: targetAudience,
+        toneOfVoice: toneOfVoice,
+      })
+      .then((res) => {
+        setResponseDate([...responseDate, { content: res.content }]);
+      });
+  };
+  const isSatisfy = content1.length > 0;
   return (
     <div className="p-4 pl-0 pr-6 h-full ">
       <div className="flex flex-col justify-between h-full p-4  bg-white rounded-2xl shadow-xl">
@@ -31,6 +50,7 @@ const MainContent: React.FC<MainContentProps> = ({ setResponseDate }) => {
               className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
               type="text"
               placeholder="The Impact of Social Media on Mental Health"
+              onChange={(e) => setContent1(e.target.value)}
             />
           </div>
           <div className="flex flex-wrap">
@@ -81,9 +101,14 @@ const MainContent: React.FC<MainContentProps> = ({ setResponseDate }) => {
 
         <div className="flex justify-end items-center mb-4">
           <button
-            className="bg-blue-500 text-white px-4 py-2 rounded-md"
+            className={`bg-blue-500 text-white px-4 py-2 rounded-md ${
+              isSatisfy ? '' : 'opacity-50 cursor-not-allowed'
+            }`}
             onClick={() => {
-              setResponseDate([{ content: 'sad' }]);
+              if (isSatisfy) {
+                setData();
+              } else {
+              }
             }}
           >
             Generate

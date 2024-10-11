@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import './styles.css';
 
 const page = () => {
@@ -5,17 +6,6 @@ const page = () => {
     <div className="mx-10 box-border">
       <div className="max-w-7xl mx-auto m-10 bg p-20">
         <header>
-          <title>
-            Thank You Email After Interview Templates: How to Write & Examples
-          </title>
-          <meta
-            name="description"
-            content="Discover effective thank you email templates for after your interview. Learn how to express gratitude, reinforce your interest in the position, and make a positive impression with our tips and examples."
-          />
-          <meta
-            name="keywords"
-            content="Thank You Email After Interview Templates, Interview Thank You Email, Writing Thank You Emails, Thank You Email Examples, Post-Interview Follow-Up, Professional Thank You Email, Expressing Gratitude"
-          />
           <h1 className="text-6xl text-center font-bold">
             Thank You Email After Interview Templates: How to Write & Examples
           </h1>
@@ -108,9 +98,131 @@ const page = () => {
             </article>
           </div>
         </section>
+        <div className="mt-10 p-10 rounded-lg mb-10">
+          <div className="bg-white p-10 max-w-6xl mx-auto flex flex-col items-center">
+            <div className="">
+              <h2 className="text-5xl font-bold ">How it works</h2>
+            </div>
+            <div className="flex items-center w-full mt-16">
+              <div className="bg-purple-50 p-8 flex-1">
+                <Image
+                  src="/images/6297c0caffa00e75739ceb0b_step-1.svg"
+                  alt="SVG"
+                  width={800}
+                  height={300}
+                />
+              </div>
+              <div className="flex-1 ml-14">
+                <div className="flex items-center">
+                  <div className="p-5 bg-black text-white text-base rounded-full w-10 h-10 flex items-center justify-center ">
+                    1
+                  </div>
+                  <div className="ml-2 text-2xl font-bold">
+                    Enter what you need to write
+                  </div>
+                </div>
+                <div className="px-10 mt-5">
+                  <p className="text-sm">
+                    Choose from emails, social posts, long-form blog posts, and
+                    more!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="px-20 my-4">
+              <Image
+                src="/images/628288c5cd3e84f1470a378c_line_right.svg"
+                alt="SVG"
+                width={400}
+                height={300}
+              />
+            </div>
+            <div className="flex items-center w-full">
+              <div className="flex-1 ml-14">
+                <div className="flex items-center">
+                  <div className="p-5 bg-black text-white text-base rounded-full w-10 h-10 flex items-center justify-center ">
+                    2
+                  </div>
+                  <div className="ml-2 text-2xl font-bold">
+                    Give Copy.ai a bit of context
+                  </div>
+                </div>
+                <div className="px-10 mt-5">
+                  <p className="text-sm">
+                    Enter a few sentences about your project/campaign.
+                  </p>
+                </div>
+              </div>
+              <div className="bg-purple-50 p-8 flex-1">
+                <Image
+                  src="/images/6297c0cab1392750c5d86460_step-2.svg"
+                  alt="SVG"
+                  width={800}
+                  height={300}
+                />
+              </div>
+            </div>
+            <div className="px-20 my-4">
+              <Image
+                src="/images/628288c5cd3e84727f0a378f_line_left.svg"
+                alt="SVG"
+                width={400}
+                height={300}
+              />
+            </div>
+            <div className="flex items-center w-full">
+              <div className="bg-purple-50 p-8 flex-1">
+                <Image src="/images/3.png" alt="SVG" width={800} height={300} />
+              </div>
+              <div className="flex-1 ml-14">
+                <div className="flex items-center">
+                  <div className="p-5 bg-black text-white text-base rounded-full w-10 h-10 flex items-center justify-center ">
+                    3
+                  </div>
+                  <div className="ml-2 text-2xl font-bold">
+                    Sift through the results
+                  </div>
+                </div>
+                <div className="px-10 mt-5">
+                  <p className="text-sm">
+                    Our AI content generator gives you multiple options for each
+                    campaign that you’re working on.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="px-20 my-4">
+              <Image
+                src="/images/628288c5cd3e84d55f0a378e_line_middle-from-left.svg"
+                alt="SVG"
+                width={400}
+                height={300}
+              />
+            </div>
+            <div className="flex-1 flex flex-col items-center margin-p2 ">
+              <h2 className="text-3xl font-bold">Ready to level-up?</h2>
+              <p>
+                Write 10x faster, engage your audience, & never struggle with
+                the blank page again.
+              </p>
+              <p>Get Started for Free</p>
+              <p>No credit card required</p>
+              <p>2,000 free words per month</p>
+              <p>90+ content types to explore</p>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
   );
+};
+
+export const metadata = {
+  title: 'Thank You Email After Interview Templates: How to Write & Examples',
+  description:
+    'Discover effective thank you email templates for after your interview. Learn how to express gratitude, reinforce your interest in the position, and make a positive impression with our tips and examples.',
+  keywords:
+    'Thank You Email After Interview Templates, Interview Thank You Email, Writing Thank You Emails, Thank You Email Examples, Post-Interview Follow-Up, Professional Thank You Email, Expressing Gratitude',
 };
 
 export default page;

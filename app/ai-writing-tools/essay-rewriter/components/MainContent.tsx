@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { Language, Domain } from '@/data/essay-rewriter';
+import api from '@/app/utils/gemini';
 
 const MainContent: React.FC = () => {
   const [originalText, setOriginalText] = useState('');
@@ -22,6 +23,19 @@ const MainContent: React.FC = () => {
     setSelectedGoals(event.target.value);
     console.log(event.target.value);
   };
+  const setData = () => {
+    api
+      .essayRewriter({
+        content1: originalText,
+        language: selectedLanguage,
+        outLanguage: selectedGoals,
+        domain: selectedDomain,
+      })
+      .then((res) => {
+        setRewrittenText(res.content);
+      });
+  };
+  const isSatisfy = originalText !== '';
 
   return (
     <div className="flex flex-col py-4 h-full">
@@ -85,7 +99,17 @@ const MainContent: React.FC = () => {
               ></textarea>
             </div>
             <div className="flex justify-end">
-              <button className="bg-blue-400 text-white px-4 py-2 rounded-md">
+              <button
+                className={`bg-blue-500 text-white px-4 py-2 rounded-md ${
+                  isSatisfy ? '' : 'opacity-50 cursor-not-allowed'
+                }`}
+                onClick={() => {
+                  if (isSatisfy) {
+                    setData();
+                  } else {
+                  }
+                }}
+              >
                 Rewrite
               </button>
             </div>

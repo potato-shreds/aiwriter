@@ -1,13 +1,13 @@
 /* styles.css */
 
 .margin-p p {
-  margin-top: 1rem; /* p 元素的上边距 */
-  margin-bottom: 1rem; /* p 元素的下边距 */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .margin-p h3 {
-  margin-top: 2rem; /* p 元素的上边距 */
-  margin-bottom: 2rem; /* p 元素的下边距 */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -16,4 +16,8 @@
   background-size: 90px;
   background-repeat: repeat;
   position: relative;
+}
+.margin-p2 p {
+  margin-top: 0.7rem; /* p 元素的上边距 */
+  margin-bottom: 0.4rem; /* p 元素的下边距 */
 }

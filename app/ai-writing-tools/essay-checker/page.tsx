@@ -8,6 +8,7 @@ import Footer from '@/app/components/Footer';
 import ToolsMain from '@/app/components/ToolsMain/ToolsMain';
 import MainContent from './components/MainContent';
 import Response from './components/Response';
+
 const EssayChecker: React.FC = () => {
   interface responseDateObject {
     content: string;
@@ -28,7 +29,12 @@ const EssayChecker: React.FC = () => {
       </div>
       <div className="mt-5">
         <ToolsMain
-          main={<MainContent setResponseDate={setResponseDate} />}
+          main={
+            <MainContent
+              setResponseDate={setResponseDate}
+              responseDate={responseDate}
+            />
+          }
           response={
             <Response responseDate={responseDate} activeTool={activeTool} />
           }

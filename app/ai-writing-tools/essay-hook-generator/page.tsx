@@ -28,7 +28,12 @@ const EssayHookGenerator: React.FC = () => {
       </div>
       <div className="mt-5">
         <ToolsMain
-          main={<MainContent setResponseDate={setResponseDate} />}
+          main={
+            <MainContent
+              setResponseDate={setResponseDate}
+              responseDate={responseDate}
+            />
+          }
           response={
             <Response responseDate={responseDate} activeTool={activeTool} />
           }

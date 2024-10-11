@@ -17,3 +17,7 @@
   background-repeat: repeat;
   position: relative;
 }
+.margin-p2 p {
+  margin-top: 0.7rem; /* p 元素的上边距 */
+  margin-bottom: 0.4rem; /* p 元素的下边距 */
+}

@@ -1,5 +1,7 @@
 'use client';
 import React, { useState } from 'react';
+import api from '@/app/utils/gemini';
+
 import {
   Language,
   TargetAudience,
@@ -11,14 +13,33 @@ interface responseDateObject {
 }
 interface MainContentProps {
   setResponseDate: React.Dispatch<React.SetStateAction<responseDateObject[]>>;
+  responseDate: responseDateObject[];
 }
 
-const MainContent: React.FC<MainContentProps> = ({ setResponseDate }) => {
+const MainContent: React.FC<MainContentProps> = ({
+  setResponseDate,
+  responseDate,
+}) => {
+  const [content1, setContent1] = useState('');
   const [language, setLanguage] = useState(Language[0].name);
   const [targetAudience, setTargetAudience] = useState(TargetAudience[0].name);
   const [toneOfVoice, setToneOfVoice] = useState(ToneOfVoice[0].name);
   const [numberOfWords, setNumberOfWords] = useState('300');
-  const [content, setContent] = useState('');
+
+  const setData = () => {
+    api
+      .essayExpander({
+        content1: content1,
+        language: language,
+        targetAudience: targetAudience,
+        toneOfVoice: toneOfVoice,
+        number: numberOfWords,
+      })
+      .then((res) => {
+        setResponseDate([...responseDate, { content: res.content }]);
+      });
+  };
+  const isSatisfy = content1.length > 0;
 
   return (
     <div className="p-4 pl-0 pr-6 h-full ">
@@ -33,9 +54,8 @@ const MainContent: React.FC<MainContentProps> = ({ setResponseDate }) => {
               className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
               placeholder="Businesses today need every edge and advantage they can get."
               rows={4}
-              value={content}
               onChange={(e) => {
-                setContent(e.target.value);
+                setContent1(e.target.value);
               }}
             ></textarea>
           </div>
@@ -75,7 +95,6 @@ const MainContent: React.FC<MainContentProps> = ({ setResponseDate }) => {
                 type="text"
                 placeholder="300"
                 className="w-full mt-2 p-1 border border-gray-200 rounded-md"
-                value={numberOfWords}
                 onChange={(e) => setNumberOfWords(e.target.value)}
               />
             </div>
@@ -98,9 +117,14 @@ const MainContent: React.FC<MainContentProps> = ({ setResponseDate }) => {
 
         <div className="flex justify-end items-center mb-4">
           <button
-            className="bg-blue-500 text-white px-4 py-2 rounded-md"
+            className={`bg-blue-500 text-white px-4 py-2 rounded-md ${
+              isSatisfy ? '' : 'opacity-50 cursor-not-allowed'
+            }`}
             onClick={() => {
-              setResponseDate([{ content: 'sad' }]);
+              if (isSatisfy) {
+                setData();
+              } else {
+              }
             }}
           >
             Generate
