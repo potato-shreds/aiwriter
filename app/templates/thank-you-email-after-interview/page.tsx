@@ -5,6 +5,17 @@ const page = () => {
     <div className="mx-10 box-border">
       <div className="max-w-7xl mx-auto m-10 bg p-20">
         <header>
+          <title>
+            Thank You Email After Interview Templates: How to Write & Examples
+          </title>
+          <meta
+            name="description"
+            content="Discover effective thank you email templates for after your interview. Learn how to express gratitude, reinforce your interest in the position, and make a positive impression with our tips and examples."
+          />
+          <meta
+            name="keywords"
+            content="Thank You Email After Interview Templates, Interview Thank You Email, Writing Thank You Emails, Thank You Email Examples, Post-Interview Follow-Up, Professional Thank You Email, Expressing Gratitude"
+          />
           <h1 className="text-6xl text-center font-bold">
             Thank You Email After Interview Templates: How to Write & Examples
           </h1>
@@ -16,15 +27,17 @@ const page = () => {
         </div>
       </div>
       <main>
-        <div className="mt-10 bg-teal-50 p-10 rounded-lg mb-10">
+        <section className="mt-10 bg-teal-50 p-10 rounded-lg mb-10">
           <div className="bg-white p-10 max-w-6xl mx-auto">
             <hr className="border-t-2 border-gray-300 mb-4 mt-10"></hr>
-            <div className="max-w-4xl mx-auto mt-10 margin-p">
+            <article className="max-w-4xl mx-auto mt-10 margin-p">
               <h2 className="text-3xl font-bold">
                 3 Email Templates for Thanking Your Interviewer
               </h2>
               <h3>Template 1: General Thank You</h3>
-              <p>Subject: Thank you for your time - [Your Name]</p>
+              <p>
+                <strong>Subject:</strong> Thank you for your time - [Your Name]
+              </p>
               <p>Dear [Interviewer&apos;s Name],</p>
               <p>
                 Thank you so much for taking the time to interview me for the
@@ -42,7 +55,10 @@ const page = () => {
               </p>
               <p>Sincerely, [Your Name] [Your Email] [Your Phone Number]</p>
               <h3>Template 2: Emphasizing a Specific Skill or Experience</h3>
-              <p>Subject: Following up on our interview - [Your Name]</p>
+              <p>
+                <strong>Subject:</strong> Following up on our interview - [Your
+                Name]
+              </p>
               <p>Dear [Interviewer&apos;s Name],</p>
               <p>
                 I wanted to thank you once again for meeting with me last [day].
@@ -61,7 +77,9 @@ const page = () => {
               </p>
               <p>Sincerely, [Your Name] [Your Email] [Your Phone Number]</p>
               <h3>Template 3: Expressing Enthusiasm and Follow-up</h3>
-              <p>Subject: Re: [Position] Interview - [Your Name]</p>
+              <p>
+                <strong>Subject:</strong> Re: [Position] Interview - [Your Name]
+              </p>
               <p>Dear [Interviewer&apos;s Name],</p>
               <p>
                 Thank you again for taking the time to interview me for the
@@ -79,9 +97,9 @@ const page = () => {
               </p>
               <p>Thank you for your time and consideration. </p>
               <p>Sincerely, [Your Name] [Your Email] [Your Phone Number]</p>
-            </div>
+            </article>
           </div>
-        </div>
+        </section>
       </main>
     </div>
   );

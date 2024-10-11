@@ -5,6 +5,15 @@ const page = () => {
     <div className="mx-10 box-border">
       <div className="max-w-7xl mx-auto m-10 bg p-20">
         <header>
+          <title>2 Week Notice Letter Templates: How To Write & Examples</title>
+          <meta
+            name="description"
+            content="Explore our comprehensive templates for 2 week notice letters. Learn how to write a clear and professional notice to your employer, along with helpful examples."
+          />
+          <meta
+            name="keywords"
+            content="2 Week Notice Letter Templates, Writing a Notice Letter, Two Weeks Notice Examples, Professional Notice Letter, Resignation Notice, How to Write a Notice, Job Resignation"
+          />
           <h1 className="text-6xl text-center font-bold">
             2 Week Notice Letter Templates: How To Write & Examples
           </h1>
@@ -17,10 +26,10 @@ const page = () => {
         </div>
       </div>
       <main>
-        <div className="mt-10 bg-teal-50 p-10 rounded-lg mb-10">
+        <section className="mt-10 bg-teal-50 p-10 rounded-lg mb-10">
           <div className="bg-white p-10 max-w-6xl mx-auto">
             <hr className="border-t-2 border-gray-300 mb-4 mt-10"></hr>
-            <div className="max-w-4xl mx-auto mt-10 margin-p">
+            <article className="max-w-4xl mx-auto mt-10 margin-p">
               <h2 className="text-3xl font-bold">
                 2-Week Notice Template Examples
               </h2>
@@ -83,9 +92,9 @@ const page = () => {
                   policies.
                 </p>
               </div>
-            </div>
+            </article>
           </div>
-        </div>
+        </section>
       </main>
     </div>
   );

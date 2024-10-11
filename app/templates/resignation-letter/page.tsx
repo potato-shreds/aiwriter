@@ -5,6 +5,15 @@ const page = () => {
     <div className="mx-10 box-border">
       <div className="max-w-7xl mx-auto m-10 bg p-20">
         <header>
+          <title>Resignation Letter Templates: How To Write & Examples</title>
+          <meta
+            name="description"
+            content="Find professional resignation letter templates and learn how to write a clear and respectful resignation letter. Explore examples and tips to ensure a smooth transition."
+          />
+          <meta
+            name="keywords"
+            content="Resignation Letter Templates, How to Write a Resignation Letter, Resignation Letter Examples, Professional Resignation Letter, Clear Resignation Letter, Writing Tips for Resignation, Job Resignation"
+          />
           <h1 className="text-6xl text-center font-bold">
             Resignation Letter Templates: How To Write & Examples
           </h1>
@@ -17,10 +26,10 @@ const page = () => {
         </div>
       </div>
       <main>
-        <div className="mt-10 bg-teal-50 p-10 rounded-lg mb-10">
+        <section className="mt-10 bg-teal-50 p-10 rounded-lg mb-10">
           <div className="bg-white p-10 max-w-6xl mx-auto">
             <hr className="border-t-2 border-gray-300 mb-4 mt-10"></hr>
-            <div className="max-w-4xl mx-auto mt-10 margin-p">
+            <article className="max-w-4xl mx-auto mt-10 margin-p">
               <h2 className="text-3xl font-bold">
                 5 Resignation Letter Templates
               </h2>
@@ -31,7 +40,9 @@ const page = () => {
 
               <div>
                 <h3> 1. General Resignation Letter</h3>
-                <p> Subject: Resignation from [Your Position]</p>
+                <p>
+                  <strong>Subject:</strong> Resignation from [Your Position]
+                </p>
                 <p> </p>
                 <p>Dear [Recipient Name],</p>
                 <p>
@@ -49,14 +60,16 @@ const page = () => {
                 <p></p>
                 <p></p>
                 <h3>2. Resignation Letter with Appreciation</h3>
-                <p> Subject: Resignation from [Your Position]</p>
+                <p>
+                  <strong>Subject:</strong> Resignation from [Your Position]
+                </p>
                 <p> </p>
                 <p>Dear [Recipient Name],</p>
                 <p> </p>
                 <p>
                   I am writing to inform you of my decision to resign from my
                   position as [Your Position] at [Company Name], effective [Last
-                  Day of Work].{' '}
+                  Day of Work].
                 </p>
                 <p>
                   I want to express my sincere gratitude for the opportunities
@@ -69,7 +82,9 @@ const page = () => {
                 <p></p>
                 <p></p>
                 <h3>3. Resignation Letter with Reasons</h3>
-                <p> Subject: Resignation from [Your Position]</p>
+                <p>
+                  <strong>Subject:</strong> Resignation from [Your Position]
+                </p>
                 <p> </p>
                 <p>Dear [Recipient Name],</p>
                 <p>
@@ -80,7 +95,7 @@ const page = () => {
                 <p>
                   While I have enjoyed my time at [Company Name], I have decided
                   to pursue a new opportunity that aligns more closely with my
-                  career goals.{' '}
+                  career goals.
                 </p>
                 <p>
                   I appreciate the opportunities I have had here and wish the
@@ -91,7 +106,9 @@ const page = () => {
                 <p></p>
                 <p></p>
                 <h3>4. Resignation Letter Due to Moving</h3>
-                <p> Subject: Resignation from [Your Position]</p>
+                <p>
+                  <strong>Subject:</strong> Resignation from [Your Position]
+                </p>
                 <p> </p>
                 <p> </p>
                 <p>Dear [Recipient Name],</p>
@@ -99,7 +116,7 @@ const page = () => {
                 <p>
                   I am writing to inform you of my resignation from my position
                   as [Your Position] at [Company Name], effective [Last Day of
-                  Work].{' '}
+                  Work].
                 </p>
                 <p>
                   Due to a recent relocation, I will be unable to continue in
@@ -111,7 +128,9 @@ const page = () => {
                 <p></p>
                 <p></p>
                 <h3>5. Resignation Letter Due to Health Reasons</h3>
-                <p> Subject: Resignation from [Your Position]</p>
+                <p>
+                  <strong>Subject:</strong> Resignation from [Your Position]
+                </p>
                 <p> </p>
                 <p>Dear [Recipient Name],</p>
                 <p>
@@ -133,9 +152,9 @@ const page = () => {
                   and include any relevant details.
                 </p>
               </div>
-            </div>
+            </article>
           </div>
-        </div>
+        </section>
       </main>
     </div>
   );

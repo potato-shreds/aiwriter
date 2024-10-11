@@ -5,6 +5,15 @@ const page = () => {
     <div className="mx-10 box-border">
       <div className="max-w-7xl mx-auto m-10 bg p-20">
         <header>
+          <title>Email To Professor Templates: How To Write & Examples</title>
+          <meta
+            name="description"
+            content="Discover effective templates for writing emails to professors. Learn how to structure your message, express your purpose clearly, and make a positive impression with our expert tips and examples."
+          />
+          <meta
+            name="keywords"
+            content="Email to Professor Templates, Writing Emails to Professors, Email Examples, Academic Email Templates, Student Email Tips, Professional Email Writing, Email Etiquette, Contacting Professors"
+          />
           <h1 className="text-6xl text-center font-bold">
             Email To Professor Templates: How To Write & Examples
           </h1>
@@ -17,16 +26,18 @@ const page = () => {
         </div>
       </div>
       <main>
-        <div className="mt-10 bg-teal-50 p-10 rounded-lg mb-10">
+        <section className="mt-10 bg-teal-50 p-10 rounded-lg mb-10">
           <div className="bg-white p-10 max-w-6xl mx-auto">
             <hr className="border-t-2 border-gray-300 mb-4 mt-10"></hr>
-            <div className="max-w-4xl mx-auto mt-10 margin-p">
+            <article className="max-w-4xl mx-auto mt-10 margin-p">
               <h2 className="text-3xl font-bold">
                 10 Email Templates to Professors
               </h2>
               <div>
                 <h3> 1. Requesting an Appointment</h3>
-                <p>Subject: Meeting Request - [Your Name]</p>
+                <p>
+                  <strong>Subject:</strong> Meeting Request - [Your Name]
+                </p>
                 <p>Dear Professor [Professor&apos;s Name],</p>
                 <p>I hope this email finds you well.</p>
                 <p>
@@ -45,7 +56,9 @@ const page = () => {
                 <p></p>
                 <p></p>
                 <h3>2. Seeking Clarification on Course Material</h3>
-                <p>Subject: Clarification on [Topic]</p>
+                <p>
+                  <strong>Subject:</strong> Clarification on [Topic]
+                </p>
                 <p>Dear Professor [Professor&apos;s Name],</p>
                 <p>I hope this email finds you well.</p>
                 <p>
@@ -64,7 +77,10 @@ const page = () => {
                 <p></p>
                 <p></p>
                 <h3>3. Requesting an Extension for an Assignment</h3>
-                <p>Subject: Request for Extension on [Assignment Name]</p>
+                <p>
+                  <strong>Subject:</strong> Request for Extension on [Assignment
+                  Name]
+                </p>
                 <p> </p>
                 <p>Dear Professor [Professor&apos;s Name],</p>
                 <p> </p>
@@ -85,7 +101,9 @@ const page = () => {
                 <p></p>
                 <p></p>
                 <h3>4. Inquiring About Research Opportunities</h3>
-                <p>Subject: Inquiry about Research Opportunities</p>
+                <p>
+                  <strong>Subject:</strong> Inquiry about Research Opportunities
+                </p>
                 <p>Dear Professor [Professor&apos;s Name],</p>
                 <p>I hope this email finds you well.</p>
                 <p>
@@ -109,7 +127,9 @@ const page = () => {
                 <p></p>
                 <p></p>
                 <h3>5. Providing Feedback on Course</h3>
-                <p>Subject: Feedback on [Course Name]</p>
+                <p>
+                  <strong>Subject:</strong> Feedback on [Course Name]
+                </p>
                 <p>Dear Professor [Professor&apos;s Name],</p>
                 <p>I hope this email finds you well.</p>
                 <p>
@@ -127,7 +147,9 @@ const page = () => {
                 <p></p>
                 <p></p>
                 <h3>6. Seeking Recommendation Letter</h3>
-                <p>Subject: Request for Recommendation Letter</p>
+                <p>
+                  <strong>Subject:</strong> Request for Recommendation Letter
+                </p>
                 <p>Dear Professor [Professor&apos;s Name],</p>
                 <p>I hope this email finds you well.</p>
                 <p>
@@ -151,7 +173,9 @@ const page = () => {
                 <p></p>
                 <p></p>
                 <h3>7. Requesting a Meeting to Discuss Career Goals</h3>
-                <p>Subject: Meeting Request - Career Counseling</p>
+                <p>
+                  <strong>Subject:</strong> Meeting Request - Career Counseling
+                </p>
                 <p>Dear Professor [Professor&apos;s Name],</p>
                 <p>I hope this email finds you well.</p>
                 <p>
@@ -173,7 +197,10 @@ const page = () => {
                 <p></p>
                 <p></p>
                 <h3>8. Inquiring About Graduate School Applications</h3>
-                <p>Subject: Inquiry about Graduate School Applications</p>
+                <p>
+                  <strong>Subject:</strong> Inquiry about Graduate School
+                  Applications
+                </p>
                 <p>Dear Professor [Professor&apos;s Name],</p>
                 <p>I hope this email finds you well.</p>
                 <p>
@@ -195,7 +222,9 @@ const page = () => {
                 <p></p>
                 <p></p>
                 <h3>9. Notifying Professor of Absence</h3>
-                <p>Subject: Notification of Absence</p>
+                <p>
+                  <strong>Subject:</strong> Notification of Absence
+                </p>
                 <p>Dear Professor [Professor&apos;s Name],</p>
                 <p>
                   I am writing to inform you that I will be absent from your
@@ -207,7 +236,9 @@ const page = () => {
                 <p></p>
                 <p></p>
                 <h3>10. Thanking Professor for Support</h3>
-                <p>Subject: Thank You</p>
+                <p>
+                  <strong>Subject:</strong> Thank You
+                </p>
                 <p>Dear Professor [Professor&apos;s Name],</p>
                 <p>I hope this email finds you well.</p>
                 <p>
@@ -222,9 +253,9 @@ const page = () => {
                 <p>Thank you again for everything.</p>
                 <p>Sincerely, [Your Name] [Your Student ID]</p>
               </div>
-            </div>
+            </article>
           </div>
-        </div>
+        </section>
       </main>
     </div>
   );

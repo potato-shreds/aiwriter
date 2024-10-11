@@ -5,10 +5,22 @@ const page = () => {
     <div className="mx-10 box-border">
       <div className="max-w-7xl mx-auto m-10 bg p-20">
         <header>
+          <title>
+            Happy Birthday Message Templates: How to Write & Examples
+          </title>
+          <meta
+            name="description"
+            content="Explore creative and heartfelt birthday message templates to help you express your wishes. Learn how to craft the perfect birthday message with our helpful tips and examples."
+          />
+          <meta
+            name="keywords"
+            content="Happy Birthday Message Templates, Birthday Wishes, Birthday Message Examples, Creative Birthday Messages, Heartfelt Birthday Wishes, Writing Birthday Messages, Personalized Birthday Messages"
+          />
           <h1 className="text-6xl text-center font-bold">
             Happy Birthday Message Templates: How to Write & Examples
           </h1>
         </header>
+
         <div className="flex justify-center mt-10">
           <button className="bg-black text-white px-6 py-5 rounded-md">
             <a href="#">Write Happy Birthday Message</a>
@@ -16,10 +28,10 @@ const page = () => {
         </div>
       </div>
       <main>
-        <div className="mt-10 bg-teal-50 p-10 rounded-lg mb-10">
+        <section className="mt-10 bg-teal-50 p-10 rounded-lg mb-10">
           <div className="bg-white p-10 max-w-6xl mx-auto">
             <hr className="border-t-2 border-gray-300 mb-4 mt-10"></hr>
-            <div className="max-w-4xl mx-auto mt-10 margin-p">
+            <article className="max-w-4xl mx-auto mt-10 margin-p">
               <h2 className="text-3xl font-bold">
                 100 Happy Birthday Message Templates General Messages
               </h2>
@@ -46,8 +58,7 @@ const page = () => {
               <p>Happy birthday to someone who deserves the best.</p>
               <p>Sending you warm wishes and hugs on your special day.</p>
               <p>May your birthday be as special as you are.</p>
-              <p></p>
-              <p></p>
+
               <h3>Messages for Friends</h3>
               <p>
                 Happy birthday to my best friend! Thanks for always being there
@@ -78,8 +89,7 @@ const page = () => {
                 up when I&apos;m down.
               </p>
               <p>Wishing you a birthday that&apos;s as amazing as you are.</p>
-              <p></p>
-              <p></p>
+
               <h3>Messages for Family</h3>
               <p>
                 Happy birthday to the best mom/dad/sibling/grandparent in the
@@ -107,8 +117,7 @@ const page = () => {
                 Wishing you a birthday filled with love, laughter, and lots of
                 family time.
               </p>
-              <p></p>
-              <p></p>
+
               <h3>Messages for Significant Others</h3>
               <p>Happy birthday to the love of my life!</p>
               <p>Wishing you a birthday that&apos;s as amazing as our love.</p>
@@ -133,8 +142,7 @@ const page = () => {
                 lover.
               </p>
               <p>Wishing you a birthday that&apos;s as amazing as you are.</p>
-              <p></p>
-              <p></p>
+
               <h3>Funny Messages</h3>
               <p>
                 Happy birthday to someone who&apos;s still looking good for
@@ -164,8 +172,7 @@ const page = () => {
                 laugh, even when I&apos;m not in the mood.
               </p>
               <p>Wishing you a birthday that&apos;s as funny as you are.</p>
-              <p></p>
-              <p></p>
+
               <h3>Sentimental Messages</h3>
               <p>
                 Happy birthday to the person who&apos;s always been there for
@@ -189,8 +196,7 @@ const page = () => {
                 Happy birthday to the person who&apos;s always there to listen.
               </p>
               <p>Wishing you a birthday filled with peace and happiness.</p>
-              <p></p>
-              <p></p>
+
               <h3>Inspirational Messages</h3>
               <p>Happy birthday to someone who&apos;s an inspiration to me.</p>
               <p>Wishing you a birthday filled with success and happiness.</p>
@@ -222,8 +228,7 @@ const page = () => {
                 challenges.
               </p>
               <p>Wishing you a birthday filled with hope and inspiration.</p>
-              <p></p>
-              <p></p>
+
               <h3>Religious Messages</h3>
               <p>
                 Happy birthday! May God bless you with many more years of
@@ -257,8 +262,7 @@ const page = () => {
                 Wishing you a birthday that&apos;s filled with God&apos;s
                 blessings.
               </p>
-              <p></p>
-              <p></p>
+
               <h3>Personalized Messages</h3>
               <p>
                 Happy birthday to the world&apos;s best [insert relationship].
@@ -289,8 +293,7 @@ const page = () => {
                 Wishing you a birthday that&apos;s filled with love, laughter,
                 and lots of [insert shared interest].
               </p>
-              <p></p>
-              <p></p>
+
               <h3>Message Ideas for Specific Ages</h3>
               <p>Happy 21st birthday! Cheers to a new chapter in your life.</p>
               <p>Happy 30th birthday! You&apos;re officially an adult now.</p>
@@ -305,9 +308,9 @@ const page = () => {
                 Happy birthday to someone who&apos;s [insert age] and still
                 going strong!
               </p>
-            </div>
+            </article>
           </div>
-        </div>
+        </section>
       </main>
     </div>
   );

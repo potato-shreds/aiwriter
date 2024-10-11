@@ -5,11 +5,21 @@ const page = () => {
     <div className="mx-10 box-border">
       <div className="max-w-7xl mx-auto m-10 bg p-20">
         <header>
+          <title>
+            Acceptance Interview Email Templates: How to Write & Examples
+          </title>
+          <meta
+            name="description"
+            content="Explore effective acceptance interview email templates. Learn how to write a professional acceptance email with examples and tips to make a positive impression."
+          />
+          <meta
+            name="keywords"
+            content="Acceptance Interview Email Templates, Job Acceptance Email, Writing Acceptance Emails, Interview Email Examples, Professional Email Templates, Email Etiquette, Thank You Email"
+          />
           <h1 className="text-6xl text-center font-bold">
             Acceptance Interview Email Templates: How to Write & Examples
           </h1>
         </header>
-
         <div className="flex justify-center mt-10">
           <button className="bg-black text-white px-6 py-5 rounded-md">
             <a href="#">Write Acceptance Interview Email</a>
@@ -17,16 +27,19 @@ const page = () => {
         </div>
       </div>
       <main>
-        <div className="mt-10 bg-teal-50 p-10 rounded-lg mb-10">
+        <section className="mt-10 bg-teal-50 p-10 rounded-lg mb-10">
           <div className="bg-white p-10 max-w-6xl mx-auto">
             <hr className="border-t-2 border-gray-300 mb-4 mt-10"></hr>
-            <div className="max-w-4xl mx-auto mt-10 margin-p">
+            <article className="max-w-4xl mx-auto mt-10 margin-p">
               <h2 className="text-3xl font-bold">
                 Crafting a Job Acceptance Email: Templates and Tips
               </h2>
+
               <div>
                 <h3> Template 1: Formal and Concise</h3>
-                <p>Subject: Job Acceptance - [Job Title]</p>
+                <p>
+                  <strong>Subject:</strong>Job Acceptance - [Job Title]
+                </p>
                 <p>Dear [Hiring Manager&apos;s Name],</p>
                 <p>
                   I am writing to formally accept the [Job Title] position at
@@ -42,7 +55,9 @@ const page = () => {
                 <p>Sincerely, [Your Name] [Your Contact Information]</p>
                 <p></p>
                 <h3>Template 2: Enthusiastic and Personalized</h3>
-                <p>Subject: Job Acceptance - [Job Title]</p>
+                <p>
+                  <strong>Subject:</strong> Job Acceptance - [Job Title]
+                </p>
                 <p>Dear [Hiring Manager&apos;s Name],</p>
                 <p>
                   I am absolutely thrilled to accept the [Job Title] position at
@@ -63,7 +78,10 @@ const page = () => {
                 <p>Best regards, [Your Name]</p>
                 <p></p>
                 <h3>Template 3: Follow-up and Clarification</h3>
-                <p>Subject: Job Acceptance - [Job Title] - Follow-up</p>
+                <p>
+                  <strong>Subject:</strong> Job Acceptance - [Job Title] -
+                  Follow-up
+                </p>
                 <p>Dear [Hiring Manager&apos;s Name],</p>
                 <p>
                   I am writing to confirm my acceptance of the [Job Title]
@@ -84,7 +102,9 @@ const page = () => {
                 <p>
                   <br />
                 </p>
-                <p>Additional Tips:</p>
+                <p>
+                  <strong>Additional Tips:</strong>
+                </p>
                 <p>Be prompt. Respond to the job offer as soon as possible.</p>
                 <p>
                   Express gratitude. Thank the hiring manager for the
@@ -106,9 +126,9 @@ const page = () => {
                   role.
                 </p>
               </div>
-            </div>
+            </article>
           </div>
-        </div>
+        </section>
       </main>
     </div>
   );
