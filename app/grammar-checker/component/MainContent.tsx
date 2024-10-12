@@ -1,9 +1,4 @@
 import React, { useState } from 'react';
-import {
-  Language,
-  TargetAudience,
-  ToneOfVoice,
-} from '@/data/essay-hook-generator';
 
 interface responseDateObject {
   content: string;
