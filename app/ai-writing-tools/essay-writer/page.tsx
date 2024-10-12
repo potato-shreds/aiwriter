@@ -9,6 +9,6 @@ export const metadata = {
   description:
     'Create high-quality, plagiarism-free essays and assignments effortlessly with our free AI Essay Writer. Enhance your writing with advanced AI technology.',
   keywords:
-    'AI essay writer, plagiarism-free essays, free writing tool, essay generator, assignments, enhance writing',
+    'AI essay writer, plagiarism-free essays, free writing tool, essay generator, enhance writing',
 };
 export default page;

@@ -26,7 +26,7 @@ const AiWritingToolsTitle: React.FC<AiWritingToolsTitleProps> = ({
       </div>
       <div className="flex flex-col items-center justify-center gap-2 container relative mx-auto pb-5 pt-12">
         <h1 className="text-3xl font-semibold">{title}</h1>
-        <h2 className="text-[#536D8C] text-sm">{desc}</h2>
+        <p className="text-[#536D8C] text-sm">{desc}</p>
       </div>
     </div>
   );

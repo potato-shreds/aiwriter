@@ -47,11 +47,11 @@ const MainContent: React.FC<MainContentProps> = ({
       <div className="flex flex-col justify-between h-full p-4  bg-white rounded-2xl shadow-xl">
         <div className=" ">
           <div className="flex">
-            <h1>{activeTool}</h1>
+            <h2>{activeTool}</h2>
           </div>
 
           <div className="flex flex-col p-2 mt-2">
-            <h1>Describe your topic</h1>
+            <h3>Describe your topic</h3>
             <textarea
               className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
               rows={5}
@@ -63,7 +63,7 @@ const MainContent: React.FC<MainContentProps> = ({
 
           <div className="flex flex-wrap">
             <div className="flex-1 flex flex-col p-2 mt-2">
-              <h1>Essay Type</h1>
+              <h3>Essay Type</h3>
               <select
                 value={essayType}
                 onChange={(e) => setEssayType(e.target.value)}
@@ -77,7 +77,7 @@ const MainContent: React.FC<MainContentProps> = ({
               </select>
             </div>
             <div className="flex-1 flex flex-col p-2 mt-2">
-              <h1>Words</h1>
+              <h3>Words</h3>
               <select
                 value={words}
                 onChange={(e) => setWords(e.target.value)}
@@ -91,7 +91,7 @@ const MainContent: React.FC<MainContentProps> = ({
               </select>
             </div>
             <div className="w-1/2 flex flex-col p-2 mt-2">
-              <h1>Language</h1>
+              <h3>Language</h3>
               <select
                 value={language}
                 onChange={(e) => setLanguage(e.target.value)}

@@ -19,7 +19,7 @@ const Response: React.FC<ResponseProps> = ({ responseDate, activeTool }) => {
           <div key={index} className=" bg-white z-10 p-4 border-b rounded-lg">
             <div>
               <div className="flex justify-between">
-                <h1>{activeTool}</h1>
+                <h3>{activeTool}</h3>
               </div>
               <div className="mt-2">
                 <textarea
