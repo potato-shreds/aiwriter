@@ -503,7 +503,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/article-rewriter.svg',
@@ -522,7 +522,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-paragraph-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/summarizer.svg',
@@ -541,7 +541,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/SentenceExpander.svg',
@@ -560,7 +560,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/grammarchecker.svg',
@@ -579,7 +579,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-grammar-checker',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/paragraphgenerator.svg',
@@ -598,7 +598,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-article-generator',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/proofreader-icon-01.svg',
@@ -617,7 +617,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-proofreader',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/paragraphgenerator.svg',
@@ -636,7 +636,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-article-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/biogenerator.svg',
@@ -655,7 +655,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-personalbios',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/blogposts.svg',
@@ -787,7 +787,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/reworder.svg',
@@ -806,7 +806,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/articlegenerator.svg',
@@ -824,7 +824,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/poemgenerator-icon-01.svg',
@@ -843,7 +843,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/aibookwriter-icon-01.svg',
@@ -862,7 +862,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/aistorygenerator-icon-01.svg',
@@ -881,7 +881,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/store-icon-01.svg',
@@ -900,7 +900,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/pressrelease-icon-01.svg',
@@ -919,7 +919,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-pressrelease-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/answergenerator-icon-01.svg',
@@ -938,7 +938,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/peoplealsoaskgenerator.svg',
@@ -957,7 +957,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-people-also-ask-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/randomquestiongenerator-icon-01.svg',
@@ -976,7 +976,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/calltoactiongenerator.svg',
@@ -995,7 +995,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/titlegnerator-icon-01.svg',
@@ -1014,7 +1014,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/poemsummarizer-icon-01.svg',
@@ -1033,7 +1033,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/storysummarizer-icon-01.svg',
@@ -1052,7 +1052,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/pressrelease-icon-01.svg',
@@ -1071,7 +1071,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-pressrelease-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/documentsummarizer.svg',
@@ -1090,7 +1090,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/bulletpoint-icon-01.svg',
@@ -1109,7 +1109,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/aboutus-icon-01.svg',
@@ -1128,7 +1128,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/terminationnotices-iaon-01.svg',
@@ -1147,7 +1147,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-email-cancellation',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/refundpolicy-icon-01.svg',
@@ -1166,7 +1166,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/privacypolicy-icon-01.svg',
@@ -1185,7 +1185,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/titlecaseconverter-icon-01.svg',
@@ -1223,7 +1223,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/professionalbio-icon-01.svg',
@@ -1242,7 +1242,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/real-estate-icon-01.svg',
@@ -1260,7 +1260,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/characterbio-icon-01.svg',
@@ -1279,7 +1279,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/pressreleasegenerator-icon-01.svg',
@@ -1298,7 +1298,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/synonymsgenerator-icon-01.svg',
@@ -1317,7 +1317,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/activetopassive-icon-01.svg',
@@ -1336,7 +1336,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/spellchecker-icon-01.svg',
@@ -1355,7 +1355,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/punctuationchecker-icon-01.svg',
@@ -1374,7 +1374,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/grammarchecker-icon-01.svg',
@@ -1393,7 +1393,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/explainittoa5thgrader.svg',
@@ -1412,7 +1412,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/continuewriting.svg',
@@ -1431,7 +1431,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/videosummarizer.svg',
@@ -1449,7 +1449,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/hookgenerator-icon-01.svg',
@@ -1468,7 +1468,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/sentenceshortener-icon-01.svg',
@@ -1487,7 +1487,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/BiSolidCheckShield.svg',
@@ -1506,7 +1506,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-check-shield-solid',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/talking-points-to-paragraph.svg',
@@ -1525,7 +1525,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-talking-points-to-paragraph',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/problem-agitate-solution-p.svg',
@@ -1544,7 +1544,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-problem-agitate-solution',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/problem-agitate-solution-a.svg',
@@ -1563,7 +1563,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-attention-interest-desire-action-aida',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/problem-agitate-solution-b.svg',
@@ -1582,7 +1582,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-before-after-bridge-formula',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/quest-formula.svg',
@@ -1601,7 +1601,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-quest-formula',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/passivetoactive.svg',
@@ -1620,7 +1620,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/sentencegenerator.svg',
@@ -1639,7 +1639,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/booktitlegenerator.svg',
@@ -1658,7 +1658,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/faqgenerator.svg',
@@ -1677,7 +1677,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/contentimprover.svg',
@@ -1696,7 +1696,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-content-improver',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/prosandcons.svg',
@@ -1715,7 +1715,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/sentencesimplifier-icon-01.svg',
@@ -1734,7 +1734,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/firstpersontothirdpersonconverter.svg',
@@ -1753,7 +1753,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/subheadinggenerator.svg',
@@ -1772,7 +1772,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-ai-article-spinner.svg',
@@ -1791,7 +1791,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-sentence-rephraser.svg',
@@ -1810,7 +1810,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-bypass-ai-detection.svg',
@@ -1905,7 +1905,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-paragraph-scrambler.svg',
@@ -1924,7 +1924,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-haiku-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-paragraph-scrambler.svg',
@@ -1943,7 +1943,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-topic-sentence-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-paragraph-scrambler.svg',
@@ -1962,7 +1962,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-plagiarism-remover',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-paragraph-scrambler.svg',
@@ -2000,7 +2000,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-ai-writer-comparisons',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
     ],
     id: 36,
@@ -2026,7 +2026,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-email-general',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/generalemail.svg',
@@ -2045,7 +2045,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-email-general',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/coldemail-icon-01.svg',
@@ -2064,7 +2064,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/emailbody-contentimprover.svg',
@@ -2083,7 +2083,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-email-body-content-improver',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/welcomeemail.svg',
@@ -2102,7 +2102,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-email-welcome',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/confirmationemail.svg',
@@ -2121,7 +2121,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-email-confirmation',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/welcomeemail.svg',
@@ -2140,7 +2140,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-email-welcome',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/follow-upemail.svg',
@@ -2159,7 +2159,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-email-follow',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/newsletters.svg',
@@ -2178,7 +2178,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-news-letters',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/newsletters.svg',
@@ -2197,7 +2197,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-news-letters',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/terminationnotices-iaon-01.svg',
@@ -2216,7 +2216,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-email-cancellation',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/fundraisingletters-icon-01.svg',
@@ -2235,7 +2235,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/airesponsegenerator-icon-01.svg',
@@ -2254,7 +2254,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-ai-letter-generator.svg',
@@ -2273,7 +2273,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
     ],
     id: 40,
@@ -2299,7 +2299,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/twitter.svg',
@@ -2318,7 +2318,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-com--logo-twitter',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/facebook.svg',
@@ -2337,7 +2337,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-com--logo-facebook',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/scriptgenerator-icon-01.svg',
@@ -2356,7 +2356,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/company-biogenerator.svg',
@@ -2375,7 +2375,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/linkedInad.svg',
@@ -2394,7 +2394,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-com--logo-linkedin',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/google-drive.svg',
@@ -2413,7 +2413,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-com--logo-google-drive',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/landingpagesubheader.svg',
@@ -2431,7 +2431,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-landing-page-subheader',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/tiktokvideo-scripts.svg',
@@ -2450,7 +2450,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/instagram.svg',
@@ -2469,7 +2469,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-com--logo-instagram',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/snapchat.svg',
@@ -2488,7 +2488,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/facebook.svg',
@@ -2507,7 +2507,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-com--logo-facebook',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/twitch-iaon-01.svg',
@@ -2526,7 +2526,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/linkedinad.svg',
@@ -2545,7 +2545,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-com--logo-linkedin',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/pinterestad.svg',
@@ -2564,7 +2564,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-com--logo-pinterest',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/twitter.svg',
@@ -2583,7 +2583,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-com--logo-twitter',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/tiktokvideo-scripts.svg',
@@ -2602,7 +2602,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/tiktokvideo-scripts.svg',
@@ -2621,7 +2621,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/youtube.svg',
@@ -2640,7 +2640,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-com--logo-youtube',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/quoraanswers.svg',
@@ -2659,7 +2659,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/youtube.svg',
@@ -2678,7 +2678,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-com--logo-youtube',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/tiktokvideo-scripts.svg',
@@ -2697,7 +2697,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/youtube.svg',
@@ -2716,7 +2716,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-com--logo-youtube',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/youtube.svg',
@@ -2735,7 +2735,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-com--logo-youtube',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/webinartitlegenerator-icon-01.svg',
@@ -2754,7 +2754,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/podcast-icon-01.svg',
@@ -2773,7 +2773,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-podcast',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/tinder-icon-01.svg',
@@ -2792,7 +2792,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/bumble-icon-01.svg',
@@ -2811,7 +2811,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/videotopicideas-icon-01.svg',
@@ -2830,7 +2830,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/videotitle-icon-01.svg',
@@ -2849,7 +2849,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/adcopy-icon-01.svg',
@@ -2868,7 +2868,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/adheadlinegenerator.svg',
@@ -2887,7 +2887,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-youtube-tag-generator.svg',
@@ -2906,7 +2906,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-linkedin-recommendation-generator.svg',
@@ -2925,7 +2925,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-cute-name-generator.svg',
@@ -2944,7 +2944,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-youtube-name-generator.svg',
@@ -2963,7 +2963,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-description-for-youtube-channel.svg',
@@ -2982,7 +2982,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-username-generator.svg',
@@ -3001,7 +3001,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-tiktok-username-generator.svg',
@@ -3020,7 +3020,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-linkedin-post-generator.svg',
@@ -3039,7 +3039,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
     ],
     id: 37,
@@ -3065,7 +3065,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-podcast',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/amazon-icon-01.svg',
@@ -3084,7 +3084,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/shopify-icon-01.svg',
@@ -3103,7 +3103,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/etsy-icon-01.svg',
@@ -3122,7 +3122,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/testimonialgenerator-icon-01.svg',
@@ -3141,7 +3141,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/storyideagenerator-icon-01.svg',
@@ -3160,7 +3160,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/flipkart-icon-01.svg',
@@ -3179,7 +3179,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/features-to-benefits.svg',
@@ -3198,7 +3198,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-features-to-benefits',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/value-proposition.svg',
@@ -3217,7 +3217,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-value-proposition',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/productfeaturesgenerator.svg',
@@ -3236,7 +3236,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/productfeaturesgenerator.svg',
@@ -3255,7 +3255,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-product-features-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-ai-business-name-generator.svg',
@@ -3274,7 +3274,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
     ],
     id: 382,
@@ -3300,7 +3300,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3319,7 +3319,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3338,7 +3338,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3357,7 +3357,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3376,7 +3376,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3395,7 +3395,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3414,7 +3414,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3433,7 +3433,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3452,7 +3452,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3471,7 +3471,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3490,7 +3490,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3509,7 +3509,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3528,7 +3528,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3547,7 +3547,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3566,7 +3566,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3585,7 +3585,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3604,7 +3604,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3623,7 +3623,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3642,7 +3642,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3661,7 +3661,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3680,7 +3680,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3699,7 +3699,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3718,7 +3718,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3737,7 +3737,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3756,7 +3756,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3775,7 +3775,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3794,7 +3794,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3813,7 +3813,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3832,7 +3832,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3851,7 +3851,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3870,7 +3870,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3889,7 +3889,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3908,7 +3908,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3927,7 +3927,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3946,7 +3946,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3965,7 +3965,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -3984,7 +3984,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4003,7 +4003,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4022,7 +4022,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4041,7 +4041,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4060,7 +4060,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4079,7 +4079,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4098,7 +4098,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4117,7 +4117,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4136,7 +4136,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4155,7 +4155,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4174,7 +4174,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4193,7 +4193,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4212,7 +4212,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4231,7 +4231,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4250,7 +4250,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4269,7 +4269,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4288,7 +4288,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4307,7 +4307,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4326,7 +4326,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4345,7 +4345,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4364,7 +4364,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4383,7 +4383,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4402,7 +4402,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4421,7 +4421,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4440,7 +4440,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4459,7 +4459,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4478,7 +4478,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4497,7 +4497,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4516,7 +4516,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4535,7 +4535,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4554,7 +4554,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4573,7 +4573,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4592,7 +4592,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4611,7 +4611,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4630,7 +4630,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4649,7 +4649,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4668,7 +4668,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4687,7 +4687,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4706,7 +4706,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4725,7 +4725,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4744,7 +4744,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4763,7 +4763,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4782,7 +4782,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4801,7 +4801,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4820,7 +4820,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4839,7 +4839,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4858,7 +4858,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4877,7 +4877,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4896,7 +4896,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4915,7 +4915,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4934,7 +4934,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4953,7 +4953,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4972,7 +4972,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -4991,7 +4991,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -5010,7 +5010,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -5029,7 +5029,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -5048,7 +5048,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -5067,7 +5067,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -5086,7 +5086,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -5105,7 +5105,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -5124,7 +5124,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -5143,7 +5143,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -5162,7 +5162,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -5181,7 +5181,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -5200,7 +5200,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -5219,7 +5219,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -5238,7 +5238,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -5257,7 +5257,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -5276,7 +5276,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -5295,7 +5295,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -5314,7 +5314,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -5333,7 +5333,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -5352,7 +5352,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -5371,7 +5371,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -5390,7 +5390,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -5409,7 +5409,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/slogangenerator-icon-01.svg',
@@ -5428,7 +5428,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-testimonial-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/graphicdesignslogangenerator-icon-01.svg',
@@ -5447,7 +5447,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
     ],
     id: 383,
@@ -5473,7 +5473,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-prompt-generator',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-paragraph-scrambler.svg',
@@ -5491,7 +5491,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-prompt-generator',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-paragraph-scrambler.svg',
@@ -5509,7 +5509,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-prompt-generator',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-paragraph-scrambler.svg',
@@ -5527,7 +5527,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-prompt-generator',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-paragraph-scrambler.svg',
@@ -5545,7 +5545,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-prompt-generator',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-paragraph-scrambler.svg',
@@ -5563,7 +5563,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-prompt-generator',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-paragraph-scrambler.svg',
@@ -5582,7 +5582,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-prompt-generator',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/promptgenerator-icon-01.svg',
@@ -5601,7 +5601,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-prompt-generator',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/hixtranslate-icon-01.svg',
@@ -5658,7 +5658,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/bachelorette-hashtaggenerator.svg',
@@ -5677,7 +5677,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/biogenerator.svg',
@@ -5695,7 +5695,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-personalbios',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/songlyrics-icon-01.svg',
@@ -5714,7 +5714,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/speechgenerator-icon-01.svg',
@@ -5733,7 +5733,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/acronymgenerator-icon-01.svg',
@@ -5752,7 +5752,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/interviewquestion-icon-01.svg',
@@ -5771,7 +5771,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/moviescript-icon-01.svg',
@@ -5790,7 +5790,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/resumebullet-icon-01.svg',
@@ -5809,7 +5809,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/jobdescription-icon-01.svg',
@@ -5828,7 +5828,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-job-description',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/funeralspeechgenerator.svg',
@@ -5847,7 +5847,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/fooddescription-icon-01.svg',
@@ -5866,7 +5866,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/fiverrdescription-icon-01.svg',
@@ -5885,7 +5885,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/resumebio-icon-01.svg',
@@ -5904,7 +5904,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/startupideas-icon-01.svg',
@@ -5923,7 +5923,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/companyvisiongenerator.svg',
@@ -5942,7 +5942,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/marriageproposal-icon-01.svg',
@@ -5961,7 +5961,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/peoplealsoaskgenerator.svg',
@@ -5980,7 +5980,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-people-also-ask-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/retirementmessagegenerator.svg',
@@ -5999,7 +5999,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/resumeobjectives-icon-01.svg',
@@ -6018,7 +6018,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/nicheideasgenerator.svg',
@@ -6037,7 +6037,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-quote-generator.svg',
@@ -6056,7 +6056,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-quote-meaning-generator.svg',
@@ -6075,7 +6075,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address:
@@ -6095,7 +6095,7 @@ const aiWritingToolsData = [
         icon_class_name: null,
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/frame3068.svg',
@@ -6133,7 +6133,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-emoji-translation.svg',
@@ -6152,7 +6152,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-tools-happy-birthday.svg',
@@ -6171,7 +6171,7 @@ const aiWritingToolsData = [
         icon_class_name: '',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-tools-happy-birthday.svg',
@@ -6190,7 +6190,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-rap-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/cus-tools-happy-birthday.svg',
@@ -6209,7 +6209,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-4chan-greentext-generator',
         show_in_extension: true,
         url_jump: false,
-        tool_host: 'writer.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
     ],
     id: 57,
