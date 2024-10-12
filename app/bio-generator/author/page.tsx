@@ -1,58 +1,15 @@
-'use client';
-import React, { useState } from 'react';
+import Page from './page copy';
 
-import Header from '@/app/components/Header/Header';
-import AiWritingToolsTitle from '@/app/components/AiWritingToolsPage/AiWritingToolsTitle';
-import Footer from '@/app/components/Footer';
-import ToolsMain from '@/app/components/ToolsMain/ToolsMain';
-import MainContent from './component/MainContent';
-import Response from './component/Response';
-const EssayHookGenerator: React.FC = () => {
-  interface responseDateObject {
-    content: string;
-  }
-
-  // Default
-  const ToolType = 2;
-  const activeTool = 'Author Bio Generator';
-  const [responseDate, setResponseDate] = useState<responseDateObject[]>([]);
-
-  return (
-    <div>
-      <title>Author Bio Generator</title>
-      <meta
-        name="description"
-        content="Craft outstanding personal bios with our Author Bio Generator. Create a polished professional image effortlessly with this user-friendly tool."
-      />
-      <meta
-        name="keywords"
-        content="Author Bio Generator, create personal bio, professional bio tool, polished bios, outstanding bios, bio writing tool, personal branding"
-      />
-      <Header />
-      <div className="pb-12 relative overflow-hidden sm:pb-6 bg-gradient-to-b from-[#E8ECF8] to-white z-0 after:absolute after:left-0 after:-translate-x-[70%] after:top-0 after:w-full after:h-1/2 after:z-[-1] after:rounded-full after:blur-3xl after:bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] after:from-[#22C9A4] after:via-[#6A51FF] after:to-[#ECF4FF] after:opacity-25">
-        <AiWritingToolsTitle
-          title={activeTool}
-          desc="This is your go-to tool for crafting outstanding personal bios for a polished professional image."
-        />
-      </div>
-      <div className="mt-5">
-        <ToolsMain
-          main={
-            <MainContent
-              setResponseDate={setResponseDate}
-              activeTool={activeTool}
-            />
-          }
-          response={
-            <Response responseDate={responseDate} activeTool={activeTool} />
-          }
-          ToolType={ToolType}
-          activeTool={activeTool}
-        />
-      </div>
-      <Footer />
-    </div>
-  );
+const page = () => {
+  return <Page />;
 };
 
-export default EssayHookGenerator;
+export const metadata = {
+  title:
+    'Author Bio Generator: Craft Outstanding Personal Bios for a Professional Image',
+  description:
+    'Use our Author Bio Generator to create exceptional personal bios that enhance your professional image. Stand out with a polished and engaging bio effortlessly.',
+  keywords:
+    'author bio generator, personal bios, professional image, polished bios, writing tool, enhance profile',
+};
+export default page;

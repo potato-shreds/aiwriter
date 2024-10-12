@@ -1,49 +1,15 @@
-'use client';
-import React, { useState } from 'react';
+import Page from './page copy';
 
-import Header from '@/app/components/Header/Header';
-import AiWritingToolsTitle from '@/app/components/AiWritingToolsPage/AiWritingToolsTitle';
-import Footer from '@/app/components/Footer';
-import ToolsMain from '@/app/components/ToolsMain/ToolsMain';
-import MainContent from './component/MainContent';
-import Response from './component/Response';
-const EssayHookGenerator: React.FC = () => {
-  interface responseDateObject {
-    content: string;
-  }
-
-  // Default
-  const ToolType = 1;
-  const activeTool = 'AI Research Paper Generator';
-  const [responseDate, setResponseDate] = useState<responseDateObject[]>([]);
-
-  return (
-    <div>
-      <Header />
-      <div className="pb-12 relative overflow-hidden sm:pb-6 bg-gradient-to-b from-[#E8ECF8] to-white z-0 after:absolute after:left-0 after:-translate-x-[70%] after:top-0 after:w-full after:h-1/2 after:z-[-1] after:rounded-full after:blur-3xl after:bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] after:from-[#22C9A4] after:via-[#6A51FF] after:to-[#ECF4FF] after:opacity-25">
-        <AiWritingToolsTitle
-          title={activeTool}
-          desc="Transform your research journey with groundbreaking AI technology, effortlessly crafting academic papers that meet professional standards."
-        />
-      </div>
-      <div className="mt-5">
-        <ToolsMain
-          main={
-            <MainContent
-              setResponseDate={setResponseDate}
-              activeTool={activeTool}
-            />
-          }
-          response={
-            <Response responseDate={responseDate} activeTool={activeTool} />
-          }
-          ToolType={ToolType}
-          activeTool={activeTool}
-        />
-      </div>
-      <Footer />
-    </div>
-  );
+const page = () => {
+  return <Page />;
 };
 
-export default EssayHookGenerator;
+export const metadata = {
+  title: 'AI Research Paper Generator: Effortless Academic Writing',
+  description:
+    'Transform your research journey with our AI Research Paper Generator. Effortlessly craft high-quality academic papers that meet professional standards, streamlining your writing process.',
+  keywords:
+    'AI research paper generator, academic writing, paper generator, AI technology, professional standards, research tools',
+};
+
+export default page;

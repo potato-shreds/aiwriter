@@ -1,59 +1,12 @@
-'use client';
-import React, { useState } from 'react';
+import Page from './page copy';
 
-import Header from '@/app/components/Header/Header';
-import AiWritingToolsTitle from '@/app/components/AiWritingToolsPage/AiWritingToolsTitle';
-import Footer from '@/app/components/Footer';
-import ToolsMain from '@/app/components/ToolsMain/ToolsMain';
-import MainContent from './component/MainContent';
-import Response from './component/Response';
-
-const EssayHookGenerator: React.FC = () => {
-  interface responseDateObject {
-    content: string;
-  }
-
-  // Default
-  const ToolType = 2;
-  const activeTool = 'Free Spell Checker';
-  const [responseDate, setResponseDate] = useState<responseDateObject[]>([]);
-
-  return (
-    <>
-      <title>{activeTool}</title>
-      <meta
-        name="description"
-        content="Easily check spelling with our free online spell checker. Enhance your writing accuracy and avoid mistakes effortlessly!"
-      />
-      <meta
-        name="keywords"
-        content="Free Spell Checker, online spell checker, check spelling, writing tool, grammar checker, spelling correction, enhance writing accuracy"
-      />
-      <Header />
-      <div className="pb-12 relative overflow-hidden sm:pb-6 bg-gradient-to-b from-[#E8ECF8] to-white z-0 after:absolute after:left-0 after:-translate-x-[70%] after:top-0 after:w-full after:h-1/2 after:z-[-1] after:rounded-full after:blur-3xl after:bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] after:from-[#22C9A4] after:via-[#6A51FF] after:to-[#ECF4FF] after:opacity-25">
-        <AiWritingToolsTitle
-          title={activeTool}
-          desc="Easily check spelling with our free spell checker online."
-        />
-      </div>
-      <div className="mt-5">
-        <ToolsMain
-          main={
-            <MainContent
-              setResponseDate={setResponseDate}
-              activeTool={activeTool}
-            />
-          }
-          response={
-            <Response responseDate={responseDate} activeTool={activeTool} />
-          }
-          ToolType={ToolType}
-          activeTool={activeTool}
-        />
-      </div>
-      <Footer />
-    </>
-  );
+export const metadata = {
+  title: 'Free Spell Checker: Easily Check Spelling Online',
+  description:
+    'Ensure your writing is error-free with our Free Spell Checker. Easily check spelling online and enhance the quality of your content in seconds.',
+  keywords:
+    'free spell checker, online spelling check, error-free writing, spelling correction tool, writing enhancement',
 };
-
-export default EssayHookGenerator;
+export default function Home() {
+  return <Page />;
+}
