@@ -1,26 +1,22 @@
 'use client';
 import React, { useState } from 'react';
-import { Language } from '@/data/essay-rewriter';
+import api from '@/app/utils/gemini';
 
 const MainContent: React.FC = () => {
   const [originalText, setOriginalText] = useState('');
   const [rewrittenText, setRewrittenText] = useState('');
-  const [selectedLanguage, setSelectedLanguage] = useState('English');
-  const [selectedGoals, setSelectedGoals] = useState('English');
 
-  const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    setSelectedLanguage(event.target.value);
-    console.log(event.target.value);
+  const setData = () => {
+    api
+      .essayScrambler({
+        content1: originalText,
+      })
+      .then((res) => {
+        setRewrittenText(res.content);
+      });
   };
 
-  const handleGoalsChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    setSelectedGoals(event.target.value);
-    console.log(event.target.value);
-  };
-
-  const isSatisfy = () => {
-    return originalText.length > 0;
-  };
+  const isSatisfy = originalText.length > 0;
 
   return (
     <div className="flex flex-col py-4 h-full">
@@ -40,8 +36,14 @@ const MainContent: React.FC = () => {
             <div className="flex justify-end">
               <button
                 className={`bg-blue-400 text-white px-4 py-2 rounded-md ${
-                  !isSatisfy() && 'opacity-50 pointer-events-none'
+                  !isSatisfy && 'opacity-50 pointer-events-none'
                 } `}
+                onClick={() => {
+                  if (isSatisfy) {
+                    setData();
+                  } else {
+                  }
+                }}
               >
                 Humanize
               </button>

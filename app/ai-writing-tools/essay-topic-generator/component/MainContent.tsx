@@ -9,22 +9,34 @@ interface responseDateObject {
 interface MainContentProps {
   setResponseDate: React.Dispatch<React.SetStateAction<responseDateObject[]>>;
   activeTool: string;
+  responseDate: responseDateObject[];
 }
+import api from '@/app/utils/gemini';
 
 const MainContent: React.FC<MainContentProps> = ({
   setResponseDate,
   activeTool,
+  responseDate,
 }) => {
   const [content1, setContent1] = useState('');
   const [essayType, setEssayType] = useState(EssayType[0].name);
   const [academicLevel, setAcademicLevel] = useState(AcademicLevel[0].name);
   const [language, setLanguage] = useState(Language[0].name);
 
-  const isSatisfy = () => {
-    return content1;
+  const setData = () => {
+    api
+      .essayTopicGenerator({
+        content1,
+        essayType,
+        academicLevel,
+        language,
+      })
+      .then((res) => {
+        setResponseDate([...responseDate, { content: res.content }]);
+      });
   };
-  // Send a network request and get a response
-  const setResponse = () => {};
+
+  const isSatisfy = content1.length > 0;
 
   return (
     <div className="p-4 pl-0 pr-6 h-full">
@@ -90,11 +102,12 @@ const MainContent: React.FC<MainContentProps> = ({
         <div className="flex justify-end items-center mb-4">
           <button
             className={`bg-blue-500 text-white px-4 py-2 rounded-md ${
-              isSatisfy() ? '' : 'opacity-50 cursor-not-allowed'
+              isSatisfy ? '' : 'opacity-50 cursor-not-allowed'
             }`}
             onClick={() => {
-              if (isSatisfy()) {
-                setResponse();
+              if (isSatisfy) {
+                setData();
+              } else {
               }
             }}
           >

@@ -11,13 +11,33 @@ interface responseDateObject {
 }
 interface MainContentProps {
   setResponseDate: React.Dispatch<React.SetStateAction<responseDateObject[]>>;
+  responseDate: responseDateObject[];
 }
+import api from '@/app/utils/gemini';
 
-const MainContent: React.FC<MainContentProps> = ({ setResponseDate }) => {
+const MainContent: React.FC<MainContentProps> = ({
+  setResponseDate,
+  responseDate,
+}) => {
   const [language, setLanguage] = useState(Language[0].name);
   const [targetAudience, setTargetAudience] = useState(TargetAudience[0].name);
   const [toneOfVoice, setToneOfVoice] = useState(ToneOfVoice[0].name);
   const [content, setContent] = useState('');
+
+  const setData = () => {
+    api
+      .essayIntroductionGenerator({
+        content1: content,
+        language: language,
+        targetAudience: targetAudience,
+        toneOfVoice: toneOfVoice,
+      })
+      .then((res) => {
+        setResponseDate([...responseDate, { content: res.content }]);
+      });
+  };
+
+  const isSatisfy = content.length > 0;
 
   return (
     <div className="p-4 pl-0 pr-6 h-full ">
@@ -87,9 +107,14 @@ const MainContent: React.FC<MainContentProps> = ({ setResponseDate }) => {
 
         <div className="flex justify-end items-center mb-4">
           <button
-            className="bg-blue-500 text-white px-4 py-2 rounded-md"
+            className={`bg-blue-500 text-white px-4 py-2 rounded-md ${
+              isSatisfy ? '' : 'opacity-50 cursor-not-allowed'
+            } `}
             onClick={() => {
-              setResponseDate([{ content: 'sad' }]);
+              if (isSatisfy) {
+                setData();
+              } else {
+              }
             }}
           >
             Generate

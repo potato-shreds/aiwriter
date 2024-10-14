@@ -6,15 +6,18 @@ import { BookGenre } from '@/data/book-writer';
 interface responseDateObject {
   content: string;
 }
+import api from '@/app/utils/gemini';
 
 interface MainContentProps {
   setResponseDate: React.Dispatch<React.SetStateAction<responseDateObject[]>>;
   activeTool: string;
+  responseDate: responseDateObject[];
 }
 
 const MainContent: React.FC<MainContentProps> = ({
   setResponseDate,
   activeTool,
+  responseDate,
 }) => {
   const [content1, setContent1] = useState('');
 
@@ -25,8 +28,18 @@ const MainContent: React.FC<MainContentProps> = ({
   const isSatisfy = () => {
     return content1;
   };
-  // Send a network request and get a response
-  const setResponse = () => {};
+  const setData = () => {
+    api
+      .plot({
+        content1,
+        storyGenre,
+        toneOfVoice,
+        language,
+      })
+      .then((res) => {
+        setResponseDate([...responseDate, { content: res.content }]);
+      });
+  };
 
   return (
     <div className="p-4 pl-0 pr-6 h-full">
@@ -96,7 +109,7 @@ const MainContent: React.FC<MainContentProps> = ({
             }`}
             onClick={() => {
               if (isSatisfy()) {
-                setResponse();
+                setData();
               }
             }}
           >

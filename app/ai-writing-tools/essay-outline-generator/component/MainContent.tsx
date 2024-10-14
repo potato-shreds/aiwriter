@@ -5,6 +5,7 @@ import {
   ToneOfVoice,
 } from '@/data/essay-hook-generator';
 import { EssayType } from '@/data/essay-outline-generator';
+import api from '@/app/utils/gemini';
 
 interface responseDateObject {
   content: string;
@@ -12,11 +13,13 @@ interface responseDateObject {
 interface MainContentProps {
   setResponseDate: React.Dispatch<React.SetStateAction<responseDateObject[]>>;
   activeTool: string;
+  responseDate: responseDateObject[];
 }
 
 const MainContent: React.FC<MainContentProps> = ({
   setResponseDate,
   activeTool,
+  responseDate,
 }) => {
   const [language, setLanguage] = useState(Language[0].name);
   const [targetAudience, setTargetAudience] = useState(TargetAudience[0].name);
@@ -24,6 +27,23 @@ const MainContent: React.FC<MainContentProps> = ({
   const [essayType, setEssayType] = useState(EssayType[0].name);
   const [essayPurpose, setEssayPurpose] = useState('');
   const [essayTitle, setEssayTitle] = useState('');
+
+  const setData = () => {
+    api
+      .essayOutlineGenerator({
+        content1: essayTitle,
+        essayType: essayType,
+        essayPurpose: essayPurpose,
+        language: language,
+        targetAudience: targetAudience,
+        toneOfVoice: toneOfVoice,
+      })
+      .then((res) => {
+        setResponseDate([...responseDate, { content: res.content }]);
+      });
+  };
+
+  const isSatisfy = essayTitle.length > 0;
 
   return (
     <div className="p-4 pl-0 pr-6 h-full ">
@@ -118,7 +138,10 @@ const MainContent: React.FC<MainContentProps> = ({
           <button
             className="bg-blue-500 text-white px-4 py-2 rounded-md"
             onClick={() => {
-              setResponseDate([{ content: 'sad' }]);
+              if (isSatisfy) {
+                setData();
+              } else {
+              }
             }}
           >
             Generate

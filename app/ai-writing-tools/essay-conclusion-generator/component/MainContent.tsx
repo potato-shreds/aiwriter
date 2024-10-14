@@ -5,6 +5,7 @@ import {
   TargetAudience,
   ToneOfVoice,
 } from '@/data/essay-hook-generator';
+import api from '@/app/utils/gemini';
 
 interface responseDateObject {
   content: string;
@@ -12,17 +13,34 @@ interface responseDateObject {
 interface MainContentProps {
   setResponseDate: React.Dispatch<React.SetStateAction<responseDateObject[]>>;
   activeTool: string;
+  responseDate: responseDateObject[];
 }
 
 const MainContent: React.FC<MainContentProps> = ({
   setResponseDate,
   activeTool,
+  responseDate,
 }) => {
   const [articleTitle, setArticleTitle] = useState('');
   const [articleText, setArticleText] = useState('');
   const [targetAudience, setTargetAudience] = useState(TargetAudience[0].name);
   const [toneOfVoice, setToneOfVoice] = useState(ToneOfVoice[0].name);
   const [language, setLanguage] = useState(Language[0].name);
+
+  const setData = () => {
+    api
+      .essayConclusionGenerator({
+        content1: articleTitle,
+        content2: articleText,
+        language: language,
+        targetAudience: targetAudience,
+        toneOfVoice: toneOfVoice,
+      })
+      .then((res) => {
+        setResponseDate([...responseDate, { content: res.content }]);
+      });
+  };
+  const isSatisfy = articleTitle.length > 0 && articleText.length > 0;
 
   return (
     <div className="p-4 pl-0 pr-6 h-full ">
@@ -103,7 +121,10 @@ const MainContent: React.FC<MainContentProps> = ({
             } `}
             onClick={() => {
               if (articleText && articleTitle) {
-                setResponseDate([{ content: 'sad' }]);
+                if (isSatisfy) {
+                  setData();
+                } else {
+                }
               } else {
               }
             }}

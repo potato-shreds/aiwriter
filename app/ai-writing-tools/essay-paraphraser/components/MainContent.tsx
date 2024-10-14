@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { Language, Domain } from '@/data/essay-rewriter';
+import api from '@/app/utils/gemini';
 
 const MainContent: React.FC = () => {
   const [originalText, setOriginalText] = useState('');
@@ -24,6 +25,19 @@ const MainContent: React.FC = () => {
   };
   const isSatisfy = () => {
     return originalText && selectedLanguage && selectedDomain && selectedGoals;
+  };
+
+  const setData = () => {
+    api
+      .essayParaphraser({
+        content1: originalText,
+        language: selectedLanguage,
+        domain: selectedDomain,
+        outputLanguage: selectedGoals,
+      })
+      .then((res) => {
+        setRewrittenText(res.content);
+      });
   };
 
   return (
@@ -92,6 +106,12 @@ const MainContent: React.FC = () => {
                 className={`bg-blue-400 text-white px-4 py-2 rounded-md ${
                   isSatisfy() ? '' : 'opacity-50 cursor-not-allowed'
                 }`}
+                onClick={() => {
+                  if (isSatisfy()) {
+                    setData();
+                  } else {
+                  }
+                }}
               >
                 Rewrite
               </button>

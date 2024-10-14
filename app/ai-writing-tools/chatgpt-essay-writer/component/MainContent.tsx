@@ -12,11 +12,14 @@ interface responseDateObject {
 interface MainContentProps {
   setResponseDate: React.Dispatch<React.SetStateAction<responseDateObject[]>>;
   activeTool: string;
+  responseDate: responseDateObject[];
 }
+import api from '@/app/utils/gemini';
 
 const MainContent: React.FC<MainContentProps> = ({
   setResponseDate,
   activeTool,
+  responseDate,
 }) => {
   const [EssayTopic, setEssayTopic] = useState('');
   const [TargetKeyWords, setTargetKeyWords] = useState('');
@@ -27,7 +30,22 @@ const MainContent: React.FC<MainContentProps> = ({
   const [targetAudience, setTargetAudience] = useState(TargetAudience[0].name);
   const [toneOfVoice, setToneOfVoice] = useState(ToneOfVoice[0].name);
   const [language, setLanguage] = useState(Language[0].name);
-
+  const setData = () => {
+    api
+      .chatgptEssayWriter({
+        content1: EssayTopic,
+        content2: TargetKeyWords,
+        content3: ReferencingStyle,
+        content4: outlineSuggestions,
+        content5: essayTitle,
+        language: language,
+        targetAudience: targetAudience,
+        toneOfVoice: toneOfVoice,
+      })
+      .then((res) => {
+        setResponseDate([...responseDate, { content: res.content }]);
+      });
+  };
   const isSatisfy = useMemo(() => {
     return EssayTopic && TargetKeyWords && ReferencingStyle;
   }, [EssayTopic, TargetKeyWords, ReferencingStyle]);
@@ -143,7 +161,7 @@ const MainContent: React.FC<MainContentProps> = ({
             } `}
             onClick={() => {
               if (isSatisfy) {
-                setResponseDate([{ content: 'sad' }]);
+                setData();
               } else {
               }
             }}

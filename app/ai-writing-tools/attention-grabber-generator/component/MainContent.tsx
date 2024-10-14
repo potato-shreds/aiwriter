@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Language } from '@/data/essay-hook-generator';
 import { HookTypes, PaperGenre } from '@/data/attention-grabber-generator';
+import api from '@/app/utils/gemini';
 
 interface responseDateObject {
   content: string;
@@ -9,22 +10,33 @@ interface responseDateObject {
 interface MainContentProps {
   setResponseDate: React.Dispatch<React.SetStateAction<responseDateObject[]>>;
   activeTool: string;
+  responseDate: responseDateObject[];
 }
 
 const MainContent: React.FC<MainContentProps> = ({
   setResponseDate,
   activeTool,
+  responseDate,
 }) => {
   const [content1, setContent1] = useState('');
   const [hookTypes, setHookTypes] = useState(HookTypes[0].name);
   const [paperGenre, setPaperGenre] = useState(PaperGenre[0].name);
   const [language, setLanguage] = useState(Language[0].name);
 
-  const isSatisfy = () => {
-    return content1;
+  const setData = () => {
+    api
+      .attentionGrabberGenerator({
+        content1,
+        hookTypes,
+        paperGenre,
+        language,
+      })
+      .then((res) => {
+        setResponseDate([...responseDate, { content: res.content }]);
+      });
   };
-  // Send a network request and get a response
-  const setResponse = () => {};
+
+  const isSatisfy = content1.length > 0;
 
   return (
     <div className="p-4 pl-0 pr-6 h-full">
@@ -90,11 +102,12 @@ const MainContent: React.FC<MainContentProps> = ({
         <div className="flex justify-end items-center mb-4">
           <button
             className={`bg-blue-500 text-white px-4 py-2 rounded-md ${
-              isSatisfy() ? '' : 'opacity-50 cursor-not-allowed'
+              isSatisfy ? '' : 'opacity-50 cursor-not-allowed'
             }`}
             onClick={() => {
-              if (isSatisfy()) {
-                setResponse();
+              if (isSatisfy) {
+                setData();
+              } else {
               }
             }}
           >

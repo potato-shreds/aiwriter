@@ -8,11 +8,14 @@ interface responseDateObject {
 interface MainContentProps {
   setResponseDate: React.Dispatch<React.SetStateAction<responseDateObject[]>>;
   activeTool: string;
+  responseDate: responseDateObject[];
 }
+import api from '@/app/utils/gemini';
 
 const MainContent: React.FC<MainContentProps> = ({
   setResponseDate,
   activeTool,
+  responseDate,
 }) => {
   const [content1, setContent1] = useState('');
 
@@ -22,6 +25,17 @@ const MainContent: React.FC<MainContentProps> = ({
   const isSatisfy = useMemo(() => {
     return content1;
   }, [content1]);
+  const setData = () => {
+    api
+      .titleGenerator({
+        content1,
+        toneOfVoice,
+        language,
+      })
+      .then((res) => {
+        setResponseDate([...responseDate, { content: res.content }]);
+      });
+  };
 
   return (
     <div className="p-4 pl-0 pr-6 h-full ">
@@ -79,7 +93,7 @@ const MainContent: React.FC<MainContentProps> = ({
             } `}
             onClick={() => {
               if (isSatisfy) {
-                setResponseDate([{ content: 'sad' }]);
+                setData();
               } else {
               }
             }}

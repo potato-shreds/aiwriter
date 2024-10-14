@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from 'react';
+import api from '@/app/utils/gemini';
 import { Language } from '@/data/essay-hook-generator';
 
 interface responseDateObject {
@@ -8,15 +9,29 @@ interface responseDateObject {
 interface MainContentProps {
   setResponseDate: React.Dispatch<React.SetStateAction<responseDateObject[]>>;
   activeTool: string;
+  responseDate: responseDateObject[];
 }
 
 const MainContent: React.FC<MainContentProps> = ({
   setResponseDate,
   activeTool,
+  responseDate,
 }) => {
   const [pasteText, setPasteText] = useState('');
   const [summaryType, setSummaryType] = useState('Paragraph');
   const [language, setLanguage] = useState(Language[0].name);
+  const setData = () => {
+    api
+      .essayIntroductionGenerator({
+        content1: pasteText,
+        language: language,
+        summaryType: summaryType,
+      })
+      .then((res) => {
+        setResponseDate([...responseDate, { content: res.content }]);
+      });
+  };
+  const isSatisfy = pasteText.length > 0;
 
   return (
     <div className="p-4 pl-0 pr-6 h-full ">
@@ -71,7 +86,10 @@ const MainContent: React.FC<MainContentProps> = ({
               pasteText === '' ? 'opacity-50 cursor-not-allowed' : ''
             }`}
             onClick={() => {
-              setResponseDate([{ content: 'sad' }]);
+              if (isSatisfy) {
+                setData();
+              } else {
+              }
             }}
           >
             Generate

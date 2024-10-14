@@ -8,7 +8,7 @@ import MainContent from './components/MainContent';
 
 const EssayRewriter: React.FC = () => {
   // Default
-  const ToolType = 1;
+  const ToolType = 2;
   const activeTool = 'Sentence Rewriter';
   return (
     <div>

@@ -13,7 +13,7 @@ const EssayHookGenerator: React.FC = () => {
   }
 
   // Default
-  const ToolType = 1;
+  const ToolType = 2;
   const activeTool = 'Free Meta Description Generator';
   const [responseDate, setResponseDate] = useState<responseDateObject[]>([]);
 
@@ -32,6 +32,7 @@ const EssayHookGenerator: React.FC = () => {
             <MainContent
               setResponseDate={setResponseDate}
               activeTool={activeTool}
+              responseDate={responseDate}
             />
           }
           response={

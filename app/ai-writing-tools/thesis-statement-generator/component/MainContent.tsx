@@ -5,6 +5,7 @@ import {
   TargetAudience,
   ToneOfVoice,
 } from '@/data/essay-hook-generator';
+import api from '@/app/utils/gemini';
 
 interface responseDateObject {
   content: string;
@@ -12,11 +13,13 @@ interface responseDateObject {
 interface MainContentProps {
   setResponseDate: React.Dispatch<React.SetStateAction<responseDateObject[]>>;
   activeTool: string;
+  responseDate: responseDateObject[];
 }
 
 const MainContent: React.FC<MainContentProps> = ({
   setResponseDate,
   activeTool,
+  responseDate,
 }) => {
   const [thesisTopic, setThesisTopic] = useState('');
   const [topicMainIdea, setTopicMainIdea] = useState('');
@@ -27,7 +30,22 @@ const MainContent: React.FC<MainContentProps> = ({
   const [targetAudience, setTargetAudience] = useState(TargetAudience[0].name);
   const [toneOfVoice, setToneOfVoice] = useState(ToneOfVoice[0].name);
   const [language, setLanguage] = useState(Language[0].name);
-
+  const setData = () => {
+    api
+      .thesisStatementGenerator({
+        content1: thesisTopic,
+        content2: topicMainIdea,
+        content3: evidence,
+        content4: anotherEvidence,
+        content5: counterargument,
+        targetAudience,
+        toneOfVoice,
+        language,
+      })
+      .then((res) => {
+        setResponseDate([...responseDate, { content: res.content }]);
+      });
+  };
   const isSatisfy = useMemo(() => {
     return (
       thesisTopic &&
@@ -149,7 +167,7 @@ const MainContent: React.FC<MainContentProps> = ({
             } `}
             onClick={() => {
               if (isSatisfy) {
-                setResponseDate([{ content: 'sad' }]);
+                setData();
               } else {
               }
             }}

@@ -14,7 +14,7 @@ const EssayHookGenerator: React.FC = () => {
 
   // Default
   const ToolType = 2;
-  const activeTool = 'HIX Summarizer';
+  const activeTool = 'Summarizer';
   const [responseDate, setResponseDate] = useState<responseDateObject[]>([]);
 
   return (
@@ -32,6 +32,7 @@ const EssayHookGenerator: React.FC = () => {
             <MainContent
               setResponseDate={setResponseDate}
               activeTool={activeTool}
+              responseDate={responseDate}
             />
           }
           response={

@@ -12,10 +12,13 @@ interface responseDateObject {
 interface MainContentProps {
   setResponseDate: React.Dispatch<React.SetStateAction<responseDateObject[]>>;
   activeTool: string;
+  responseDate: responseDateObject[];
 }
+import api from '@/app/utils/gemini';
 
 const MainContent: React.FC<MainContentProps> = ({
   setResponseDate,
+  responseDate,
   activeTool,
 }) => {
   const [content, setContent] = useState('');
@@ -28,8 +31,20 @@ const MainContent: React.FC<MainContentProps> = ({
   const isSatisfy = () => {
     return content;
   };
-  // Send a network request and get a response
-  const setResponse = () => {};
+
+  const setData = () => {
+    api
+      .sentenceExpander({
+        content1: content,
+        targetAudience,
+        language,
+        toneOfVoice,
+        type,
+      })
+      .then((res) => {
+        setResponseDate([...responseDate, { content: res.content }]);
+      });
+  };
 
   return (
     <div className="p-4 pl-0 pr-6 h-full">
@@ -92,7 +107,7 @@ const MainContent: React.FC<MainContentProps> = ({
             <div className="w-1/2 flex flex-col p-2 mt-2">
               <h1>Type</h1>
               <select
-                onChange={(e) => setLanguage(e.target.value)}
+                onChange={(e) => setType(e.target.value)}
                 className="p-2 rounded-md border border-gray-200 mt-2"
               >
                 <option value="Make longer">Make longer</option>
@@ -109,7 +124,7 @@ const MainContent: React.FC<MainContentProps> = ({
             }`}
             onClick={() => {
               if (isSatisfy()) {
-                setResponse();
+                setData();
               }
             }}
           >
