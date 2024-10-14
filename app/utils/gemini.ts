@@ -802,6 +802,166 @@ const story = async (data: object) => {
     throw error;
   }
 };
+//--------
+const passage = async (data: object) => {
+  try {
+    const response = await axiosInstance.post('/api/generate/passage', data);
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const article = async (data: object) => {
+  try {
+    const response = await axiosInstance.post('/api/generate/article', data);
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const bulletPointsGenerator = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/bullet-points-generator',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const aboutUsGenerator = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/about-us-generator',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const termsAndConditionsGenerator = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/terms-and-conditions-generator',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const refundPolicyGenerator = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/refund-policy-generator',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+// --------
+
+const privacyPolicyGenerator = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/privacy-policy-generator',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const character = async (data: object) => {
+  try {
+    const response = await axiosInstance.post('/api/generate/character', data);
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const caseConverter = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/case-converter',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const author = async (data: object) => {
+  try {
+    const response = await axiosInstance.post('/api/generate/author', data);
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const professional = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/professional',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const realEstate = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/real-estate',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+
 const api = {
   essayWriter,
   essayChecker,
@@ -858,6 +1018,18 @@ const api = {
   titleGenerator,
   poemSummary,
   story,
+  passage,
+  article,
+  bulletPointsGenerator,
+  aboutUsGenerator,
+  termsAndConditionsGenerator,
+  refundPolicyGenerator,
+  privacyPolicyGenerator,
+  caseConverter,
+  author,
+  professional,
+  realEstate,
+  character,
 };
 
 export default api;
