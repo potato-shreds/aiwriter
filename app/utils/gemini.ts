@@ -881,7 +881,7 @@ const refundPolicyGenerator = async (data: object) => {
     throw error;
   }
 };
-// --------
+// -------
 
 const privacyPolicyGenerator = async (data: object) => {
   try {
@@ -961,6 +961,7 @@ const realEstate = async (data: object) => {
     throw error;
   }
 };
+// --------
 
 const api = {
   essayWriter,

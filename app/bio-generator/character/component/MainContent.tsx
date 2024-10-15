@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
-import {
-  Language,
-  TargetAudience,
-  ToneOfVoice,
-} from '@/data/essay-hook-generator';
+import { Language, ToneOfVoice } from '@/data/essay-hook-generator';
+import api from '@/app/utils/gemini';
 
 interface responseDateObject {
   content: string;
@@ -12,11 +9,13 @@ interface responseDateObject {
 interface MainContentProps {
   setResponseDate: React.Dispatch<React.SetStateAction<responseDateObject[]>>;
   activeTool: string;
+  responseDate: responseDateObject[];
 }
 
 const MainContent: React.FC<MainContentProps> = ({
   setResponseDate,
   activeTool,
+  responseDate,
 }) => {
   const [content1, setContent1] = useState('');
   const [content2, setContent2] = useState('');
@@ -28,8 +27,20 @@ const MainContent: React.FC<MainContentProps> = ({
   const isSatisfy = () => {
     return content1 && content3;
   };
-  // Send a network request and get a response
-  const setResponse = () => {};
+
+  const setData = () => {
+    api
+      .researchTitleGenerator({
+        content1,
+        content2,
+        content3,
+        toneOfVoice,
+        language,
+      })
+      .then((res) => {
+        setResponseDate([...responseDate, { content: res.content }]);
+      });
+  };
 
   return (
     <div className="p-4 pl-0 pr-6 h-full">
@@ -63,7 +74,7 @@ const MainContent: React.FC<MainContentProps> = ({
             <input
               className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
               placeholder="Enter a talking point"
-              onChange={(e) => setContent2(e.target.value)}
+              onChange={(e) => setContent3(e.target.value)}
             />
           </div>
           <div className="flex flex-wrap">
@@ -103,7 +114,7 @@ const MainContent: React.FC<MainContentProps> = ({
             }`}
             onClick={() => {
               if (isSatisfy()) {
-                setResponse();
+                setData();
               }
             }}
           >
