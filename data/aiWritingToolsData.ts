@@ -5541,7 +5541,7 @@ const aiWritingToolsData = [
         },
         tool_desc: '2 Week Notice Letter Templates: How To Write & Examples',
         tool_name_label: 'Write 2 Week Notice Letter',
-        tool_url: 'prompt-generator',
+        tool_url: 'templates/two-week-notice-letter',
         id: 1399,
         icon_class_name: 'i-cus--tools-prompt-generator',
         show_in_extension: false,
