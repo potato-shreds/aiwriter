@@ -30,7 +30,7 @@ const MainContent: React.FC<MainContentProps> = ({
   const [language, setLanguage] = useState(Language[0].name);
 
   const isSatisfy = () => {
-    return content1 && content2;
+    return content1;
   };
   const setData = () => {
     api

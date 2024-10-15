@@ -676,7 +676,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-blog-posts',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'articlegpt.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/blogposts.svg',
@@ -695,7 +695,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-blog-posts',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'articlegpt.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/blogposts.svg',
@@ -714,7 +714,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-blog-posts',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'articlegpt.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/blogposts.svg',
@@ -733,7 +733,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-blog-posts',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'articlegpt.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/metatitles.svg',
@@ -752,7 +752,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-meta-titles',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'articlegpt.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/metatitles.svg',
@@ -770,7 +770,7 @@ const aiWritingToolsData = [
         icon_class_name: 'i-cus--tools-meta-titles',
         show_in_extension: false,
         url_jump: false,
-        tool_host: 'articlegpt.hix.ai',
+        tool_host: '34.145.121.90:8040',
       },
       {
         icon_address: '/tool-icon/sentencerewriter.svg',

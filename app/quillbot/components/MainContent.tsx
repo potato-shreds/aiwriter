@@ -27,7 +27,7 @@ const MainContent: React.FC = () => {
     api
       .quillBot({
         content1: originalText,
-        language: selectedLanguage,
+        language: selectedGoals,
         outLanguage: selectedGoals,
         domain: selectedDomain,
       })
