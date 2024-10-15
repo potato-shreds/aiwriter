@@ -26,6 +26,7 @@ const Response: React.FC<ResponseProps> = ({ responseDate, activeTool }) => {
                   value={item.content}
                   className="w-full resize-none  border  rounded-md p-2"
                   disabled
+                  rows={10}
                 />
               </div>
             </div>

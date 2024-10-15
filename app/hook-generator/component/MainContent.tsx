@@ -8,23 +8,36 @@ interface responseDateObject {
 interface MainContentProps {
   setResponseDate: React.Dispatch<React.SetStateAction<responseDateObject[]>>;
   activeTool: string;
+  responseDate: responseDateObject[];
 }
+import api from '@/app/utils/gemini';
 
 const MainContent: React.FC<MainContentProps> = ({
   setResponseDate,
   activeTool,
+  responseDate,
 }) => {
   const [content1, setContent1] = useState('');
 
   const [hookTypes, setHookTypes] = useState('question');
-  const [paperDenre, setPaperDenre] = useState('essay');
+  const [paperGenre, setPaperGenre] = useState('essay');
   const [language, setLanguage] = useState(Language[0].name);
 
   const isSatisfy = () => {
     return content1;
   };
-  // Send a network request and get a response
-  const setResponse = () => {};
+  const setData = () => {
+    api
+      .hookGenerator({
+        content1,
+        hookTypes,
+        paperGenre,
+        language,
+      })
+      .then((res) => {
+        setResponseDate([...responseDate, { content: res.content }]);
+      });
+  };
 
   return (
     <div className="p-4 pl-0 pr-6 h-full">
@@ -61,7 +74,7 @@ const MainContent: React.FC<MainContentProps> = ({
             <div className="w-1/2 flex-1 flex flex-col p-2 mt-2">
               <h1>Paper genre (optional)</h1>
               <select
-                onChange={(e) => setPaperDenre(e.target.value)}
+                onChange={(e) => setPaperGenre(e.target.value)}
                 className="p-2 rounded-md border border-gray-200 mt-2"
               >
                 <option value="Paragraph">essay</option>
@@ -95,7 +108,7 @@ const MainContent: React.FC<MainContentProps> = ({
             }`}
             onClick={() => {
               if (isSatisfy()) {
-                setResponse();
+                setData();
               }
             }}
           >

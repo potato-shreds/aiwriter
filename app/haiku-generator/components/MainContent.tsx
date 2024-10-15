@@ -14,6 +14,7 @@ interface MainContentProps {
   activeTool: string;
   responseDate: responseDateObject[];
 }
+import api from '@/app/utils/gemini';
 
 const MainContent: React.FC<MainContentProps> = ({
   setResponseDate,
@@ -24,7 +25,17 @@ const MainContent: React.FC<MainContentProps> = ({
   const [content2, setContent2] = useState('');
 
   const [language, setLanguage] = useState(Language[0].name);
-
+  const setData = () => {
+    api
+      .haikuGenerator({
+        content1,
+        content2,
+        language,
+      })
+      .then((res) => {
+        setResponseDate([...responseDate, { content: res.content }]);
+      });
+  };
   const isSatisfy = () => {
     return content1;
   };
@@ -81,7 +92,7 @@ const MainContent: React.FC<MainContentProps> = ({
             } `}
             onClick={() => {
               if (isSatisfy()) {
-                setResponseDate([{ content: 'sad' }]);
+                setData();
               } else {
               }
             }}

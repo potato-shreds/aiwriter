@@ -963,6 +963,512 @@ const realEstate = async (data: object) => {
 };
 // --------
 
+const intro = async (data: object) => {
+  try {
+    const response = await axiosInstance.post('/api/generate/intro', data);
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const synonymsGenerator = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/synonyms-generator',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const activeToPassiveVoiceConverter = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/active-to-passive-voice-converter',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const spellChecker = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/spell-checker',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const punctuationChecker = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/punctuation-checker',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const wordCounter = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/word-counter',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+// --------
+
+const explainItToA5thGrader = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/explain-it-to-a-5th-grader',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const continueWriting = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/continue-writing',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const video = async (data: object) => {
+  try {
+    const response = await axiosInstance.post('/api/generate/video', data);
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const hookGenerator = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/hook-generator',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const sentenceShortener = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/sentence-shortener',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const plagiarismChecker = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/plagiarism-checker',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+// --------
+
+const talkingPointsToParagraph = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/talking-points-to-paragraph',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const problemAgitateSolutionPas = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/problem-agitate-solution-pas',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const attentionInterestDesireActionAida = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/attention-interest-desire-action-aida',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const beforeAfterBridgeBab = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/before-after-bridge-bab',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const questFormulaGenerator = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/quest-formula-generator',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const passiveToActiveVoiceConverter = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/passive-to-active-voice-converter',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+//--------
+const sentenceGenerator = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/sentence-generator',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const bookTitleGenerator = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/book-title-generator',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const faqGenerator = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/faq-generator',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const contentImprover = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/content-improver',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const prosAndConsGenerator = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/pros-and-cons-generator',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const sentenceSimplifier = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/sentence-simplifier',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+// ------
+const firstPersonToThirdPersonConverter = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/first-person-to-third-person-converter',
+      data
+    );
+    console.log('Response:', response.data);
+
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const subheadingGenerator = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/subheading-generator',
+      data
+    );
+    console.log('Response:', response.data);
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const onlineArticleSpinner = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/online-article-spinner',
+      data
+    );
+    console.log('Response:', response.data);
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const sentenceRephraser = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/sentence-rephraser',
+      data
+    );
+    console.log('Response:', response.data);
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const bypassAI = async (data: object) => {
+  try {
+    const response = await axiosInstance.post('/api/generate/bypass-ai', data);
+    console.log('Response:', response.data);
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const humanizeAI = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/humanize-ai',
+      data
+    );
+    console.log('Response:', response.data);
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+//------
+const undetectableAI = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/undetectable-ai',
+      data
+    );
+    console.log('Response:', response.data);
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+
+const quillBot = async (data: object) => {
+  try {
+    const response = await axiosInstance.post('/api/generate/quillbot', data);
+    console.log('Response:', response.data);
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+
+const paragraphScrambler = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/paragraph-scrambler',
+      data
+    );
+    console.log('Response:', response.data);
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+
+const haikuGenerator = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/haiku-generator',
+      data
+    );
+    console.log('Response:', response.data);
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+
+const topicSentenceGenerator = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/topic-sentence-generator',
+      data
+    );
+    console.log('Response:', response.data);
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+
+const plagiarismRemover = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/plagiarism-remover',
+      data
+    );
+    console.log('Response:', response.data);
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const aiTextGenerator = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/ai-text-generator',
+      data
+    );
+    console.log('Response:', response.data);
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
 const api = {
   essayWriter,
   essayChecker,
@@ -1031,6 +1537,43 @@ const api = {
   professional,
   realEstate,
   character,
+  intro,
+  synonymsGenerator,
+  activeToPassiveVoiceConverter,
+  spellChecker,
+  punctuationChecker,
+  wordCounter,
+  explainItToA5thGrader,
+  continueWriting,
+  video,
+  hookGenerator,
+  sentenceShortener,
+  plagiarismChecker,
+  talkingPointsToParagraph,
+  problemAgitateSolutionPas,
+  attentionInterestDesireActionAida,
+  beforeAfterBridgeBab,
+  questFormulaGenerator,
+  passiveToActiveVoiceConverter,
+  sentenceGenerator,
+  bookTitleGenerator,
+  faqGenerator,
+  contentImprover,
+  prosAndConsGenerator,
+  sentenceSimplifier,
+  bypassAI,
+  humanizeAI,
+  onlineArticleSpinner,
+  subheadingGenerator,
+  sentenceRephraser,
+  firstPersonToThirdPersonConverter,
+  undetectableAI,
+  quillBot,
+  paragraphScrambler,
+  haikuGenerator,
+  topicSentenceGenerator,
+  plagiarismRemover,
+  aiTextGenerator,
 };
 
 export default api;

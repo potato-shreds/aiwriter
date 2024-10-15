@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { Language, Domain } from '@/data/essay-rewriter';
+import api from '@/app/utils/gemini';
 
 const MainContent: React.FC = () => {
   const [originalText, setOriginalText] = useState('');
@@ -26,6 +27,17 @@ const MainContent: React.FC = () => {
     return originalText;
   };
 
+  const setData = () => {
+    api
+      .onlineArticleSpinner({
+        content1: originalText,
+        domain: selectedDomain,
+        language: selectedGoals,
+      })
+      .then((res) => {
+        setRewrittenText(res.content);
+      });
+  };
   return (
     <div className="flex flex-col py-4 h-full">
       <h2 className="text-base text-slate-500">AI Article Spinner</h2>
@@ -92,6 +104,12 @@ const MainContent: React.FC = () => {
                 className={`bg-blue-400 text-white px-4 py-2 rounded-md ${
                   isSatisfy() ? '' : 'cursor-not-allowed opacity-50'
                 } `}
+                onClick={() => {
+                  if (isSatisfy()) {
+                    setData();
+                  } else {
+                  }
+                }}
               >
                 Rewrite
               </button>

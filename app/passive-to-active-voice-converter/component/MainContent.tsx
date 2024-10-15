@@ -1,10 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import {
-  Language,
-  TargetAudience,
-  ToneOfVoice,
-} from '@/data/essay-hook-generator';
+import { Language } from '@/data/essay-hook-generator';
 
 interface responseDateObject {
   content: string;
@@ -14,6 +10,7 @@ interface MainContentProps {
   activeTool: string;
   responseDate: responseDateObject[];
 }
+import api from '@/app/utils/gemini';
 
 const MainContent: React.FC<MainContentProps> = ({
   setResponseDate,
@@ -26,6 +23,16 @@ const MainContent: React.FC<MainContentProps> = ({
 
   const isSatisfy = () => {
     return content1;
+  };
+  const setData = () => {
+    api
+      .passiveToActiveVoiceConverter({
+        content1,
+        language,
+      })
+      .then((res) => {
+        setResponseDate([...responseDate, { content: res.content }]);
+      });
   };
 
   return (
@@ -71,7 +78,7 @@ const MainContent: React.FC<MainContentProps> = ({
             } `}
             onClick={() => {
               if (isSatisfy()) {
-                setResponseDate([{ content: 'sad' }]);
+                setData();
               } else {
               }
             }}

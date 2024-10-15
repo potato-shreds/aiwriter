@@ -14,6 +14,7 @@ interface MainContentProps {
   activeTool: string;
   responseDate: responseDateObject[];
 }
+import api from '@/app/utils/gemini';
 
 const MainContent: React.FC<MainContentProps> = ({
   setResponseDate,
@@ -26,6 +27,19 @@ const MainContent: React.FC<MainContentProps> = ({
   const [targetAudience, setTargetAudience] = useState(TargetAudience[0].name);
   const [toneOfVoice, setToneOfVoice] = useState(ToneOfVoice[0].name);
   const [language, setLanguage] = useState(Language[0].name);
+  const setData = () => {
+    api
+      .contentImprover({
+        content1,
+        content2,
+        targetAudience,
+        toneOfVoice,
+        language,
+      })
+      .then((res) => {
+        setResponseDate([...responseDate, { content: res.content }]);
+      });
+  };
 
   const isSatisfy = () => {
     return content1;
@@ -115,7 +129,7 @@ const MainContent: React.FC<MainContentProps> = ({
             } `}
             onClick={() => {
               if (isSatisfy()) {
-                setResponseDate([{ content: 'sad' }]);
+                setData();
               } else {
               }
             }}

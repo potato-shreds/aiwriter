@@ -25,7 +25,7 @@ const MainContent: React.FC = () => {
   };
   const setData = () => {
     api
-      .essayRewriter({
+      .quillBot({
         content1: originalText,
         language: selectedLanguage,
         outLanguage: selectedGoals,
