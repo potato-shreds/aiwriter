@@ -8,16 +8,29 @@ interface responseDateObject {
 interface MainContentProps {
   setResponseDate: React.Dispatch<React.SetStateAction<responseDateObject[]>>;
   activeTool: string;
+  responseDate: responseDateObject[];
 }
+import api from '@/app/utils/gemini';
 
 const MainContent: React.FC<MainContentProps> = ({
   setResponseDate,
   activeTool,
+  responseDate,
 }) => {
   const [pasteText, setPasteText] = useState('');
   const [summaryType, setSummaryType] = useState('Paragraph');
   const [language, setLanguage] = useState(Language[0].name);
-
+  const setData = () => {
+    api
+      .researchPaperSummarizer({
+        content1: pasteText,
+        summaryType,
+        language,
+      })
+      .then((res) => {
+        setResponseDate([...responseDate, { content: res.content }]);
+      });
+  };
   return (
     <div className="p-4 pl-0 pr-6 h-full ">
       <div className="flex flex-col justify-between h-full p-4  bg-white rounded-2xl shadow-xl">
@@ -71,7 +84,7 @@ const MainContent: React.FC<MainContentProps> = ({
               pasteText === '' ? 'opacity-50 cursor-not-allowed' : ''
             }`}
             onClick={() => {
-              setResponseDate([{ content: 'sad' }]);
+              setData();
             }}
           >
             Generate

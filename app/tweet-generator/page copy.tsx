@@ -13,7 +13,7 @@ const EssayHookGenerator: React.FC = () => {
   }
 
   // Default
-  const ToolType = 3;
+  const ToolType = 4;
   const activeTool = 'Tweet & Threads Generator';
   const [responseDate, setResponseDate] = useState<responseDateObject[]>([]);
 

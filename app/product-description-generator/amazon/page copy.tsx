@@ -13,7 +13,7 @@ const EssayHookGenerator: React.FC = () => {
   }
 
   // Default
-  const ToolType = 3;
+  const ToolType = 5;
   const activeTool = 'Amazon Product Description Generator';
   const [responseDate, setResponseDate] = useState<responseDateObject[]>([]);
 
