@@ -24,7 +24,7 @@ const AiWritingTools: React.FC = () => {
       );
       setText([
         'Choose from ',
-        '318 templates',
+        '100+ templates',
         ' and bring your ideas to life with high-quality content.',
       ]);
       setPlaceholder('Search for an AI writing tool');
