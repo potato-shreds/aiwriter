@@ -1,6 +1,6 @@
 const aiWritingToolsData = [
   {
-    icon_address: '/tool-type-icon/academic-writing.svg',
+    icon_address: '/tool-type-icon/slogan.svg',
     tool_type_label: 'Academic Writing',
     tool_list: [
       {
@@ -484,7 +484,7 @@ const aiWritingToolsData = [
   },
 
   {
-    icon_address: '/tool-type-icon/slogan.svg',
+    icon_address: '/tool-type-icon/articles-seo.svg',
     tool_type_label: 'Articles & SEO',
     tool_list: [
       {
