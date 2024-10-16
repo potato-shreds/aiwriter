@@ -255,6 +255,7 @@ const templatesData = [
     updatedAt: '2023-09-08T11:01:35.000Z',
     role: {},
     services: [],
+    url: 'http://34.145.121.90:8040/templates/acceptance-interview',
   },
 ];
 
