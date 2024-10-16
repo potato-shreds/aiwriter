@@ -29,7 +29,7 @@ const EssayHookGenerator: React.FC = () => {
           main={
             <MainContent
               setResponseDate={setResponseDate}
-              activeTool={activeTool}
+              activeTool="Humanize AI Text"
               responseDate={responseDate}
             />
           }

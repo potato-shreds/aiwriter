@@ -13,7 +13,7 @@ const EssayRewriter: React.FC = () => {
     content: string;
   }
   // Default
-  const ToolType = 1;
+  const ToolType = 3;
   const [responseDate, setResponseDate] = useState<responseDateObject[]>([]);
   const activeTool = 'Haiku Generator';
   return (

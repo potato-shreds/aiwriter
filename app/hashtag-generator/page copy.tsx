@@ -14,7 +14,7 @@ const EssayHookGenerator: React.FC = () => {
 
   // Default
   const ToolType = 4;
-  const activeTool = 'Instagram Hashtag Generator';
+  const activeTool = 'Hashtag Generator';
   const [responseDate, setResponseDate] = useState<responseDateObject[]>([]);
 
   return (

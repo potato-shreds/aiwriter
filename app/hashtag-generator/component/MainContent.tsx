@@ -76,7 +76,7 @@ const MainContent: React.FC<MainContentProps> = ({
               </select>
             </div>
             <div className="w-1/2 flex-1 flex flex-col p-2 mt-2">
-              <h1>Number of output hashtags</h1>
+              <h1>Output Number</h1>
               <select
                 onChange={(e) => setNumber(e.target.value)}
                 className="p-2 rounded-md border border-gray-200 mt-2"

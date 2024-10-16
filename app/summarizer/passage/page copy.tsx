@@ -14,7 +14,7 @@ const EssayHookGenerator: React.FC = () => {
 
   // Default
   const ToolType = 2;
-  const activeTool = 'Passage Summarizer';
+  const activeTool = 'Passages Summarizer';
   const [responseDate, setResponseDate] = useState<responseDateObject[]>([]);
 
   return (

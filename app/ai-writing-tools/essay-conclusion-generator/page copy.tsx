@@ -14,7 +14,7 @@ const EssayHookGenerator: React.FC = () => {
 
   // Default
   const ToolType = 1;
-  const activeTool = 'Free Essay Conclusion Generator';
+  const activeTool = 'Essay Conclusion Generator';
   const [responseDate, setResponseDate] = useState<responseDateObject[]>([]);
 
   return (

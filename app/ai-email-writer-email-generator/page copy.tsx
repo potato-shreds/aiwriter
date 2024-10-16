@@ -14,8 +14,7 @@ const EssayHookGenerator: React.FC = () => {
 
   // Default
   const ToolType = 3;
-  const activeTool =
-    'Type // to Draft & Reply to Emails up to 10x Faster. Just Review and Send.';
+  const activeTool = 'AI Emails Writer';
   const [responseDate, setResponseDate] = useState<responseDateObject[]>([]);
 
   return (

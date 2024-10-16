@@ -9,7 +9,7 @@ import MainContent from './components/MainContent';
 const EssayRewriter: React.FC = () => {
   // Default
   const ToolType = 1;
-  const activeTool = 'Humanize AI Essay and Get 100% Human Score';
+  const activeTool = 'Humanize AI Essay';
   return (
     <div>
       <Header />

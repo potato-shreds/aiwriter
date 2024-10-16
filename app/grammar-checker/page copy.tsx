@@ -14,7 +14,7 @@ const EssayHookGenerator: React.FC = () => {
 
   // Default
   const ToolType = 2;
-  const activeTool = 'Free Grammar Checker';
+  const activeTool = 'Grammar Checker';
   const [responseDate, setResponseDate] = useState<responseDateObject[]>([]);
 
   return (
