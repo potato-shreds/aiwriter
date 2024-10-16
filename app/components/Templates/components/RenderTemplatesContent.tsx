@@ -4,6 +4,7 @@ type TemplateItem = {
   description: string;
   icon: string;
   tags: string;
+  url: string;
 };
 
 function getLink() {
@@ -27,21 +28,21 @@ function getLink() {
   return iosLink;
 }
 
-export const renderTemplatesContentItem = (item: TemplateItem) => {
-  const { id, name, description, icon } = item;
+export const renderTemplatesContentItem = (item: any) => {
+  const { id, name, description, icon, url } = item;
   const link = getLink();
   return (
     <a
       className="template__card"
       target="_blank"
-      href={link}
+      href={url}
       rel="noopener noreferrer"
       title={name}
       key={id}
     >
       <section>
         <div className="icon-list">
-          <div className="icon">{icon}</div>
+          {/* <div className="icon">{icon}</div> */}
         </div>
 
         <h3 className="title">{name}</h3>

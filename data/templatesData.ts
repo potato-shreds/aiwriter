@@ -22,8 +22,8 @@ const templatesData = [
     },
     id: 12,
     userId: 0,
-    name: 'Subject Lines',
-    description: 'Unique and Compelling Subject Line',
+    name: 'Thank You Email',
+    description: 'Thank You Email After Interview',
     prompt:
       "I'm looking for a cold email idea that will attract the attention of my [ideal customer persona] and persuade them to take [desired action] with a unique and compelling subject line.",
     tags: 'Email',
@@ -34,6 +34,7 @@ const templatesData = [
     updatedAt: '2023-09-08T11:01:35.000Z',
     role: {},
     services: [],
+    url: 'http://34.145.121.90:8040/templates/thank-you-email-after-interview',
   },
   {
     serviceIds: null,
@@ -58,8 +59,8 @@ const templatesData = [
     },
     id: 13,
     userId: 0,
-    name: 'Welcome Email',
-    description: 'Welcome email',
+    name: 'Happy Birthday',
+    description: 'Happy Birthday Message',
     prompt:
       'Write a welcome email for [Product Name] which does the following [Description of Product] with the following benefits [Benefits of Product] and has the following[Call to Action to for users]',
     tags: 'Email',
@@ -70,6 +71,7 @@ const templatesData = [
     updatedAt: '2023-09-08T11:01:35.000Z',
     role: {},
     services: [],
+    url: 'http://34.145.121.90:8040/templates/happy-birthday-message',
   },
   {
     serviceIds: null,
@@ -94,10 +96,9 @@ const templatesData = [
     },
     id: 14,
     userId: 0,
-    name: 'Sales Email',
-    description: 'Sales Email',
-    prompt:
-      'Write a sales email for [Product description] and [Call to action]',
+    name: 'Wedding Message',
+    description: '100 Wedding Message Examples',
+    prompt: '100 Wedding Message Examples',
     tags: 'Email',
     icon: '💰',
     roleId: null,
@@ -106,6 +107,7 @@ const templatesData = [
     updatedAt: '2023-09-08T11:01:35.000Z',
     role: {},
     services: [],
+    url: 'http://34.145.121.90:8040/templates/wedding-message',
   },
   {
     serviceIds: null,
@@ -130,8 +132,8 @@ const templatesData = [
     },
     id: 15,
     userId: 0,
-    name: 'Discount Email',
-    description: 'Discount or Offer Email',
+    name: 'Resignation Letter',
+    description: '5 Resignation Letter Templates',
     prompt:
       'Write a discount or offer email for [Item name] with [Discount/offer] and [Call to action]',
     tags: 'Email',
@@ -142,6 +144,7 @@ const templatesData = [
     updatedAt: '2023-09-08T11:01:35.000Z',
     role: {},
     services: [],
+    url: 'http://34.145.121.90:8040/templates/resignation-letter',
   },
   {
     serviceIds: null,
@@ -166,8 +169,8 @@ const templatesData = [
     },
     id: 16,
     userId: 0,
-    name: 'Call-to-Action',
-    description: 'Make a Call-to-Action',
+    name: 'Email To Professor',
+    description: '10 Email Templates to Professors',
     prompt:
       "I'm looking for a cold DM idea that will provide a sneak peek of upcoming products or services and create a sense of anticipation and excitement for my [ideal customer persona] with a clear and compelling call-to-action.",
     tags: 'Email',
@@ -178,6 +181,7 @@ const templatesData = [
     updatedAt: '2023-09-08T11:01:35.000Z',
     role: {},
     services: [],
+    url: 'http://34.145.121.90:8040/templates/email-to-professor',
   },
   {
     serviceIds: null,
@@ -202,8 +206,8 @@ const templatesData = [
     },
     id: 17,
     userId: 0,
-    name: 'Engaging Story',
-    description: 'Engaging Story about Products',
+    name: '2 Week Notice Letter',
+    description: '2-Week Notice Template Examples',
     prompt:
       'I need a cold DM idea that will tell a story about my [product/service] and how it has helped [ideal customer persona] achieve their [goal] in a relatable and engaging way.',
     tags: 'Email',
@@ -214,6 +218,7 @@ const templatesData = [
     updatedAt: '2023-09-08T11:01:35.000Z',
     role: {},
     services: [],
+    url: 'http://34.145.121.90:8040/templates/two-week-notice-letter',
   },
   {
     serviceIds: null,
@@ -238,8 +243,8 @@ const templatesData = [
     },
     id: 18,
     userId: 0,
-    name: 'Step-by-step Guide',
-    description: 'Provide Step-by-step Guide',
+    name: 'Acceptance Interview Email',
+    description: 'Crafting a Job Acceptance Email',
     prompt:
       "I'm looking for a cold email idea that will provide a step-by-step guide on how to use my [product/service] and persuade my [ideal customer persona] to make a purchase with clear and compelling instructions.",
     tags: 'Email',
@@ -251,78 +256,9 @@ const templatesData = [
     role: {},
     services: [],
   },
-  {
-    serviceIds: null,
-    functions: null,
-    configs: {
-      gpt: {
-        model: 'gpt-3.5-turbo-0613',
-        max_history: 5,
-        max_tokens: 2000,
-        temperature: 0.7,
-        top_p: 1,
-        frequency_penalty: 0,
-        presence_penalty: 0,
-      },
-      function: {
-        auto_run: false,
-        auto_continue: false,
-        continue_prompt: 'Continue',
-        max_consecutive_function_calls: 3,
-        continue_when_failed: false,
-      },
-    },
-    id: 19,
-    userId: 0,
-    name: 'Compare Products',
-    description: 'Compare Products with Similar Options',
-    prompt:
-      'I need a cold email idea that will compare my [product/service] to similar options on the market and persuade my [ideal customer persona] to choose us with clear and compelling evidence.',
-    tags: 'Email',
-    icon: '🔄',
-    roleId: null,
-    status: 1,
-    createdAt: '2023-09-08T11:01:35.000Z',
-    updatedAt: '2023-09-08T11:01:35.000Z',
-    role: {},
-    services: [],
-  },
-  {
-    serviceIds: null,
-    functions: null,
-    configs: {
-      gpt: {
-        model: 'gpt-3.5-turbo-0613',
-        max_history: 5,
-        max_tokens: 2000,
-        temperature: 0.7,
-        top_p: 1,
-        frequency_penalty: 0,
-        presence_penalty: 0,
-      },
-      function: {
-        auto_run: false,
-        auto_continue: false,
-        continue_prompt: 'Continue',
-        max_consecutive_function_calls: 3,
-        continue_when_failed: false,
-      },
-    },
-    id: 20,
-    userId: 0,
-    name: 'Customer Feedback',
-    description: 'Emails Asking for Customer Feedback',
-    prompt:
-      'Write [number] emails that ask for customer feedback and provide incentives for completing surveys or leaving reviews. \n* Context: Feedback topic — [what do you want feedback on?] \n* Incentive — [what incentive do you want to offer?] \n* Call to action — [what action do you want the customer to take?] \n* Inspiration: "[email inspiration one]" "[email inspiration two]" "[email inspiration three]" \n* Formatting guidelines: "[your formatting guidelines here]',
-    tags: 'Email',
-    icon: '🗣️',
-    roleId: null,
-    status: 1,
-    createdAt: '2023-09-08T11:01:35.000Z',
-    updatedAt: '2023-09-08T11:01:35.000Z',
-    role: {},
-    services: [],
-  },
+];
+
+const a = [
   {
     serviceIds: null,
     functions: null,
@@ -17752,9 +17688,9 @@ const templatesData = [
   },
 ];
 
-const tagsData = Array.from(new Set(templatesData.map((item) => item.tags))).sort(
-  (a, b) => a.localeCompare(b)
-);
+const tagsData = Array.from(
+  new Set(templatesData.map((item) => item.tags))
+).sort((a, b) => a.localeCompare(b));
 if (!tagsData.includes('All')) {
   tagsData.unshift('All');
 }

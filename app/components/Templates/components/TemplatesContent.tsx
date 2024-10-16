@@ -18,6 +18,7 @@ type TemplateItem = {
   description: string;
   icon: string;
   tags: string;
+  url: string;
 };
 
 const TemplatesContent: React.FC<TemplatesContentProps> = ({ currentTag }) => {
@@ -26,9 +27,7 @@ const TemplatesContent: React.FC<TemplatesContentProps> = ({ currentTag }) => {
 
   return (
     <div className="templates__list">
-      {templateList.map((item: TemplateItem) =>
-        renderTemplatesContentItem(item)
-      )}
+      {templateList.map((item: object) => renderTemplatesContentItem(item))}
     </div>
   );
 };

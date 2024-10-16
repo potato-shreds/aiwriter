@@ -11,6 +11,7 @@ type TemplateItem = {
   description: string;
   icon: string;
   tags: string;
+  url: string;
 };
 
 interface DialogProps {
@@ -45,7 +46,7 @@ const Dialog: React.FC<DialogProps> = ({ closeDialog }) => {
           </header>
 
           <div className="dialog__content flex-1 overflow-auto">
-            {templatesData.map((item: TemplateItem) =>
+            {templatesData.map((item: object) =>
               renderTemplatesContentItem(item)
             )}
           </div>

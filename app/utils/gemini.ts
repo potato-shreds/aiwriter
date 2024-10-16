@@ -1469,7 +1469,91 @@ const aiTextGenerator = async (data: object) => {
     throw error;
   }
 };
+// --------
+const aiEmailWriterEmailGenerator = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/ai-text-generator',
+      data
+    );
+    console.log('Response:', response.data);
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const subjectLine = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/subject-line',
+      data
+    );
+    console.log('Response:', response.data);
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+// ---------
+const hashtagGenerator = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/hashtag-generator',
+      data
+    );
+    console.log('Response:', response.data);
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const tweetGenerator = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/tweet-generator',
+      data
+    );
+    console.log('Response:', response.data);
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+// --------
+const productDescriptionGenerator = async (data: object) => {
+  try {
+    const response = await axiosInstance.post(
+      '/api/generate/product-description-generator',
+      data
+    );
+    console.log('Response:', response.data);
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
+const amazon = async (data: object) => {
+  try {
+    const response = await axiosInstance.post('/api/generate/amazon', data);
+    console.log('Response:', response.data);
+    return response.data;
+  } catch (error) {
+    console.error('Error:', error);
+    throw error;
+  }
+};
 const api = {
+  productDescriptionGenerator,
+  amazon,
+  tweetGenerator,
+  hashtagGenerator,
+  subjectLine,
+  aiEmailWriterEmailGenerator,
   essayWriter,
   essayChecker,
   essayRewriter,

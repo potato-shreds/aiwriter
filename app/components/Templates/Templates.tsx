@@ -20,7 +20,7 @@ const Templates: React.FC<TemplatesProps> = ({ showMore }) => {
 
   return (
     <section id="Templates" className="templates mx-auto max-w-7xl pb-16">
-      <Tabs setParentCurrentTag={setParentCurrentTag} />
+      {/* <Tabs setParentCurrentTag={setParentCurrentTag} /> */}
 
       <h2 className="mx-auto section__title templates-title">
         Generate content in seconds
@@ -28,13 +28,13 @@ const Templates: React.FC<TemplatesProps> = ({ showMore }) => {
 
       <TemplatesContent currentTag={currentTag} />
 
-      <div
+      {/* <div
         data-v-83a1617b=""
         className="show-more__button pc"
         onClick={showMore}
       >
         View More
-      </div>
+      </div> */}
     </section>
   );
 };
