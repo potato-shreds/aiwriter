@@ -1,3 +1,5 @@
+import { url } from 'inspector';
+
 const templatesData = [
   {
     serviceIds: null,
@@ -64,7 +66,7 @@ const templatesData = [
     prompt:
       'Write a welcome email for [Product Name] which does the following [Description of Product] with the following benefits [Benefits of Product] and has the following[Call to Action to for users]',
     tags: 'Email',
-    icon: '💌',
+    icon: '🎁',
     roleId: null,
     status: 1,
     createdAt: '2023-09-08T11:01:35.000Z',
@@ -100,7 +102,7 @@ const templatesData = [
     description: '100 Wedding Message Examples',
     prompt: '100 Wedding Message Examples',
     tags: 'Email',
-    icon: '💰',
+    icon: '✨',
     roleId: null,
     status: 1,
     createdAt: '2023-09-08T11:01:35.000Z',
@@ -137,7 +139,7 @@ const templatesData = [
     prompt:
       'Write a discount or offer email for [Item name] with [Discount/offer] and [Call to action]',
     tags: 'Email',
-    icon: '🎁',
+    icon: '🤝',
     roleId: null,
     status: 1,
     createdAt: '2023-09-08T11:01:35.000Z',
@@ -243,7 +245,7 @@ const templatesData = [
     },
     id: 18,
     userId: 0,
-    name: 'Acceptance Interview Email',
+    name: 'Acceptance Interview',
     description: 'Crafting a Job Acceptance Email',
     prompt:
       "I'm looking for a cold email idea that will provide a step-by-step guide on how to use my [product/service] and persuade my [ideal customer persona] to make a purchase with clear and compelling instructions.",
@@ -257,9 +259,7 @@ const templatesData = [
     services: [],
     url: 'http://34.145.121.90:8040/templates/acceptance-interview',
   },
-];
 
-const a = [
   {
     serviceIds: null,
     functions: null,
@@ -283,10 +283,10 @@ const a = [
     },
     id: 21,
     userId: 0,
-    name: 'Follow-up Email',
-    description: 'Follow-up Email after Event',
+    name: 'AI Essay Writer',
+    description: 'Generate plagiarism-free essays and assignments',
     prompt:
-      'I recently attended a networking event and met several potential collaborators.\nI need a template for a follow-up email that I can send them to express my interest in further discussions.\nThe event was about [Insert event topic].',
+      'Generate plagiarism-free essays and assignments with our free AI essay writer..',
     tags: 'Email',
     icon: '🔁',
     roleId: null,
@@ -295,6 +295,7 @@ const a = [
     updatedAt: '2023-09-08T11:01:35.000Z',
     role: {},
     services: [],
+    url: 'http://34.145.121.90:8040/ai-writing-tools/essay-writer',
   },
   {
     serviceIds: null,
@@ -319,10 +320,9 @@ const a = [
     },
     id: 22,
     userId: 0,
-    name: 'Re-Engagement',
-    description: 'Personalized Re-Engagement Emails',
-    prompt:
-      'Develop [number] personalized re-engagement emails that address specific reasons why subscribers became inactive. \n* Context: Audience - [your target audience here] \n* Reasons for inactivity - [your reasons here] \n* Inspiration: ""[personalization inspiration one]"" ""[personalization inspiration two]"" ""[personalization inspiration three]"" \n* Formatting guidelines: ""[your formatting guidelines here]"',
+    name: 'Hashtag Generator',
+    description: 'Generate popular tags',
+    prompt: '',
     tags: 'Email',
     icon: '🔥',
     roleId: null,
@@ -331,6 +331,7 @@ const a = [
     updatedAt: '2023-09-08T11:01:35.000Z',
     role: {},
     services: [],
+    url: 'http://34.145.121.90:8040/hashtag-generator',
   },
   {
     serviceIds: null,
@@ -355,10 +356,9 @@ const a = [
     },
     id: 23,
     userId: 0,
-    name: 'Theme-driven',
-    description: 'theme-driven Emails with Helpful Resources',
-    prompt:
-      'Write [number] theme-driven emails that provide helpful resources and encourage inactive subscribers to engage with my brand. \n* Context: Audience - [your target audience here] \n* Email content - [your content topics here] \n* Inspiration: ""[theme-driven email inspiration one]"" ""[theme-driven email inspiration two]"" ""[theme-driven email inspiration three]"" \n* Formatting guidelines: ""[your formatting guidelines here]"',
+    name: 'Essay Rewriter',
+    description: 'Take your essays to the next level',
+    prompt: '',
     tags: 'Email',
     icon: '🎭',
     roleId: null,
@@ -367,6 +367,7 @@ const a = [
     updatedAt: '2023-09-08T11:01:35.000Z',
     role: {},
     services: [],
+    url: 'http://34.145.121.90:8040/ai-writing-tools/essay-rewriter',
   },
   {
     serviceIds: null,
@@ -391,8 +392,8 @@ const a = [
     },
     id: 24,
     userId: 0,
-    name: 'Email for Free Trial',
-    description: 'Create an Email to Send a Free Trial',
+    name: 'Essay Paraphraser Free',
+    description: 'expert text paraphrasing and content enhancing',
     prompt:
       'Create an email to send [prospect’s name] a free trial of [product/service].',
     tags: 'Email',
@@ -403,6 +404,7 @@ const a = [
     updatedAt: '2023-09-08T11:01:35.000Z',
     role: {},
     services: [],
+    url: 'http://34.145.121.90:8040/ai-writing-tools/essay-paraphraser',
   },
   {
     serviceIds: null,
@@ -427,19 +429,22 @@ const a = [
     },
     id: 25,
     userId: 0,
-    name: 'Closing e-mail',
-    description: 'Write a Closing e-mail  to customer',
+    name: 'Essay Extender',
+    description: 'Easily make your essay longer',
     prompt:
       "Dear [Partner's Name], to facilitate the decision-making process, I would like to summarize the key terms and conditions we have agreed upon thus far:\n1. Partnership Overview: [...].\n2. Roles and Responsibilities: [...].\n3. Financial Considerations: [...].\n4. Intellectual Property Rights: [...].\n5. Confidentiality and Non -Disclosure:[…].",
     tags: 'Email',
-    icon: '🔒',
+    icon: '📝',
     roleId: null,
     status: 1,
     createdAt: '2023-09-08T11:01:36.000Z',
     updatedAt: '2023-09-08T11:01:36.000Z',
     role: {},
     services: [],
+    url: 'http://34.145.121.90:8040/ai-writing-tools/essay-expander',
   },
+];
+const a = [
   {
     serviceIds: null,
     functions: null,

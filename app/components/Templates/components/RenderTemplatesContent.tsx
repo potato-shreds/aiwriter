@@ -42,7 +42,7 @@ export const renderTemplatesContentItem = (item: any) => {
     >
       <section>
         <div className="icon-list">
-          {/* <div className="icon">{icon}</div> */}
+          <div className="icon">{icon}</div>
         </div>
 
         <h3 className="title">{name}</h3>
