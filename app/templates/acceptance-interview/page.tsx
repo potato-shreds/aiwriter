@@ -2,6 +2,7 @@ import './styles.css';
 import React from 'react';
 import Image from 'next/image';
 import Footer from '@/app//components/Footer';
+import config from '@/data/config';
 
 const page: React.FC = () => {
   return (
@@ -16,7 +17,10 @@ const page: React.FC = () => {
           </header>
           <div className="flex justify-center mt-10">
             <button className="bg-black text-white px-6 py-5 rounded-md">
-              <a href="#" title="Write Acceptance Interview Email">
+              <a
+                href={config.httpUrl + 'ai-email-writer-email-generator'}
+                title="Write Email To Professor"
+              >
                 Write Acceptance Interview Email
               </a>
             </button>
@@ -246,8 +250,11 @@ const page: React.FC = () => {
                 <p>No credit card required</p>
                 <p>2,000 free words per month</p>
                 <p>90+ content types to explore</p>
-                <button className="bg-black text-white px-6 py-5 rounded-md mt-6">
-                  <a href="#" title="Write Acceptance Interview Email">
+                <button className="bg-black text-white px-6 py-5 rounded-md mt-5">
+                  <a
+                    href={config.httpUrl + 'ai-email-writer-email-generator'}
+                    title="Write Email To Professor"
+                  >
                     Get Started for Free
                   </a>
                 </button>

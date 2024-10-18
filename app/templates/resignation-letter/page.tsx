@@ -1,6 +1,7 @@
 import './styles.css';
 import Image from 'next/image';
 import Footer from '@/app//components/Footer';
+import config from '@/data/config';
 
 const page = () => {
   return (
@@ -15,7 +16,12 @@ const page = () => {
 
           <div className="flex justify-center mt-10">
             <button className="bg-black text-white px-6 py-5 rounded-md">
-              <a href="#">Write Resignation Letter</a>
+              <a
+                href={config.httpUrl + 'ai-email-writer-email-generator'}
+                title="Write Email To Professor"
+              >
+                Write Resignation Letter
+              </a>
             </button>
           </div>
         </div>
@@ -265,10 +271,18 @@ const page = () => {
                   Write 10x faster, engage your audience, & never struggle with
                   the blank page again.
                 </p>
-                <p>Get Started for Free</p>
+
                 <p>No credit card required</p>
                 <p>2,000 free words per month</p>
                 <p>90+ content types to explore</p>
+                <button className="bg-black text-white px-6 py-5 rounded-md mt-5">
+                  <a
+                    href={config.httpUrl + 'ai-email-writer-email-generator'}
+                    title="Write Email To Professor"
+                  >
+                    Get Started for Free
+                  </a>
+                </button>
               </div>
             </div>
           </div>
