@@ -63,7 +63,6 @@ const AiWritingTools: React.FC = () => {
         setActiveTab={changeTab}
         searchValue={search}
       />
-      <Recommendation />
       <Footer />
     </div>
   );
