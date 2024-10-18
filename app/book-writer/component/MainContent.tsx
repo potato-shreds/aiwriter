@@ -53,7 +53,7 @@ const MainContent: React.FC<MainContentProps> = ({
             <h1>Describe the book you want to create</h1>
             <textarea
               rows={5}
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none resize-none"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               placeholder="An adventure where someone leaves everything he or she knows, faces danger and excitement along the way, and with a little luck, gets to his or her final destination safely and with a story to tell."
               onChange={(e) => setContent1(e.target.value)}
             />

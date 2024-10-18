@@ -44,7 +44,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h3>Content to explain</h3>
             <textarea
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none resize-none "
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none "
               placeholder="Data analytics help a business optimize its performance, perform more efficiently, maximize profit, or make more strategically-guided decisions."
               onChange={(e) => setContent1(e.target.value)}
               rows={5}

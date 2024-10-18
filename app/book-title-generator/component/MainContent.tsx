@@ -51,7 +51,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h3>What is your book about?</h3>
             <textarea
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none resize-none"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               placeholder="Dark Intercept, is the story of a former Navy SEAL Jedidiah Johnson’s journey to rediscover his faith while rescuing the kidnapped daughter of his estranged and former love."
               onChange={(e) => setContent1(e.target.value)}
               rows={5}

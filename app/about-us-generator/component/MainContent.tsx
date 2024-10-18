@@ -57,7 +57,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>Business information</h1>
             <textarea
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none resize-none"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               placeholder="Since its founding in 1970, the Five-Star Stories has been dedicated to providing fearless, high-quality local journalism, especially in times of crisis."
               onChange={(e) => setContent1(e.target.value)}
               rows={5}

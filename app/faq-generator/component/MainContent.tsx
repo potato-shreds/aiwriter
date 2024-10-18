@@ -55,7 +55,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h3>FAQ Topic</h3>
             <textarea
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none resize-none"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               placeholder="Tell us where these FAQs will be used. Example: customer support"
               onChange={(e) => setContent1(e.target.value)}
               rows={5}
@@ -64,7 +64,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h3>FAQ source (optional)</h3>
             <textarea
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none resize-none"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               placeholder="Paste your text sources for generating FAQs."
               onChange={(e) => setContent2(e.target.value)}
               rows={5}
