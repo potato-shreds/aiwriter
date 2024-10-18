@@ -48,7 +48,7 @@ const MainContent: React.FC<MainContentProps> = ({
 
   return (
     <div className="p-4 pl-0 pr-6 h-full">
-      <div className="flex flex-col justify-between h-full p-4 bg-white rounded-2xl shadow-xl">
+      <div className="flex flex-col justify-between h-full p-4 bg-white rounded-2xl shadow-xl resize-none">
         <div className="overflow-y-scroll">
           <div className="flex">
             <h1>{activeTool}</h1>
@@ -59,7 +59,7 @@ const MainContent: React.FC<MainContentProps> = ({
             <input
               type="text"
               className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 font-serif"
-              placeholder="10 best ways to increase your sales volume with copywriting"
+              placeholder="10 best ways to increase your sales volume with copy...."
               onChange={(e) => setContent1(e.target.value)}
             />
           </div>

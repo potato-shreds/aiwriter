@@ -33,7 +33,7 @@ const MainContent: React.FC<MainContentProps> = ({
   const isSatisfy = content1.length > 0;
   return (
     <div className="p-4 pl-0 pr-6 h-full">
-      <div className="flex flex-col justify-between h-full p-4 bg-white rounded-2xl shadow-xl">
+      <div className="flex flex-col justify-between h-full p-4 bg-white rounded-2xl shadow-xl resize-none">
         <div className="">
           <div className="flex">
             <h1>{activeTool}</h1>
