@@ -16,7 +16,7 @@ const Recommendation: React.FC = () => {
   };
 
   return (
-    <div className="py-12 lg:py-8 max-w-[800px] px-4 mx-auto">
+    <div className="py-12 lg:py-8 max-w-[800px] px-4 mx-auto text-white">
       <div className="flex flex-row gap-6 text-left justify-between flex-wrap">
         <dl className=" flex flex-col space-y-3 [&_dd]:text-sm">
           <dt className="font-semibold mb-5 lg:mb-4 md:mb-3">Writing Tools</dt>
@@ -31,7 +31,7 @@ const Recommendation: React.FC = () => {
                 <span
                   className={`bcg i-down ${
                     writingToolsIndex === toolsIndex ? '' : '-rotate-90'
-                  } w-[18px] h-[18px] shrink-0 transition-all`}
+                  } w-[18px] h-[18px] shrink-0 transition-all bg-white rounded-full`}
                 ></span>
               </div>
               <div
@@ -58,12 +58,15 @@ const Recommendation: React.FC = () => {
           <dt className="font-semibold mb-5 lg:mb-4 md:mb-3">AI Apps</dt>
           {aiAppsData.map((aiAppItem, aiAppIndex) => (
             <dd key={aiAppIndex}>
-              <a
-                className="ai-app-item break-words whitespace-normal block"
-                href={aiAppItem.app_url}
-              >
-                {aiAppItem.app_name}
-              </a>
+              <div className="flex items-center gap-2">
+                <a
+                  className="ai-app-item break-words whitespace-normal block underline "
+                  href={aiAppItem.app_url}
+                >
+                  {aiAppItem.app_name}
+                </a>
+                <span>&gt;</span>
+              </div>
             </dd>
           ))}
         </dl>

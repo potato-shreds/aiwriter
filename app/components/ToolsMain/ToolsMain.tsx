@@ -20,12 +20,15 @@ const ToolsMain: React.FC<ToolsMainProps> = ({
   return (
     <div className=" mx-auto px-6 flex justify-center items-center ">
       <div className="shadow-2xl flex justify-center items-center pl-4 rounded-3xl bg-[#f4f9ff]">
-        <NavBar
-          activeTool={activeTool}
-          isOpen={isOpen}
-          setIsOpen={setIsOpen}
-          ToolType={ToolType}
-        />
+        <div className="hidden sm:block">
+          <NavBar
+            activeTool={activeTool}
+            isOpen={isOpen}
+            setIsOpen={setIsOpen}
+            ToolType={ToolType}
+          />
+        </div>
+
         <div className="px-6 w-[70rem] h-[35rem] bg-white-200 flex">
           <div className="flex-1 z-999">{main}</div>
           {response ? <div className="flex-1">{response}</div> : null}

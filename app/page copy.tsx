@@ -33,7 +33,6 @@ const Home: React.FC = () => {
       <Reviews />
       <QueAndAns />
       <QrCode />
-      <Recommendation />
       <Footer />
       {isShowDialog && <Dialog closeDialog={closeDialog} />}
     </div>
