@@ -1,4 +1,4 @@
-import { url } from 'inspector';
+import config from './config';
 
 const templatesData = [
   {
@@ -36,7 +36,7 @@ const templatesData = [
     updatedAt: '2023-09-08T11:01:35.000Z',
     role: {},
     services: [],
-    url: 'http://34.145.121.90:8040/templates/thank-you-email-after-interview',
+    url: `/templates/thank-you-email-after-interview`,
   },
   {
     serviceIds: null,
@@ -73,7 +73,7 @@ const templatesData = [
     updatedAt: '2023-09-08T11:01:35.000Z',
     role: {},
     services: [],
-    url: 'http://34.145.121.90:8040/templates/happy-birthday-message',
+    url: `/templates/happy-birthday-message`,
   },
   {
     serviceIds: null,
@@ -109,7 +109,7 @@ const templatesData = [
     updatedAt: '2023-09-08T11:01:35.000Z',
     role: {},
     services: [],
-    url: 'http://34.145.121.90:8040/templates/wedding-message',
+    url: `/templates/wedding-message`,
   },
   {
     serviceIds: null,
@@ -146,7 +146,7 @@ const templatesData = [
     updatedAt: '2023-09-08T11:01:35.000Z',
     role: {},
     services: [],
-    url: 'http://34.145.121.90:8040/templates/resignation-letter',
+    url: `/templates/resignation-letter`,
   },
   {
     serviceIds: null,
@@ -183,7 +183,7 @@ const templatesData = [
     updatedAt: '2023-09-08T11:01:35.000Z',
     role: {},
     services: [],
-    url: 'http://34.145.121.90:8040/templates/email-to-professor',
+    url: `/templates/email-to-professor`,
   },
   {
     serviceIds: null,
@@ -220,7 +220,7 @@ const templatesData = [
     updatedAt: '2023-09-08T11:01:35.000Z',
     role: {},
     services: [],
-    url: 'http://34.145.121.90:8040/templates/two-week-notice-letter',
+    url: `/templates/two-week-notice-letter`,
   },
   {
     serviceIds: null,
@@ -257,7 +257,7 @@ const templatesData = [
     updatedAt: '2023-09-08T11:01:35.000Z',
     role: {},
     services: [],
-    url: 'http://34.145.121.90:8040/templates/acceptance-interview',
+    url: `/templates/acceptance-interview`,
   },
 
   {
@@ -295,7 +295,7 @@ const templatesData = [
     updatedAt: '2023-09-08T11:01:35.000Z',
     role: {},
     services: [],
-    url: 'http://34.145.121.90:8040/ai-writing-tools/essay-writer',
+    url: `/ai-writing-tools/essay-writer`,
   },
   {
     serviceIds: null,
@@ -331,7 +331,7 @@ const templatesData = [
     updatedAt: '2023-09-08T11:01:35.000Z',
     role: {},
     services: [],
-    url: 'http://34.145.121.90:8040/hashtag-generator',
+    url: `/hashtag-generator`,
   },
   {
     serviceIds: null,
@@ -367,7 +367,7 @@ const templatesData = [
     updatedAt: '2023-09-08T11:01:35.000Z',
     role: {},
     services: [],
-    url: 'http://34.145.121.90:8040/ai-writing-tools/essay-rewriter',
+    url: `/ai-writing-tools/essay-rewriter`,
   },
   {
     serviceIds: null,
@@ -404,7 +404,7 @@ const templatesData = [
     updatedAt: '2023-09-08T11:01:35.000Z',
     role: {},
     services: [],
-    url: 'http://34.145.121.90:8040/ai-writing-tools/essay-paraphraser',
+    url: `/ai-writing-tools/essay-paraphraser`,
   },
   {
     serviceIds: null,
@@ -441,7 +441,7 @@ const templatesData = [
     updatedAt: '2023-09-08T11:01:36.000Z',
     role: {},
     services: [],
-    url: 'http://34.145.121.90:8040/ai-writing-tools/essay-expander',
+    url: `/ai-writing-tools/essay-expander`,
   },
 ];
 const a = [

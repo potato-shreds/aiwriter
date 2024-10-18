@@ -179,14 +179,7 @@
         <priority>0.8</priority>
     </url>
 
-    xml
 
-复制
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap-image/1.1"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap-image/1.1 
-        http://www.sitemaps.org/schemas/sitemap-image/1.1/sitemap-image.xsd">
 
     <url>
         <loc>http://34.145.121.90:8040/paraphrasing-tool</loc>
@@ -621,15 +614,6 @@
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
-
-    xml
-
-复制
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap-image/1.1"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap-image/1.1 
-        http://www.sitemaps.org/schemas/sitemap-image/1.1/sitemap-image.xsd">
 
     <url>
         <loc>http://34.145.121.90:8040/explain-it-to-a-5th-grader</loc>
