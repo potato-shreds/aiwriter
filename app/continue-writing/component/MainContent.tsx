@@ -49,7 +49,7 @@ const MainContent: React.FC<MainContentProps> = ({
             <h1>Content to continue writing</h1>
             <textarea
               rows={5}
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 "
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none "
               placeholder="Data analytics help a business optimize its performance, perform more efficiently, maximize profit, or make more strategically-guided decisions."
               onChange={(e) => setContent1(e.target.value)}
             />

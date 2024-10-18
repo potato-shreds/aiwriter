@@ -48,7 +48,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h3>Website name</h3>
             <input
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               type="text"
               placeholder="Apple, Amazon, Tesla"
               onChange={(e) => setContent1(e.target.value)}
@@ -57,7 +57,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h3>Website URL</h3>
             <input
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               type="text"
               placeholder="https://..."
               onChange={(e) => setContent2(e.target.value)}
@@ -66,7 +66,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h3>Additional information</h3>
             <textarea
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               rows={5}
               placeholder="Tell us whether you use cookies on your website, if you show Google AdSense advertising on your website, or if you show advertising from third parties (other than Google)."
               onChange={(e) => setContent3(e.target.value)}

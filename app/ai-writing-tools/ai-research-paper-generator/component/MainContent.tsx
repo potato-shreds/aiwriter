@@ -64,7 +64,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>Essay Topic</h1>
             <textarea
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               placeholder="If you have a specific title, please provide it here"
               value={essayTopic}
               onChange={(e) => setEssayTopic(e.target.value)}
@@ -74,7 +74,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>Target keywords</h1>
             <input
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               type="text"
               value={targetKeyWords}
               placeholder="Add your target keywords"
@@ -84,7 +84,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>Referencing Style</h1>
             <textarea
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               placeholder="Indicate the preferred referencing style or citation format, e.g., APA, MLA, Harvard"
               value={referencingStyle}
               onChange={(e) => setReferencingStyle(e.target.value)}
@@ -94,7 +94,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>Outline suggestions (optional)</h1>
             <textarea
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               placeholder="If you have a specific outline or structure in mind, please provide it here"
               value={outlineSuggestions}
               onChange={(e) => setOutlineSuggestions(e.target.value)}
@@ -104,7 +104,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>Essay title (optional)</h1>
             <input
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               type="text"
               value={essayTitle}
               placeholder="If you have a specific title, please provide it here"

@@ -55,7 +55,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>Content to shorten</h1>
             <textarea
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               placeholder="Paste your essay here"
               value={content}
               onChange={(e) => setContent(e.target.value)}
@@ -65,7 +65,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>Number of output words</h1>
             <input
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               type="text"
               placeholder={number}
               onChange={(e) => setNumber(e.target.value)}

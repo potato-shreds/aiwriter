@@ -49,7 +49,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>Essay title or topic</h1>
             <input
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               placeholder="The Impact of Social Media on Mental Health"
               value={content}
               onChange={(e) => {

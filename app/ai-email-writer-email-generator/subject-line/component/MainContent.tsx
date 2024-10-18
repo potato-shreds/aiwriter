@@ -56,7 +56,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>Enter your keywords</h1>
             <textarea
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               placeholder="Enter at least two words."
               onChange={(e) => setContent1(e.target.value)}
               rows={5}
@@ -66,7 +66,7 @@ const MainContent: React.FC<MainContentProps> = ({
             <h1>Email body text (optional)</h1>
             <textarea
               rows={5}
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               placeholder="Following up on my last email, I wanted to see if there was something you'd be interested in discussing."
               onChange={(e) => setContent2(e.target.value)}
             />

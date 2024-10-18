@@ -51,7 +51,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>Observation subject</h1>
             <input
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               type="text"
               placeholder="patients"
               onChange={(e) => setContent1(e.target.value)}
@@ -60,7 +60,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>What the experimental group does?</h1>
             <input
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               type="text"
               placeholder="follow medical prescription"
               onChange={(e) => setContent2(e.target.value)}
@@ -69,7 +69,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>The measured thing is</h1>
             <input
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               type="text"
               placeholder="their condition"
               onChange={(e) => setContent3(e.target.value)}
@@ -78,7 +78,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>What is compared to the experimental group?</h1>
             <input
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               type="text"
               placeholder="those who don't follow the medical prescription."
               onChange={(e) => setContent4(e.target.value)}

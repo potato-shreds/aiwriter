@@ -81,7 +81,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>Area of Concern</h1>
             <input
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               type="text"
               placeholder="Formulate your area of concern"
               onChange={(e) => setContent1(e.target.value)}
@@ -90,7 +90,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>The key arguments</h1>
             <input
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               type="text"
               placeholder="Enter your key arguments here"
               onChange={(e) => setContent2(e.target.value)}
@@ -99,7 +99,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>The essential counterargument</h1>
             <input
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               type="text"
               placeholder="Enter your essential counterarguments here"
               onChange={(e) => setContent3(e.target.value)}

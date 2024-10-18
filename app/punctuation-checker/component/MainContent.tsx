@@ -50,7 +50,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h3>Text to Check</h3>
             <textarea
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none "
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none resize-none "
               placeholder="Enter or paste the text that needs to be checked"
               onChange={(e) => setContent1(e.target.value)}
               rows={5}
@@ -59,7 +59,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h3>Desired Punctuation Style (optional)</h3>
             <input
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none "
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none resize-none "
               placeholder="e.g., American English, British English"
               onChange={(e) => setContent2(e.target.value)}
             />
@@ -67,7 +67,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h3>Context (optional)</h3>
             <textarea
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none "
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none resize-none "
               placeholder="If applicable, provide additional context or specific instructions for the essay check"
               onChange={(e) => setContent3(e.target.value)}
               rows={5}
@@ -76,7 +76,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h3>Additional Instructions or Comments (optional)</h3>
             <textarea
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none "
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none resize-none "
               placeholder="Include any additional instructions or comments"
               onChange={(e) => setContent4(e.target.value)}
               rows={5}

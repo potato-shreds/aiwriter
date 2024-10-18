@@ -53,7 +53,7 @@ const MainContent: React.FC<MainContentProps> = ({
             <h1>Story Ideas</h1>
             <textarea
               rows={5}
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none resize-none"
               placeholder="Include any other important information regarding the story you want to create. This might include the place, time period, primary character, and key conflict."
               onChange={(e) => setContent1(e.target.value)}
             />

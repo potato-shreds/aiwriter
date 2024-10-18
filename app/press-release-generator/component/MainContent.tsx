@@ -56,7 +56,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>What is the name of your brand?</h1>
             <input
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               type="text"
               placeholder="Apple Inc."
               onChange={(e) => setContent1(e.target.value)}
@@ -65,7 +65,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>Briefly describe your brand</h1>
             <textarea
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               rows={5}
               onChange={(e) => setContent2(e.target.value)}
               placeholder="Describe your business in a few sentences."
@@ -74,7 +74,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>Announcement</h1>
             <textarea
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               rows={5}
               onChange={(e) => setContent3(e.target.value)}
               placeholder="Provide a summary of what you wish to announce"

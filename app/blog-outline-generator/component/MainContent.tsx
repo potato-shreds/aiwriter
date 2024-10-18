@@ -58,7 +58,7 @@ const MainContent: React.FC<MainContentProps> = ({
             <h1>Title of your blog article</h1>
             <input
               type="text"
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 font-serif"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none font-serif"
               placeholder="10 best ways to increase your sales volume with copy...."
               onChange={(e) => setContent1(e.target.value)}
             />
@@ -67,7 +67,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>What is your blog post about?</h1>
             <textarea
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 font-serif"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none font-serif"
               placeholder="Tell us the main points of your blog or paste the entire article here"
               onChange={(e) => setContent2(e.target.value)}
               rows={5}

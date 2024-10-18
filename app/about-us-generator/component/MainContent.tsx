@@ -57,7 +57,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>Business information</h1>
             <textarea
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none resize-none"
               placeholder="Since its founding in 1970, the Five-Star Stories has been dedicated to providing fearless, high-quality local journalism, especially in times of crisis."
               onChange={(e) => setContent1(e.target.value)}
               rows={5}
@@ -66,7 +66,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>Target keywords</h1>
             <input
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               type="text"
               placeholder="Add your target keywords"
               onChange={(e) => setContent2(e.target.value)}
@@ -76,7 +76,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h1>Number of output words</h1>
             <input
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
               type="text"
               placeholder="300"
               onChange={(e) => setContent3(e.target.value)}

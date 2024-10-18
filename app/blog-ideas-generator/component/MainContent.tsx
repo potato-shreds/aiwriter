@@ -55,7 +55,7 @@ const MainContent: React.FC<MainContentProps> = ({
             <h1>Blog post topic</h1>
             <input
               type="text"
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 font-serif"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none font-serif"
               placeholder="A comprehensive guide on how to open an online store"
               onChange={(e) => setContent1(e.target.value)}
             />

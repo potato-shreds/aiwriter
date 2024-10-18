@@ -53,7 +53,7 @@ const MainContent: React.FC<MainContentProps> = ({
           <div className="flex flex-col p-2 mt-2">
             <h3>Describe your topic</h3>
             <textarea
-              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none"
+              className="w-90 py-2 px-4 rounded-md border border-gray-200 mt-2 resize-none resize-none"
               rows={5}
               placeholder=""
               value={thesisTopic}
