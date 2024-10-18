@@ -1,5 +1,5 @@
 const config = {
-  url: `34.145.121.90`,
+  url: `ai-writer.app`,
   httpUrl: `http://34.145.121.90:8040/`,
 };
 
