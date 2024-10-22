@@ -4,8 +4,8 @@ import '@/public/styles/overview.css';
 
 const Overview: React.FC = () => {
   return (
-    <div id="Overview" className="main">
-      <div className="main-left-content">
+    <div id="Overview" className="main mx-10">
+      <div className="main-left-content ml-14 2xl:ml-0">
         <div className="px-1 sm:px-0">
           <a
             href="https://www.producthunt.com/products/ai-writer-essay-email-writing"
@@ -111,7 +111,7 @@ const Overview: React.FC = () => {
         </section>
       </div>
 
-      <div className="main-right-show pc">
+      <div className="main-right-show pc mr-30 2xl:ml-0">
         <div className="pc_image">
           <Image
             src="https://framerusercontent.com/images/6z2mCnKtylHonsilj5W4QF9rKzk.png"
