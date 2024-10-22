@@ -2,7 +2,7 @@
 import axios, { AxiosInstance, AxiosResponse } from 'axios';
 
 const axiosInstance: AxiosInstance = axios.create({
-  baseURL: 'http://34.145.121.90:8030/',
+  baseURL: 'ai-writer.app',
   headers: {
     'Content-Type': 'application/json',
   },
