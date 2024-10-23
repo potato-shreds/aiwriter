@@ -7,16 +7,15 @@ import config from '@/data/config';
 const page: React.FC = () => {
   return (
     <>
-      {' '}
       <div className="mx-10 box-border">
         <div className="max-w-7xl mx-auto m-10 bg p-20">
           <header>
-            <h1 className="text-6xl text-center font-bold">
+            <h1 className="text-xl sm:text-6xl text-center font-bold">
               Acceptance Interview Email Templates: How to Write & Examples
             </h1>
           </header>
           <div className="flex justify-center mt-10">
-            <button className="bg-black text-white px-6 py-5 rounded-md">
+            <button className="bg-black text-white px-3 py-2 rounded-md sm:px-6 sm:py-5 ">
               <a
                 href={config.httpUrl + 'ai-email-writer-email-generator'}
                 title="Write Email To Professor"
@@ -31,7 +30,7 @@ const page: React.FC = () => {
             <div className="bg-white p-10 max-w-6xl mx-auto">
               <hr className="border-t-2 border-gray-300 mb-4 mt-10"></hr>
               <article className="max-w-4xl mx-auto mt-10 margin-p">
-                <h2 className="text-3xl font-bold">
+                <h2 className="font-bold">
                   Crafting a Job Acceptance Email: Templates and Tips
                 </h2>
                 <section>
@@ -137,10 +136,10 @@ const page: React.FC = () => {
           <div className="mt-10 p-10 rounded-lg mb-10">
             <div className="bg-white p-10 max-w-6xl mx-auto flex flex-col items-center">
               <div className="">
-                <h2 className="text-5xl font-bold ">How it works</h2>
+                <h2 className="sm:text-5xl font-bold ">How it works</h2>
               </div>
-              <div className="flex items-center w-full mt-16">
-                <div className="bg-purple-50 p-8 flex-1">
+              <div className="flex flex-col sm:flex-row items-center w-full mt-16 ">
+                <div className="bg-purple-50 sm:p-8 flex-1 mb-5 sm:mb-0">
                   <Image
                     src="/images/6297c0caffa00e75739ceb0b_step-1.svg"
                     alt="SVG"
@@ -148,17 +147,17 @@ const page: React.FC = () => {
                     height={300}
                   />
                 </div>
-                <div className="flex-1 ml-14">
+                <div className="flex-1 sm:ml-14">
                   <div className="flex items-center">
                     <div className="p-5 bg-black text-white text-base rounded-full w-10 h-10 flex items-center justify-center ">
                       1
                     </div>
-                    <div className="ml-2 text-2xl font-bold">
+                    <div className="ml-2 sm:text-2xl font-bold">
                       Enter what you need to write
                     </div>
                   </div>
                   <div className="px-10 mt-5">
-                    <p className="text-sm">
+                    <p className="sm:text-sm">
                       Choose from emails, social posts, long-form blog posts,
                       and more!
                     </p>
@@ -173,23 +172,23 @@ const page: React.FC = () => {
                   height={300}
                 />
               </div>
-              <div className="flex items-center w-full">
-                <div className="flex-1 ml-14">
+              <div className="flex flex-col-reverse sm:flex-row  items-center w-full">
+                <div className="flex-1 sm:ml-14 ">
                   <div className="flex items-center">
                     <div className="p-5 bg-black text-white text-base rounded-full w-10 h-10 flex items-center justify-center ">
                       2
                     </div>
-                    <div className="ml-2 text-2xl font-bold">
+                    <div className="ml-2 sm:text-2xl font-bold">
                       Give AI Writer a bit of context
                     </div>
                   </div>
                   <div className="px-10 mt-5">
-                    <p className="text-sm">
+                    <p className="sm:text-sm">
                       Enter a few sentences about your project/campaign.
                     </p>
                   </div>
                 </div>
-                <div className="bg-purple-50 p-8 flex-1">
+                <div className="bg-purple-50 sm:p-8 flex-1 mb-5 sm:mt-0">
                   <Image
                     src="/images/6297c0cab1392750c5d86460_step-2.svg"
                     alt="SVG"
@@ -206,8 +205,8 @@ const page: React.FC = () => {
                   height={300}
                 />
               </div>
-              <div className="flex items-center w-full">
-                <div className="bg-purple-50 p-8 flex-1">
+              <div className="flex flex-col sm:flex-row items-center w-full">
+                <div className="bg-purple-50 sm:p-8 flex-1 mb-5 sm:mb-0">
                   <Image
                     src="/images/3.png"
                     alt="SVG"
@@ -215,17 +214,17 @@ const page: React.FC = () => {
                     height={300}
                   />
                 </div>
-                <div className="flex-1 ml-14">
+                <div className="flex-1 sm:ml-14">
                   <div className="flex items-center">
                     <div className="p-5 bg-black text-white text-base rounded-full w-10 h-10 flex items-center justify-center ">
                       3
                     </div>
-                    <div className="ml-2 text-2xl font-bold">
+                    <div className="ml-2 sm:text-2xl font-bold">
                       Sift through the results
                     </div>
                   </div>
                   <div className="px-10 mt-5">
-                    <p className="text-sm">
+                    <p className="sm:text-sm">
                       Our AI content generator gives you multiple options for
                       each campaign that you’re working on.
                     </p>
@@ -241,7 +240,7 @@ const page: React.FC = () => {
                 />
               </div>
               <div className="flex-1 flex flex-col items-center margin-p2 ">
-                <h2 className="text-3xl font-bold">Ready to level-up?</h2>
+                <h2 className="sm:text-3xl font-bold">Ready to level-up?</h2>
                 <p>
                   Write 10x faster, engage your audience, & never struggle with
                   the blank page again.
@@ -250,7 +249,7 @@ const page: React.FC = () => {
                 <p>No credit card required</p>
                 <p>2,000 free words per month</p>
                 <p>90+ content types to explore</p>
-                <button className="bg-black text-white px-6 py-5 rounded-md mt-5">
+                <button className="bg-black text-white px-3 py-2 sm:px-6 sm:py-5 rounded-md mt-5">
                   <a
                     href={config.httpUrl + 'ai-email-writer-email-generator'}
                     title="Write Email To Professor"
