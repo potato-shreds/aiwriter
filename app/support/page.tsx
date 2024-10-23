@@ -9,14 +9,6 @@ const support: React.FC = () => {
     <div className="h-screen flex flex-col justify-between">
       <Header />
       <div id="contents" className="bg-white max-w-2xl mx-auto py-40">
-        <h1 className="text-3xl font-bold mb-14 flex items-center ">
-          <img
-            alt=""
-            src="/images/unnamed.png"
-            className="w-20 h-20 rounded-lg mr-5"
-          />
-          AI Writer
-        </h1>
         <p className="text-xl mb-2">Hi,</p>
         <p className="text-xl mb-4">Welcome to AI Writer!</p>
         <p className="text-xl mb-2 ">
