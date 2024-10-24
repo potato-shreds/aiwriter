@@ -29,7 +29,7 @@ const ToolsMain: React.FC<ToolsMainProps> = ({
           />
         </div>
 
-        <div className="px-6 w-[70rem] h-[35rem] bg-white-200 flex">
+        <div className="px-6 bg-white-200 sm:flex sm:h-[34rem] xl:w-[70rem]">
           <div className="flex-1 z-999">{main}</div>
           {response ? <div className="flex-1">{response}</div> : null}
         </div>

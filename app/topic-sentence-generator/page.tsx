@@ -5,11 +5,11 @@ const page = () => {
 };
 
 export const metadata = {
-  title: 'Topic Sentence Generator: Craft Engaging Openings with HIX Writer',
+  title: 'Topic Sentence Generator: Craft Engaging Openings with Writer',
   description:
-    "Elevate your writing's first impression using HIX Writer's Topic Sentence Generator. Create engaging and thought-provoking opening sentences effortlessly!",
+    "Elevate your writing's first impression using Writer's Topic Sentence Generator. Create engaging and thought-provoking opening sentences effortlessly!",
   keywords:
-    'topic sentence generator, HIX Writer, engaging openings, writing tool, craft sentences',
+    'topic sentence generator, Writer, engaging openings, writing tool, craft sentences',
 };
 
 export default page;

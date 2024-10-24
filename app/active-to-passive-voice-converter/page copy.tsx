@@ -24,7 +24,7 @@ const EssayHookGenerator: React.FC = () => {
       <div className="pb-12 relative overflow-hidden sm:pb-6 bg-gradient-to-b from-[#E8ECF8] to-white z-0 after:absolute after:left-0 after:-translate-x-[70%] after:top-0 after:w-full after:h-1/2 after:z-[-1] after:rounded-full after:blur-3xl after:bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] after:from-[#22C9A4] after:via-[#6A51FF] after:to-[#ECF4FF] after:opacity-25">
         <AiWritingToolsTitle
           title={activeTool}
-          desc="Change active sentences into passive voice online easily with HIX Writer’s highly-reliable active to passive voice converter."
+          desc="Change active sentences into passive voice online easily with Writer’s highly-reliable active to passive voice converter."
         />
       </div>
       <div className="mt-5">

@@ -6,11 +6,11 @@ const page = () => {
 
 export const metadata = {
   title:
-    'Character Bio Generator: Create Engaging Character Bios Quickly with HIX Writer',
+    'Character Bio Generator: Create Engaging Character Bios Quickly with Writer',
   description:
-    "Generate captivating character bios and backstory ideas in a flash with HIX Writer's free Character Bio Generator. Bring your characters to life effortlessly!",
+    "Generate captivating character bios and backstory ideas in a flash with Writer's free Character Bio Generator. Bring your characters to life effortlessly!",
   keywords:
-    'character bio generator, free tool, character backstory ideas, HIX Writer, create character bios, writing tool',
+    'character bio generator, free tool, character backstory ideas, Writer, create character bios, writing tool',
 };
 
 export default page;

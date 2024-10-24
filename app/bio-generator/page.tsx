@@ -5,11 +5,11 @@ const page = () => {
 };
 
 export const metadata = {
-  title: "Bio Generator: Create a Professional Bio with HIX Writer's AI Tool",
+  title: "Bio Generator: Create a Professional Bio with Writer's AI Tool",
   description:
-    "Craft a polished and professional bio effortlessly using HIX Writer's AI Bio Generator. Enhance your personal or business profile with a standout introduction.",
+    "Craft a polished and professional bio effortlessly using Writer's AI Bio Generator. Enhance your personal or business profile with a standout introduction.",
   keywords:
-    'bio generator, professional bio, AI bio generator, HIX Writer, create bio, personal profile',
+    'bio generator, professional bio, AI bio generator, Writer, create bio, personal profile',
 };
 
 export default page;

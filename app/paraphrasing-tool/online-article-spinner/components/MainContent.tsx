@@ -41,7 +41,8 @@ const MainContent: React.FC = () => {
   return (
     <div className="flex flex-col py-4 h-full">
       <h2 className="text-base text-slate-500">AI Article Spinner</h2>
-      <div className="flex-1 flex gap-4">
+      <div className="flex-1 flex gap-4 flex-col sm:flex-row">
+        {' '}
         <div className="flex-1 flex flex-col">
           <h3 className="text-lg font-semibold">Original</h3>
           <div className="flex gap-8 mt-2 rounded-md">
