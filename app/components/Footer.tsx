@@ -90,11 +90,11 @@ const Footer: React.FC = (main) => {
 
               <div className="contact-us">
                 <a
-                  href="mailto:ai.writer@outlook.com"
+                  href="mailto:cs@ai-writer.app"
                   rel="noopener noreferrer"
                   title="Contact Us"
                 >
-                  Contact Us: ai.writer@outlook.com
+                  Contact Us: cs@ai-writer.app
                 </a>
               </div>
             </div>

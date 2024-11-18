@@ -8,16 +8,13 @@ const support: React.FC = () => {
     <div className="h-screen flex flex-col justify-between">
       <Header />
       <div id="contents" className="bg-white max-w-2xl mx-auto py-40">
-        <p className="text-xl mb-2">Hi,</p>
+        <p className="text-xl mb-4">Hi,</p>
         <p className="text-xl mb-4">Welcome to AI Writer!</p>
         <p className="text-xl mb-2 ">
           If you have any questions about our service or any related matters,
           please contact us via email at{' '}
-          <a
-            className="text-blue-500 underline"
-            href="mailto:ai.writer@outlook.com"
-          >
-            ai.writer@outlook.com
+          <a className="text-blue-500 underline" href="mailto:cs@ai-writer.app">
+            cs@ai-writer.app
           </a>
           .
         </p>
