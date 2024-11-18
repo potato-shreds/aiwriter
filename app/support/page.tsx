@@ -1,7 +1,6 @@
 import React from 'react';
 import Footer from '@/app//components/Footer';
 import './page.css';
-import Image from 'next/image';
 import Header from '@/app/components/Header/Header';
 
 const support: React.FC = () => {

@@ -1,7 +1,1 @@
-import { redirect } from 'next/navigation';
-
-const support: React.FC = () => {
-  redirect('/support');
-};
-
-export default support;
+export { default } from '@/app/support/page';
