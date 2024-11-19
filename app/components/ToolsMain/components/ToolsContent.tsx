@@ -56,7 +56,7 @@ const ToolsContent: React.FC<ToolsContentProps> = ({
                     <a
                       className="block after:absolute after:w-full after:h-full after:left-0 after:top-0"
                       href={`http://${item.tool_host}/${item.tool_url}`}
-                      target="_blank"
+                      // target="_blank"
                       rel="noopener noreferrer"
                     >
                       {item.tool_name_label}
