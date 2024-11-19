@@ -43,13 +43,9 @@ export async function POST(
       })
       .join('');
   };
-  console.log(body);
-
+  // @ts-ignore
   const res = await geminiApi[convertToCamelCase(api)]({
-    content1: 'thesisTopic',
-    essayType: 'essayType',
-    words: '200',
-    language: 'language',
+    ...body,
   });
   return NextResponse.json({
     res: res,
