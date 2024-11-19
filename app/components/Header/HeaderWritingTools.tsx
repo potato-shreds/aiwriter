@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { writingToolsHeaderData } from '@/data/headerData';
+import url from '../../../data/config';
 
 interface HeaderWritingToolsProps {
   show: boolean;
@@ -36,7 +37,7 @@ const HeaderWritingTools: React.FC<HeaderWritingToolsProps> = ({
                     </div>
                     <a
                       className="inline-block font-semibold text-display text-sm"
-                      href={item.tool_url}
+                      href={`http://${url.url}/${item.tool_url}`}
                       target="_blank"
                     >
                       {item.tool_name}
