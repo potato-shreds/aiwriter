@@ -8,7 +8,7 @@ const Header: React.FC = () => {
   return (
     <div className="sticky top-0 z-10">
       <header className="header sticky top-0 flex item-center">
-        <a className="header-logo" href="/#" title="Logo">
+        <a className="header-logo" href="ai-writer.app" title="Logo">
           <svg
             width="32"
             height="32"
