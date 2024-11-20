@@ -13,7 +13,10 @@ export default function Index() {
     setError(null);
     try {
       const response = await axios.post('/api/generate/essay-writer', {
-        prompt: 'hello',
+        content1: 'swimming',
+        essayType: 'essayType',
+        words: '20',
+        language: 'language',
       });
       setData(response.data);
     } catch (err: any) {

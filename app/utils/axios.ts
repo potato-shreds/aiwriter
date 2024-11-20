@@ -2,11 +2,13 @@
 import axios, { AxiosInstance, AxiosResponse } from 'axios';
 
 const axiosInstance: AxiosInstance = axios.create({
-  baseURL: 'http://34.168.109.32:8030/',
+  // baseURL: 'http://34.168.109.32:8030/',
+  baseURL: 'http://localhost:8095/',
+
   headers: {
     'Content-Type': 'application/json',
   },
-  timeout: 10000, // 可选：设置超时时间
+  timeout: 30000, // 可选：设置超时时间
 });
 
 // 请求拦截器
