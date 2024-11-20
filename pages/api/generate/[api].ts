@@ -1,10 +1,9 @@
 import axios from 'axios';
 const instance = axios.create();
 instance.interceptors.response.use((res) => res.data);
-import geminiApi from '@/app/utils/gemini';
 import URL from '@/data/config';
 
-export default function handler(req, res) {
+export default function handler(req: any, res: any) {
   switch (req.method) {
     case 'GET':
       res.status(200).json('ok');
