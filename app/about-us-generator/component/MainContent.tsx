@@ -47,6 +47,9 @@ const MainContent: React.FC<MainContentProps> = ({
       .then((res) => {
         setIsLoading(false);
         setResponseDate([...responseDate, { content: res.content }]);
+      })
+      .catch((err) => {
+        setResponseDate([...responseDate, { content: 'Something went wrong' }]);
       });
   };
 

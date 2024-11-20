@@ -24,7 +24,7 @@ const NavBar: React.FC<NavBarProps> = ({
     setActiveToolType(index);
   };
   return (
-    <div className="flex justify-center items-center relative">
+    <div className="flex justify-center items-center relative font-sans">
       <div>
         <ul className="bg-white shadow-xl rounded-2xl p-2 my-4">
           {toolTypes.map((item, index) => (

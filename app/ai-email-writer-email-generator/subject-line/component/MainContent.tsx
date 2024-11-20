@@ -4,6 +4,7 @@ import {
   TargetAudience,
   ToneOfVoice,
 } from '@/data/essay-hook-generator';
+import MainContentButton from '@/app/components/buttons/mainContentButton';
 
 interface responseDateObject {
   content: string;
@@ -27,11 +28,13 @@ const MainContent: React.FC<MainContentProps> = ({
   const [targetAudience, setTargetAudience] = useState(TargetAudience[0].name);
   const [toneOfVoice, setToneOfVoice] = useState(ToneOfVoice[0].name);
   const [language, setLanguage] = useState(Language[0].name);
+  const [isLoading, setIsLoading] = useState(false);
 
   const isSatisfy = () => {
     return content1;
   };
   const setData = () => {
+    setIsLoading(true);
     api
       .subjectLine({
         content1,
@@ -41,7 +44,11 @@ const MainContent: React.FC<MainContentProps> = ({
         language,
       })
       .then((res) => {
+        setIsLoading(false);
         setResponseDate([...responseDate, { content: res.content }]);
+      })
+      .catch((err) => {
+        setResponseDate([...responseDate, { content: 'Something went wrong' }]);
       });
   };
 
@@ -115,18 +122,11 @@ const MainContent: React.FC<MainContentProps> = ({
         </div>
 
         <div className="flex justify-end items-center mb-4">
-          <button
-            className={`bg-blue-500 text-white px-4 py-2 rounded-md ${
-              isSatisfy() ? '' : 'opacity-50 cursor-not-allowed'
-            }`}
-            onClick={() => {
-              if (isSatisfy()) {
-                setData();
-              }
-            }}
-          >
-            Generate
-          </button>
+          <MainContentButton
+            setData={setData}
+            isSatisfy={isSatisfy}
+            isLoading={isLoading}
+          />
         </div>
       </div>
     </div>

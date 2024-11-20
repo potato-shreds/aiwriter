@@ -8,6 +8,13 @@ export const metadata = {
     'email drafting tool, fast email replies, Writer, productivity boost, quick email response',
 };
 
-export default function Home() {
-  return <Page />;
-}
+import { AntdRegistry } from '@ant-design/nextjs-registry';
+
+const page = () => {
+  return (
+    <AntdRegistry>
+      <Page />
+    </AntdRegistry>
+  );
+};
+export default page;

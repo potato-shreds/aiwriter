@@ -29,7 +29,7 @@ const ToolsMain: React.FC<ToolsMainProps> = ({
   };
 
   return (
-    <div className="max-w-[1232px] px-4 mx-auto pb-14 pt-6 md:py-6 font_fam">
+    <div className="max-w-[1232px] px-4 mx-auto pb-14 pt-6 md:py-6">
       <ToolsTabs activeTab={activeTab} setActiveTab={changeTab} />
       <div className="flex relative gap-x-8">
         <ToolsTypes

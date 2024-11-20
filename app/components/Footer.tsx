@@ -7,7 +7,7 @@ import '@/public/styles/footer.css';
 const Footer: React.FC = (main) => {
   return (
     <>
-      <div className="footer">
+      <div className="footer font-sans">
         <footer>
           <div className="max-w-7xl m-auto">
             <div className="top mb-8 text-white items-center justify-between flex">
@@ -61,7 +61,7 @@ const Footer: React.FC = (main) => {
             <div className="divider"></div>
 
             <div
-              className="bottom flex flex-wrap justify-center"
+              className="bottom flex flex-wrap justify-center font-sans"
               style={{ color: 'rgb(255, 255, 255)' }}
             >
               <div className="copyright text-center sm:text-left">

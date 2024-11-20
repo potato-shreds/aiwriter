@@ -6,18 +6,14 @@ import HeaderNavHid from './HeaderNavHid';
 
 const HeaderNav: React.FC = () => {
   return (
-    <div className="flex items-center">
+    <div className="flex items-center font-sans">
       <nav className="header-center xl:hidden">
-        <a
-          href="/#Overview"
-          className="header-center-item hover:text-[#00D3B6]"
-          title="Overview"
-        >
+        <a href="/#Overview" className=" hover:text-[#00D3B6]" title="Overview">
           Overview
         </a>
         <a
           href="/#Templates"
-          className="header-center-item hover:text-[#00D3B6]"
+          className=" hover:text-[#00D3B6]"
           title="Template"
         >
           Templates
@@ -44,7 +40,7 @@ const HeaderNav: React.FC = () => {
           </svg>
           <HeaderWritingTools show={true} type="block" />
         </div>
-        <div className="header-center-item hover:text-[#00D3B6] group header-center-product flex items-center gap-[2px]">
+        <div className=" hover:text-[#00D3B6] group header-center-product flex items-center gap-[2px]">
           <span className="hover:text-[#00D3B6]">AI APPs</span>
           <svg
             width="18"
@@ -64,11 +60,7 @@ const HeaderNav: React.FC = () => {
           </svg>
           <AIApps show={true} type="block" />
         </div>
-        <a
-          href="/#Q&A"
-          className="header-center-item hover:text-[#00D3B6]"
-          title="Q&A"
-        >
+        <a href="/#Q&A" className=" hover:text-[#00D3B6]" title="Q&A">
           Q&A
         </a>
       </nav>

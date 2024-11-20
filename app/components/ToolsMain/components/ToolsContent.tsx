@@ -23,7 +23,7 @@ const ToolsContent: React.FC<ToolsContentProps> = ({
 
   return (
     <div
-      className={`transition-transform duration-300 ${
+      className={`transition-transform duration-300 font-sans ${
         isOpen ? 'translate-x-0 w-[530px] ' : 'translate-x-[-530px]'
       }  h-[526px] overflow-hidden bg-white`}
       onMouseLeave={() => setIsOpen(false)}

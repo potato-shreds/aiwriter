@@ -18,7 +18,7 @@ const ToolsMain: React.FC<ToolsMainProps> = ({
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className=" mx-auto px-6 flex justify-center items-center ">
+    <div className=" mx-auto px-6 flex justify-center items-center font-sans">
       <div className="shadow-2xl flex justify-center items-center pl-4 rounded-3xl bg-[#f4f9ff]">
         <div className="hidden sm:block">
           <NavBar

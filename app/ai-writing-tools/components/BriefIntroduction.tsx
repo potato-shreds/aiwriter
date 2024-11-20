@@ -18,7 +18,7 @@ const BriefIntroduction: React.FC<BriefIntroductionProps> = ({
   return (
     <div
       id="briefIntroduction"
-      className="bg-[#F1F6FE] pt-16 md:pt-12bg-[#F1F6FE] md:pt-12 font_fam"
+      className="bg-[#F1F6FE] pt-16 md:pt-12bg-[#F1F6FE] md:pt-12"
     >
       <div className="max-w-[1232px] px-4 mx-auto pt-12 pb-16 md:pt-8 md:pb-10">
         <h1 className="main-color text-center text-2xl font-bold mx-auto max-w-[760px] md:text-3xl">

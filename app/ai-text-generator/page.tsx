@@ -1,4 +1,5 @@
 import Page from './page copy';
+import { AntdRegistry } from '@ant-design/nextjs-registry';
 
 export const metadata = {
   title:
@@ -9,5 +10,9 @@ export const metadata = {
     'AI text generator, free content generator, original content, SEO-friendly writing, engage audience',
 };
 export default function Home() {
-  return <Page />;
+  return (
+    <AntdRegistry>
+      <Page />
+    </AntdRegistry>
+  );
 }

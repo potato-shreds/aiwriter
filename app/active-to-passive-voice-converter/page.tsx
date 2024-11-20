@@ -1,7 +1,12 @@
 import Page from './page copy';
+import { AntdRegistry } from '@ant-design/nextjs-registry';
 
 const page = () => {
-  return <Page />;
+  return (
+    <AntdRegistry>
+      <Page />
+    </AntdRegistry>
+  );
 };
 
 export const metadata = {

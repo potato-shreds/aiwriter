@@ -7,7 +7,12 @@ export const metadata = {
   keywords:
     'email subject line generator, AI tool, compelling subject lines, increase open rates, email marketing',
 };
+import { AntdRegistry } from '@ant-design/nextjs-registry';
 
 export default function Home() {
-  return <Page />;
+  return (
+    <AntdRegistry>
+      <Page />
+    </AntdRegistry>
+  );
 }

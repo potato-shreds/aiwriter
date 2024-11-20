@@ -6,7 +6,7 @@ import '@/public/styles/header.css';
 
 const Header: React.FC = () => {
   return (
-    <div className="sticky top-0 z-10">
+    <div className="sticky top-0 z-10 font-sans">
       <header className="header sticky top-0 flex item-center">
         <a className="header-logo" href="https://ai-writer.app/#" title="Logo">
           <svg

@@ -9,10 +9,8 @@ const AiWritingToolsTitle: React.FC<AiWritingToolsTitleProps> = ({
   title,
   desc,
 }) => {
-  console.log(desc);
-
   return (
-    <div className="max-w-[1232px] mb-[-42px] relative mx-auto px-4 z-[1]">
+    <div className="max-w-[1232px] mb-[-42px] relative mx-auto px-4 z-[1] font-sans">
       <div className="block text-xs text-display pt-3 text-left pb-3">
         <a className="font-semibold hover:underline" href="/">
           Home

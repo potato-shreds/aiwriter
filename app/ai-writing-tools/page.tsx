@@ -50,7 +50,7 @@ const AiWritingTools: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className="font-sans">
       <Header />
       <BriefIntroduction
         title={title}

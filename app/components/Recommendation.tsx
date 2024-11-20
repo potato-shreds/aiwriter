@@ -16,10 +16,10 @@ const Recommendation: React.FC = () => {
   };
 
   return (
-    <div className="py-12 lg:py-8 max-w-[800px] px-4 mx-auto text-white">
+    <div className="py-12 lg:py-8 max-w-[800px] px-4 mx-auto text-white font-sans">
       <div className="flex flex-row gap-6 text-left justify-between flex-wrap">
         <dl className=" flex flex-col space-y-3 [&_dd]:text-sm">
-          <dt className="font-semibold mb-5 lg:mb-4 md:mb-3">Writing Tools</dt>
+          <dt className=" mb-5 lg:mb-4 md:mb-3">Writing Tools</dt>
           {writingToolsHeaderData.map((writingToolsItem, writingToolsIndex) => (
             <dd
               key={writingToolsIndex}
@@ -55,7 +55,7 @@ const Recommendation: React.FC = () => {
           ))}
         </dl>
         <dl className=" flex flex-col space-y-3 [&_dd]:text-sm">
-          <dt className="font-semibold mb-5 lg:mb-4 md:mb-3">AI Apps</dt>
+          <dt className=" mb-5 lg:mb-4 md:mb-3">AI Apps</dt>
           {aiAppsData.map((aiAppItem, aiAppIndex) => (
             <dd key={aiAppIndex}>
               <div className="flex items-center gap-2">
