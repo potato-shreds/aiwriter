@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 
-// test demo page
+// test api demo page
 export default function Index() {
   const [data, setData] = useState<any>(null);
   const [error, setError] = useState<string | null>(null);
