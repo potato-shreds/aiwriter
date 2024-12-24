@@ -14,7 +14,6 @@ const axiosInstance: AxiosInstance = axios.create({
 // request interceptor
 axiosInstance.interceptors.request.use(
   (config) => {
-    
     return config;
   },
   (error) => {
