@@ -30,9 +30,8 @@ const MainContent: React.FC<MainContentProps> = ({
   const [language, setLanguage] = useState(Language[0].name);
   const [isLoading, setIsLoading] = useState(false);
 
-  const isSatisfy = () => {
-    return content1;
-  };
+  const isSatisfy = content1 !== '';
+
   const setData = () => {
     setIsLoading(true);
     api

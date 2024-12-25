@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { Language, Domain } from '@/data/essay-rewriter';
+import MainContentButton from '@/app/components/buttons/mainContentButton';
 import api from '@/app/utils/gemini';
 
 const MainContent: React.FC = () => {
@@ -10,24 +11,22 @@ const MainContent: React.FC = () => {
   const [selectedLanguage, setSelectedLanguage] = useState('English');
   const [selectedDomain, setSelectedDomain] = useState('Standard');
   const [selectedGoals, setSelectedGoals] = useState('English');
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedLanguage(event.target.value);
-    console.log(event.target.value);
   };
   const handleDomainChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedDomain(event.target.value);
-    console.log(event.target.value);
   };
   const handleGoalsChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedGoals(event.target.value);
-    console.log(event.target.value);
   };
-  const isSatisfy = () => {
-    return originalText && selectedLanguage && selectedDomain && selectedGoals;
-  };
+  const isSatisfy =
+    originalText && selectedLanguage && selectedDomain && selectedGoals;
 
   const setData = () => {
+    setIsLoading(true);
     api
       .essayParaphraser({
         content1: originalText,
@@ -36,6 +35,7 @@ const MainContent: React.FC = () => {
         outputLanguage: selectedGoals,
       })
       .then((res) => {
+        setIsLoading(false);
         setRewrittenText(res.content);
       });
   };
@@ -44,7 +44,6 @@ const MainContent: React.FC = () => {
     <div className="flex flex-col py-4 h-full">
       <span className="text-base text-slate-500">Essay Paraphraser</span>
       <div className="flex-1 flex gap-4 flex-col sm:flex-row">
-        {' '}
         <div className="flex-1 flex flex-col">
           <h1 className="text-lg font-semibold">Original</h1>
           <div className="flex gap-8 mt-2 rounded-md">
@@ -103,19 +102,11 @@ const MainContent: React.FC = () => {
               ></textarea>
             </div>
             <div className="flex justify-end">
-              <button
-                className={`bg-blue-400 text-white px-4 py-2 rounded-md ${
-                  isSatisfy() ? '' : 'opacity-50 cursor-not-allowed'
-                }`}
-                onClick={() => {
-                  if (isSatisfy()) {
-                    setData();
-                  } else {
-                  }
-                }}
-              >
-                Rewrite
-              </button>
+              <MainContentButton
+                setData={setData}
+                isSatisfy={isSatisfy}
+                isLoading={isLoading}
+              />
             </div>
           </div>
         </div>
@@ -154,7 +145,7 @@ const MainContent: React.FC = () => {
                 disabled
               ></textarea>
             </div>
-            {rewrittenText !== '' && (
+            {/* {rewrittenText !== '' && (
               <div className="flex justify-end">
                 <div className="flex gap-2">
                   <button className="bg-blue-400 text-white p-1 rounded-3xl">
@@ -162,7 +153,7 @@ const MainContent: React.FC = () => {
                   </button>
                 </div>
               </div>
-            )}
+            )} */}
           </div>
         </div>
       </div>

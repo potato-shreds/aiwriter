@@ -42,7 +42,6 @@
 .header-center-product-dropdown {
   position: absolute;
   top: calc(100% + 12px);
-  left: 50%;
   white-space: nowrap;
   opacity: 0;
   visibility: hidden;

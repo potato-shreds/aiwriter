@@ -1547,6 +1547,7 @@ const amazon = async (data: object) => {
     throw error;
   }
 };
+// todo: refactoring
 const api = {
   productDescriptionGenerator,
   amazon,
